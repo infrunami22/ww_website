@@ -1,0 +1,20 @@
+{
+  "participantName": "Participant B",
+  "nominee": {
+    "womanName": "Cherry Blossom Season",
+    "shortDescription": "Japan's beautiful spring phenomenon",
+    "longerDescription": "Cherry blossom season, known as hanami in Japan, is a breathtaking natural event when cherry trees bloom across the country. The delicate pink and white flowers symbolize the beauty and transience of life, and millions of people gather in parks to appreciate their beauty during this brief but spectacular season.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800",
+      "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=800"
+    ],
+    "tags": [
+      "nature",
+      "japan",
+      "spring",
+      "travel"
+    ],
+    "sourceNote": "",
+    "manuallyEntered": false
+  }
+}

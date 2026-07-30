@@ -1,0 +1,20 @@
+{
+  "participantName": "Participant A",
+  "nominee": {
+    "womanName": "Tokyo Tower",
+    "shortDescription": "Iconic landmark in Tokyo, Japan",
+    "longerDescription": "Tokyo Tower is a communications and observation tower located in Shiba-koen district. Standing at 333 meters tall, it has become one of Tokyo's most recognizable landmarks and offers spectacular views of the city. The tower is particularly beautiful when illuminated at night.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?w=800",
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800"
+    ],
+    "tags": [
+      "landmark",
+      "tokyo",
+      "architecture",
+      "travel"
+    ],
+    "sourceNote": "",
+    "manuallyEntered": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "site": {
+    "title": "Weekly Picks",
+    "subtitle": "Collaborative Showcase",
+    "timezone": "Europe/Budapest",
+    "imageBaseUrl": ""
+  },
+  "weekId": "31",
+  "season": "2026",
+  "revealAt": "2026-08-05T09:00:00+02:00",
+  "timezone": "Europe/Budapest",
+  "contestantA": "Participant A",
+  "contestantB": "Participant B",
+  "status": "pending",
+  "notes": "First week of August 2026"
+}

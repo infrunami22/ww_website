@@ -14,7 +14,10 @@
         timezone: 'Europe/Budapest',
         imageBaseUrl: '', // Set to empty for local repo mode, or URL for separate image repo
         dataPath: {
-            current: 'data/current.json',
+            current: 'data/current.json', // Legacy fallback
+            weekConfig: 'data/week-config.json',
+            currentA: 'data/current-a.json',
+            currentB: 'data/current-b.json',
             archive: 'data/archive.json',
             legacyExample: 'data/legacy-import-example.txt'
         }
@@ -113,25 +116,61 @@
     
     async function loadData() {
         try {
-            const [currentRes, archiveRes] = await Promise.all([
-                fetch(CONFIG.dataPath.current),
+            // Try to load from separate files first (new format)
+            const [weekConfigRes, currentARes, currentBRes, archiveRes] = await Promise.all([
+                fetch(CONFIG.dataPath.weekConfig).catch(() => null),
+                fetch(CONFIG.dataPath.currentA).catch(() => null),
+                fetch(CONFIG.dataPath.currentB).catch(() => null),
                 fetch(CONFIG.dataPath.archive)
             ]);
 
-            if (!currentRes.ok || !archiveRes.ok) {
-                throw new Error('Failed to load data files');
+            if (!archiveRes.ok) {
+                throw new Error('Failed to load archive data');
             }
 
-            const currentData = await currentRes.json();
             const archiveData = await archiveRes.json();
-
-            state.currentWeek = currentData.currentWeek;
             state.archive = archiveData.entries || [];
 
-            // Update config if provided in data
-            if (currentData.site) {
-                if (currentData.site.imageBaseUrl) {
-                    CONFIG.imageBaseUrl = currentData.site.imageBaseUrl;
+            // Check if we have the new separate file format
+            if (weekConfigRes && weekConfigRes.ok && currentARes && currentARes.ok && currentBRes && currentBRes.ok) {
+                const weekConfig = await weekConfigRes.json();
+                const currentA = await currentARes.json();
+                const currentB = await currentBRes.json();
+
+                // Merge the separate files into currentWeek structure
+                state.currentWeek = {
+                    weekId: weekConfig.weekId,
+                    season: weekConfig.season,
+                    revealAt: weekConfig.revealAt,
+                    timezone: weekConfig.timezone,
+                    contestantA: weekConfig.contestantA,
+                    contestantB: weekConfig.contestantB,
+                    nomineeA: currentA.nominee,
+                    nomineeB: currentB.nominee,
+                    status: weekConfig.status,
+                    notes: weekConfig.notes
+                };
+
+                // Update config if provided
+                if (weekConfig.site) {
+                    if (weekConfig.site.imageBaseUrl) {
+                        CONFIG.imageBaseUrl = weekConfig.site.imageBaseUrl;
+                    }
+                }
+            } else {
+                // Fallback to legacy single file format
+                const currentRes = await fetch(CONFIG.dataPath.current);
+                if (!currentRes.ok) {
+                    throw new Error('Failed to load current week data');
+                }
+                const currentData = await currentRes.json();
+                state.currentWeek = currentData.currentWeek;
+
+                // Update config if provided
+                if (currentData.site) {
+                    if (currentData.site.imageBaseUrl) {
+                        CONFIG.imageBaseUrl = currentData.site.imageBaseUrl;
+                    }
                 }
             }
 
@@ -565,13 +604,16 @@
     
     async function loadCurrentNominee(contestant) {
         try {
-            const response = await fetch(CONFIG.dataPath.current);
+            // Load from separate file based on contestant
+            const filePath = contestant === 'A' ? CONFIG.dataPath.currentA : CONFIG.dataPath.currentB;
+            const response = await fetch(filePath);
+            
             if (!response.ok) {
-                throw new Error('Could not load current.json');
+                throw new Error(`Could not load ${filePath}`);
             }
             
             const data = await response.json();
-            const nominee = contestant === 'A' ? data.currentWeek.nomineeA : data.currentWeek.nomineeB;
+            const nominee = data.nominee;
             const suffix = 'Solo';
             
             // Populate form
@@ -590,9 +632,9 @@
                 });
             }
             
-            alert('Your current nominee data has been loaded!');
+            alert('Your current data has been loaded!');
         } catch (error) {
-            alert('Could not load current data. Make sure current.json exists and is valid.');
+            alert(`Could not load current data. Make sure current-${contestant.toLowerCase()}.json exists and is valid.`);
             console.error(error);
         }
     }
@@ -611,7 +653,14 @@
         }
         
         const nominee = collectNomineeData(contestant + suffix);
-        const jsonOutput = JSON.stringify(nominee, null, 2);
+        
+        // For separate files, wrap in the expected structure
+        const output = {
+            participantName: `Participant ${contestant}`,
+            nominee: nominee
+        };
+        
+        const jsonOutput = JSON.stringify(output, null, 2);
         
         document.getElementById(`jsonOutput${contestant}`).value = jsonOutput;
         document.getElementById(`outputSection${contestant}`).style.display = 'block';
