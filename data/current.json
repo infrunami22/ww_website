@@ -1,0 +1,49 @@
+{
+  "site": {
+    "title": "WW",
+    "subtitle": "Women Crush Wednesday",
+    "timezone": "Europe/Budapest",
+    "imageBaseUrl": ""
+  },
+  "currentWeek": {
+    "weekId": "31",
+    "season": "2026",
+    "revealAt": "2026-08-05T09:00:00+02:00",
+    "timezone": "Europe/Budapest",
+    "contestantA": "Adam",
+    "contestantB": "Bence",
+    "nomineeA": {
+        "womanName": "HOT MOMMY",
+        "shortDescription": "hawtttt",
+        "longerDescription": "YUMMY",
+        "imageUrls": [
+            "https://imgur.com/a/bUf6GjP"
+        ],
+        "tags": [
+            "rawr"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+    },
+    "nomineeB": {
+      "womanName": "Margot Robbie",
+      "shortDescription": "Australian actress and film producer",
+      "longerDescription": "Margot Robbie has become one of the most sought-after actresses in Hollywood. From her breakout role in The Wolf of Wall Street to her critically acclaimed performance as Tonya Harding in I, Tonya, and her iconic portrayal of Harley Quinn, she brings energy, talent, and authenticity to every role. She's also a successful producer through her company LuckyChap Entertainment.",
+      "imageUrls": [
+        "assets/images/2026-w31-bence-margot-robbie-01.webp",
+        "assets/images/2026-w31-bence-margot-robbie-02.webp",
+        "assets/images/2026-w31-bence-margot-robbie-03.webp"
+      ],
+      "tags": [
+        "actress",
+        "australian",
+        "producer",
+        "barbie"
+      ],
+      "sourceNote": "",
+      "manuallyEntered": false
+    },
+    "status": "pending",
+    "notes": "First week of August 2026"
+  }
+}

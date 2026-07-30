@@ -1,0 +1,12 @@
+Week 32
+Reveal: 2026-08-12 09:00
+Contestant 1: Adam
+Contestant 2: Bence
+Adam nominee: Jennifer Lawrence
+Adam description: Oscar-winning actress, known for The Hunger Games and Silver Linings Playbook
+Adam images: assets/images/2026-w32-adam-jennifer-lawrence-01.webp, assets/images/2026-w32-adam-jennifer-lawrence-02.webp
+Adam tags: actress, oscar-winner, hollywood, hunger-games
+Bence nominee: Emma Watson
+Bence description: British actress and activist, famous for Harry Potter and Beauty and the Beast
+Bence images: assets/images/2026-w32-bence-emma-watson-01.webp, assets/images/2026-w32-bence-emma-watson-02.webp, assets/images/2026-w32-bence-emma-watson-03.webp
+Bence tags: actress, british, harry-potter, activist

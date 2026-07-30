@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS files
+.DS_Store
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Build outputs (if you add build tools later)
+dist/
+build/
+
+# Optional: Uncomment to ignore large images during local development
+# (Remove these lines if you want images in your repo)
+# assets/images/*.jpg
+# assets/images/*.jpeg
+# assets/images/*.png
+# assets/images/*.webp
+
+# But always keep the README files
+!assets/images/README.md
+!assets/placeholders/README.md
+
+# Local environment files
+.env
+.env.local

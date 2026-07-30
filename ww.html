@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WW - Women Crush Wednesday. Weekly nominee reveals every Wednesday at 09:00 CET.">
+    <title>WW - Women Crush Wednesday</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-area">
+                <svg class="logo-svg" width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#f27121;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="30" cy="30" r="28" fill="url(#logoGradient)" opacity="0.1"/>
+                    <text x="30" y="40" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#logoGradient)" text-anchor="middle">W</text>
+                    <text x="30" y="40" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#logoGradient)" text-anchor="middle" opacity="0.5" transform="translate(8, 0)">W</text>
+                </svg>
+                <div class="logo-text">
+                    <h1 class="site-title">WW</h1>
+                    <p class="site-subtitle">Women Crush Wednesday</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="themeToggle" class="icon-button" aria-label="Toggle dark mode">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <line x1="12" y1="1" x2="12" y2="3"/>
+                        <line x1="12" y1="21" x2="12" y2="23"/>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                        <line x1="1" y1="12" x2="3" y2="12"/>
+                        <line x1="21" y1="12" x2="23" y2="12"/>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                    </svg>
+                </button>
+                <button id="adminToggle" class="icon-button" aria-label="Toggle admin panel">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"/>
+                        <path d="M12 1v6m0 6v6M5.6 5.6l4.2 4.2m4.2 4.2l4.2 4.2M1 12h6m6 0h6M5.6 18.4l4.2-4.2m4.2-4.2l4.2-4.2"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Current Week Section -->
+            <section id="currentWeekSection" class="section">
+                <div class="section-header">
+                    <h2 id="currentWeekTitle">This Week</h2>
+                    <div id="revealStatus" class="reveal-status"></div>
+                </div>
+                
+                <div id="countdownContainer" class="countdown-container">
+                    <div class="countdown">
+                        <div class="countdown-label">Reveal in:</div>
+                        <div id="countdownDisplay" class="countdown-display"></div>
+                    </div>
+                </div>
+
+                <div id="contestantCards" class="contestant-grid">
+                    <!-- Cards will be injected here -->
+                </div>
+            </section>
+
+            <!-- Archive Section -->
+            <section id="archiveSection" class="section">
+                <div class="section-header">
+                    <h2>Archive</h2>
+                    <div class="archive-filters">
+                        <input type="text" id="archiveSearch" class="filter-input" placeholder="Search by name...">
+                        <select id="archiveYearFilter" class="filter-select">
+                            <option value="">All Years</option>
+                        </select>
+                        <select id="archiveContestantFilter" class="filter-select">
+                            <option value="">All Contestants</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="archiveGrid" class="archive-grid">
+                    <!-- Archive items will be injected here -->
+                </div>
+            </section>
+
+            <!-- Admin Panel (Hidden by default) -->
+            <section id="adminPanel" class="section admin-panel" style="display: none;">
+                <div class="section-header">
+                    <h2>Editor Helper</h2>
+                    <p class="admin-note">Client-side JSON generator for GitHub commits. No actual upload capability.</p>
+                </div>
+
+                <div class="admin-tabs">
+                    <button class="admin-tab active" data-tab="contestantA">Contestant A Entry</button>
+                    <button class="admin-tab" data-tab="contestantB">Contestant B Entry</button>
+                    <button class="admin-tab" data-tab="weekSetup">Week Setup</button>
+                    <button class="admin-tab" data-tab="legacyImport">Legacy Import</button>
+                </div>
+
+                <!-- Contestant A Entry Form -->
+                <div id="contestantATab" class="admin-tab-content">
+                    <div id="deadlineWarningA" class="warnings" style="display: none;"></div>
+                    
+                    <form id="contestantAForm" class="admin-form">
+                        <div class="form-section">
+                            <h3>Your Nominee Details</h3>
+                            <p class="admin-note">You can edit until Wednesday 08:59 Budapest time</p>
+                            
+                            <div class="form-group">
+                                <label for="nomineeASoloName">Woman Name</label>
+                                <input type="text" id="nomineeASoloName" placeholder="e.g., Scarlett Johansson" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeASoloShort">Short Description</label>
+                                <input type="text" id="nomineeASoloShort" placeholder="One-line teaser" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeASoloLong">Longer Description</label>
+                                <textarea id="nomineeASoloLong" rows="4" placeholder="Detailed description" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeASoloTags">Tags (comma-separated)</label>
+                                <input type="text" id="nomineeASoloTags" placeholder="actress, hollywood, marvel">
+                            </div>
+                            <div class="form-group">
+                                <label>Image URLs (external links or GitHub paths)</label>
+                                <p class="admin-note" style="margin-top: 0.25rem; font-size: 0.8rem;">Paste direct image links from Imgur, Google Drive, Dropbox, or any image hosting service</p>
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example1.jpg or assets/images/..." data-contestant="ASolo" data-index="0">
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example2.jpg or assets/images/..." data-contestant="ASolo" data-index="1">
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example3.jpg or assets/images/..." data-contestant="ASolo" data-index="2">
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" id="loadCurrentA" class="button secondary">Load My Current Data</button>
+                            <button type="button" id="generateAJSON" class="button primary">Generate My JSON</button>
+                        </div>
+                    </form>
+
+                    <div id="outputSectionA" class="output-section" style="display: none;">
+                        <h3>Your Nominee JSON</h3>
+                        <p class="output-instructions">Copy this and replace the <code>nomineeA</code> section in <code>data/current.json</code></p>
+                        <textarea id="jsonOutputA" class="json-output" readonly></textarea>
+                        <div class="form-actions">
+                            <button type="button" id="copyJSONA" class="button primary">Copy to Clipboard</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contestant B Entry Form -->
+                <div id="contestantBTab" class="admin-tab-content" style="display: none;">
+                    <div id="deadlineWarningB" class="warnings" style="display: none;"></div>
+                    
+                    <form id="contestantBForm" class="admin-form">
+                        <div class="form-section">
+                            <h3>Your Nominee Details</h3>
+                            <p class="admin-note">You can edit until Wednesday 08:59 Budapest time</p>
+                            
+                            <div class="form-group">
+                                <label for="nomineeBSoloName">Woman Name</label>
+                                <input type="text" id="nomineeBSoloName" placeholder="e.g., Margot Robbie" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeBSoloShort">Short Description</label>
+                                <input type="text" id="nomineeBSoloShort" placeholder="One-line teaser" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeBSoloLong">Longer Description</label>
+                                <textarea id="nomineeBSoloLong" rows="4" placeholder="Detailed description" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeBSoloTags">Tags (comma-separated)</label>
+                                <input type="text" id="nomineeBSoloTags" placeholder="actress, australian, barbie">
+                            </div>
+                            <div class="form-group">
+                                <label>Image URLs (external links or GitHub paths)</label>
+                                <p class="admin-note" style="margin-top: 0.25rem; font-size: 0.8rem;">Paste direct image links from Imgur, Google Drive, Dropbox, or any image hosting service</p>
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example1.jpg or assets/images/..." data-contestant="BSolo" data-index="0">
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example2.jpg or assets/images/..." data-contestant="BSolo" data-index="1">
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example3.jpg or assets/images/..." data-contestant="BSolo" data-index="2">
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" id="loadCurrentB" class="button secondary">Load My Current Data</button>
+                            <button type="button" id="generateBJSON" class="button primary">Generate My JSON</button>
+                        </div>
+                    </form>
+
+                    <div id="outputSectionB" class="output-section" style="display: none;">
+                        <h3>Your Nominee JSON</h3>
+                        <p class="output-instructions">Copy this and replace the <code>nomineeB</code> section in <code>data/current.json</code></p>
+                        <textarea id="jsonOutputB" class="json-output" readonly></textarea>
+                        <div class="form-actions">
+                            <button type="button" id="copyJSONB" class="button primary">Copy to Clipboard</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Week Setup Form (Admin Only) -->
+                <div id="weekSetupTab" class="admin-tab-content" style="display: none;">
+                    <form id="weekEntryForm" class="admin-form">
+                        <div class="form-section">
+                            <h3>Week Details</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="weekId">Week ID</label>
+                                    <input type="text" id="weekId" placeholder="e.g., 31" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="season">Season/Year</label>
+                                    <input type="text" id="season" placeholder="e.g., 2026" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="revealDate">Reveal Date</label>
+                                    <input type="date" id="revealDate" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="revealTime">Reveal Time (09:00 default)</label>
+                                    <input type="time" id="revealTime" value="09:00" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contestantAName">Contestant A Name</label>
+                                    <input type="text" id="contestantAName" placeholder="e.g., Adam" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contestantBName">Contestant B Name</label>
+                                    <input type="text" id="contestantBName" placeholder="e.g., Bence" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <h3>Contestant A Nominee</h3>
+                            <div class="form-group">
+                                <label for="nomineeAName">Woman Name</label>
+                                <input type="text" id="nomineeAName" placeholder="e.g., Scarlett Johansson" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeAShort">Short Description</label>
+                                <input type="text" id="nomineeAShort" placeholder="One-line teaser" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeALong">Longer Description</label>
+                                <textarea id="nomineeALong" rows="3" placeholder="Detailed description" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeATags">Tags (comma-separated)</label>
+                                <input type="text" id="nomineeATags" placeholder="actress, hollywood, marvel">
+                            </div>
+                            <div class="form-group">
+                                <label>Image URLs (external links or GitHub paths)</label>
+                                <p class="admin-note" style="margin-top: 0.25rem; font-size: 0.8rem;">Use direct image links or GitHub paths</p>
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example.jpg or assets/images/2026-w31-adam-01.webp" data-contestant="A" data-index="0">
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example.jpg or assets/images/2026-w31-adam-02.webp" data-contestant="A" data-index="1">
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example.jpg or assets/images/2026-w31-adam-03.webp" data-contestant="A" data-index="2">
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <h3>Contestant B Nominee</h3>
+                            <div class="form-group">
+                                <label for="nomineeBName">Woman Name</label>
+                                <input type="text" id="nomineeBName" placeholder="e.g., Margot Robbie" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeBShort">Short Description</label>
+                                <input type="text" id="nomineeBShort" placeholder="One-line teaser" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeBLong">Longer Description</label>
+                                <textarea id="nomineeBLong" rows="3" placeholder="Detailed description" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomineeBTags">Tags (comma-separated)</label>
+                                <input type="text" id="nomineeBTags" placeholder="actress, australian, barbie">
+                            </div>
+                            <div class="form-group">
+                                <label>Image URLs (external links or GitHub paths)</label>
+                                <p class="admin-note" style="margin-top: 0.25rem; font-size: 0.8rem;">Use direct image links or GitHub paths</p>
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example.jpg or assets/images/2026-w31-bence-01.webp" data-contestant="B" data-index="0">
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example.jpg or assets/images/2026-w31-bence-02.webp" data-contestant="B" data-index="1">
+                                <input type="text" class="image-path-input" placeholder="https://i.imgur.com/example.jpg or assets/images/2026-w31-bence-03.webp" data-contestant="B" data-index="2">
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" id="generateFilenames" class="button secondary">Generate Filename Suggestions</button>
+                            <button type="button" id="generateJSON" class="button primary">Generate JSON</button>
+                        </div>
+                    </form>
+
+                    <div id="outputSection" class="output-section" style="display: none;">
+                        <h3>Generated JSON</h3>
+                        <p class="output-instructions">Copy this JSON and paste it into <code>data/current.json</code></p>
+                        <textarea id="jsonOutput" class="json-output" readonly></textarea>
+                        <div class="form-actions">
+                            <button type="button" id="copyJSON" class="button primary">Copy to Clipboard</button>
+                            <button type="button" id="downloadJSON" class="button secondary">Download JSON</button>
+                        </div>
+                    </div>
+
+                    <div id="filenameSection" class="output-section" style="display: none;">
+                        <h3>Suggested Filenames</h3>
+                        <pre id="filenameOutput" class="filename-output"></pre>
+                    </div>
+                </div>
+
+                <!-- Legacy Import Tab -->
+                <div id="legacyImportTab" class="admin-tab-content" style="display: none;">
+                    <div class="form-group">
+                        <label for="legacyInput">Paste Legacy Text Data</label>
+                        <textarea id="legacyInput" class="legacy-input" rows="15" placeholder="Paste your legacy text format here..."></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" id="parseLegacy" class="button primary">Parse & Convert</button>
+                        <button type="button" id="loadExample" class="button secondary">Load Example</button>
+                    </div>
+                    <div id="legacyOutput" class="output-section" style="display: none;">
+                        <h3>Parsed Result</h3>
+                        <div id="legacyWarnings" class="warnings"></div>
+                        <textarea id="legacyJSON" class="json-output" readonly></textarea>
+                        <div class="form-actions">
+                            <button type="button" id="copyLegacyJSON" class="button primary">Copy to Clipboard</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 WW - Women Crush Wednesday. A playful hobby project.</p>
+        </div>
+    </footer>
+
+    <!-- Detail Modal -->
+    <div id="detailModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" style="display: none;">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div id="modalBody" class="modal-body">
+                <!-- Content injected dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightboxModal" class="modal lightbox-modal" role="dialog" aria-modal="true" style="display: none;">
+        <div class="modal-backdrop"></div>
+        <div class="lightbox-content">
+            <button class="modal-close" aria-label="Close lightbox">&times;</button>
+            <button class="lightbox-nav lightbox-prev" aria-label="Previous image">‹</button>
+            <button class="lightbox-nav lightbox-next" aria-label="Next image">›</button>
+            <img id="lightboxImage" src="" alt="" class="lightbox-image">
+            <div id="lightboxCaption" class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>

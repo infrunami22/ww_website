@@ -1,0 +1,252 @@
+{
+  "entries": [
+    {
+      "weekId": "30",
+      "season": "2026",
+      "revealAt": "2026-07-29T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Adam",
+      "contestantB": "Bence",
+      "nomineeA": {
+        "womanName": "Zendaya",
+        "shortDescription": "Emmy-winning actress, singer, and fashion icon",
+        "longerDescription": "Zendaya has established herself as one of the most talented young actresses of her generation. From her Disney Channel beginnings to her powerful performances in Euphoria and the Dune franchise, she brings depth and authenticity to every role. She's also a fashion icon known for her bold red carpet choices and her work as a producer.",
+        "imageUrls": [
+          "assets/images/2026-w30-adam-zendaya-01.webp",
+          "assets/images/2026-w30-adam-zendaya-02.webp"
+        ],
+        "tags": ["actress", "singer", "fashion", "euphoria"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "nomineeB": {
+        "womanName": "Florence Pugh",
+        "shortDescription": "British actress known for powerful performances",
+        "longerDescription": "Florence Pugh has rapidly become one of the most respected actresses in cinema. Known for her roles in Midsommar, Little Women, and Black Widow, she brings incredible emotional depth and fearlessness to her performances. Her versatility spans from period dramas to psychological horror to superhero blockbusters.",
+        "imageUrls": [
+          "assets/images/2026-w30-bence-florence-pugh-01.webp",
+          "assets/images/2026-w30-bence-florence-pugh-02.webp",
+          "assets/images/2026-w30-bence-florence-pugh-03.webp"
+        ],
+        "tags": ["actress", "british", "marvel"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "status": "revealed",
+      "notes": "Last week of July"
+    },
+    {
+      "weekId": "29",
+      "season": "2026",
+      "revealAt": "2026-07-22T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Adam",
+      "contestantB": "Bence",
+      "nomineeA": {
+        "womanName": "Ana de Armas",
+        "shortDescription": "Cuban-Spanish actress and rising Hollywood star",
+        "longerDescription": "Ana de Armas has captivated audiences with her performances in films like Knives Out, No Time to Die, and Blonde. Originally from Cuba, she has successfully transitioned to Hollywood stardom while maintaining her distinctive charm and talent. Her portrayal of Marilyn Monroe in Blonde earned widespread critical acclaim.",
+        "imageUrls": [
+          "assets/images/2026-w29-adam-ana-de-armas-01.webp",
+          "assets/images/2026-w29-adam-ana-de-armas-02.webp",
+          "assets/images/2026-w29-adam-ana-de-armas-03.webp",
+          "assets/images/2026-w29-adam-ana-de-armas-04.webp"
+        ],
+        "tags": ["actress", "cuban", "hollywood", "bond"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "nomineeB": {
+        "womanName": "Emma Stone",
+        "shortDescription": "Academy Award-winning actress",
+        "longerDescription": "Emma Stone is one of the most acclaimed actresses of her generation. From her breakout in Easy A to her Oscar-winning performance in La La Land, she consistently delivers performances that are both emotionally resonant and technically brilliant. Her recent work in Poor Things has earned widespread praise.",
+        "imageUrls": [
+          "assets/images/2026-w29-bence-emma-stone-01.webp",
+          "assets/images/2026-w29-bence-emma-stone-02.webp"
+        ],
+        "tags": ["actress", "oscar-winner", "hollywood"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "status": "revealed",
+      "notes": "Mid-July selection"
+    },
+    {
+      "weekId": "28",
+      "season": "2026",
+      "revealAt": "2026-07-15T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Adam",
+      "contestantB": "Bence",
+      "nomineeA": {
+        "womanName": "Anya Taylor-Joy",
+        "shortDescription": "Argentine-British actress and model",
+        "longerDescription": "Anya Taylor-Joy has become one of the most distinctive talents in cinema. Her haunting performance in The Witch launched her career, and she's since starred in Split, Emma, The Queen's Gambit, and Furiosa. Her ethereal beauty and intense performances make every role memorable.",
+        "imageUrls": [
+          "assets/images/2026-w28-adam-anya-taylor-joy-01.webp",
+          "assets/images/2026-w28-adam-anya-taylor-joy-02.webp",
+          "assets/images/2026-w28-adam-anya-taylor-joy-03.webp"
+        ],
+        "tags": ["actress", "british", "the-queens-gambit", "model"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "nomineeB": {
+        "womanName": "Sydney Sweeney",
+        "shortDescription": "Actress known for Euphoria and The White Lotus",
+        "longerDescription": "Sydney Sweeney has quickly become one of Hollywood's most talked-about young actresses. Her performances in Euphoria and The White Lotus showcase her incredible range and emotional depth. She's also ventured into producing and has become a cultural phenomenon with her authentic social media presence.",
+        "imageUrls": [
+          "assets/images/2026-w28-bence-sydney-sweeney-01.webp",
+          "assets/images/2026-w28-bence-sydney-sweeney-02.webp",
+          "assets/images/2026-w28-bence-sydney-sweeney-03.webp"
+        ],
+        "tags": ["actress", "euphoria", "producer"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "status": "revealed",
+      "notes": "Mid-July week"
+    },
+    {
+      "weekId": "27",
+      "season": "2026",
+      "revealAt": "2026-07-08T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Adam",
+      "contestantB": "Bence",
+      "nomineeA": {
+        "womanName": "Gal Gadot",
+        "shortDescription": "Israeli actress and former model, Wonder Woman star",
+        "longerDescription": "Gal Gadot became a global icon as Wonder Woman, bringing strength, grace, and humanity to the superhero role. A former Miss Israel and IDF veteran, she has starred in the Fast & Furious franchise and numerous blockbusters. Her charisma and presence have made her one of the most recognizable actresses worldwide.",
+        "imageUrls": [
+          "assets/images/2026-w27-adam-gal-gadot-01.webp",
+          "assets/images/2026-w27-adam-gal-gadot-02.webp"
+        ],
+        "tags": ["actress", "israeli", "wonder-woman", "model"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "nomineeB": {
+        "womanName": "Jenna Ortega",
+        "shortDescription": "Rising star actress, known for Wednesday",
+        "longerDescription": "Jenna Ortega has emerged as one of Gen Z's most exciting talents. Her portrayal of Wednesday Addams became a cultural phenomenon, showcasing her ability to bring depth and nuance to iconic characters. She's also starred in Scream and X, proving her versatility across genres.",
+        "imageUrls": [
+          "assets/images/2026-w27-bence-jenna-ortega-01.webp",
+          "assets/images/2026-w27-bence-jenna-ortega-02.webp",
+          "assets/images/2026-w27-bence-jenna-ortega-03.webp"
+        ],
+        "tags": ["actress", "wednesday", "gen-z"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "status": "revealed",
+      "notes": "Early July"
+    },
+    {
+      "weekId": "26",
+      "season": "2026",
+      "revealAt": "2026-07-01T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Adam",
+      "contestantB": "Bence",
+      "nomineeA": {
+        "womanName": "Blake Lively",
+        "shortDescription": "Actress, entrepreneur, and style icon",
+        "longerDescription": "Blake Lively rose to fame in Gossip Girl and has maintained a successful film career with roles in The Age of Adaline, A Simple Favor, and The Shallows. Beyond acting, she's a successful entrepreneur and is known for her impeccable fashion sense at major events. She brings charm, wit, and intelligence to everything she does.",
+        "imageUrls": [
+          "assets/images/2026-w26-adam-blake-lively-01.webp",
+          "assets/images/2026-w26-adam-blake-lively-02.webp",
+          "assets/images/2026-w26-adam-blake-lively-03.webp"
+        ],
+        "tags": ["actress", "entrepreneur", "fashion", "gossip-girl"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "nomineeB": {
+        "womanName": "Lily Collins",
+        "shortDescription": "British-American actress and model",
+        "longerDescription": "Lily Collins has charmed audiences with her performances in Emily in Paris, Mirror Mirror, and Love, Rosie. The daughter of musician Phil Collins, she's carved out her own successful career with grace and talent. Her natural elegance and strong performances have made her a beloved figure in entertainment.",
+        "imageUrls": [
+          "assets/images/2026-w26-bence-lily-collins-01.webp",
+          "assets/images/2026-w26-bence-lily-collins-02.webp"
+        ],
+        "tags": ["actress", "model", "emily-in-paris", "british"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "status": "revealed",
+      "notes": "First week of July"
+    },
+    {
+      "weekId": "25",
+      "season": "2026",
+      "revealAt": "2026-06-24T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Adam",
+      "contestantB": "Bence",
+      "nomineeA": {
+        "womanName": "Hailee Steinfeld",
+        "shortDescription": "Actress, singer, and multi-talented performer",
+        "longerDescription": "Hailee Steinfeld earned an Oscar nomination at age 14 for True Grit and has since built an impressive career as both an actress and singer. From her role in the Pitch Perfect franchise to Hawkeye in the MCU, and hits like 'Starving' and 'Let Me Go,' she excels in every medium she explores.",
+        "imageUrls": [
+          "assets/images/2026-w25-adam-hailee-steinfeld-01.webp",
+          "assets/images/2026-w25-adam-hailee-steinfeld-02.webp",
+          "assets/images/2026-w25-adam-hailee-steinfeld-03.webp"
+        ],
+        "tags": ["actress", "singer", "marvel", "hawkeye"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "nomineeB": {
+        "womanName": "Saoirse Ronan",
+        "shortDescription": "Irish-American actress, multiple Oscar nominee",
+        "longerDescription": "Saoirse Ronan is one of the most acclaimed actresses of her generation. With multiple Oscar nominations for films like Lady Bird, Little Women, Brooklyn, and Atonement, she consistently delivers performances of extraordinary depth and nuance. Her ability to embody complex characters has made her a critical darling.",
+        "imageUrls": [
+          "assets/images/2026-w25-bence-saoirse-ronan-01.webp",
+          "assets/images/2026-w25-bence-saoirse-ronan-02.webp"
+        ],
+        "tags": ["actress", "irish", "oscar-nominee"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "status": "revealed",
+      "notes": "Late June selection"
+    },
+    {
+      "weekId": "24",
+      "season": "2026",
+      "revealAt": "2026-06-17T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Adam",
+      "contestantB": "Bence",
+      "nomineeA": {
+        "womanName": "Ariana Grande",
+        "shortDescription": "Pop superstar, actress, and vocal powerhouse",
+        "longerDescription": "Ariana Grande is one of the biggest pop stars in the world, known for her incredible four-octave vocal range and hit songs like 'Thank U, Next' and '7 Rings.' Beyond music, she's acted in Victorious, appeared in films, and used her platform for social causes. Her talent, style, and authenticity have earned her millions of devoted fans.",
+        "imageUrls": [
+          "assets/images/2026-w24-adam-ariana-grande-01.webp",
+          "assets/images/2026-w24-adam-ariana-grande-02.webp",
+          "assets/images/2026-w24-adam-ariana-grande-03.webp",
+          "assets/images/2026-w24-adam-ariana-grande-04.webp"
+        ],
+        "tags": ["singer", "pop", "actress", "icon"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "nomineeB": {
+        "womanName": "Taylor Swift",
+        "shortDescription": "Global music icon and songwriter extraordinaire",
+        "longerDescription": "Taylor Swift is one of the best-selling music artists of all time. From her country roots to pop dominance to indie-folk exploration, she's constantly evolved while maintaining her signature storytelling prowess. The Eras Tour became the highest-grossing tour ever, cementing her status as a cultural phenomenon. Her songwriting has earned countless awards and influenced a generation.",
+        "imageUrls": [
+          "assets/images/2026-w24-bence-taylor-swift-01.webp",
+          "assets/images/2026-w24-bence-taylor-swift-02.webp"
+        ],
+        "tags": ["singer", "songwriter", "pop", "icon", "eras-tour"],
+        "sourceNote": "",
+        "manuallyEntered": false
+      },
+      "status": "revealed",
+      "notes": "Mid-June music icons week"
+    }
+  ]
+}
