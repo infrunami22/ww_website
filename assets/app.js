@@ -1,5 +1,5 @@
 // ============================================
-// WW - Women Crush Wednesday
+// WW
 // Production-Grade Static Web App
 // ============================================
 
@@ -741,7 +741,7 @@ Instructions:
         const fullData = {
             site: {
                 title: 'WW',
-                subtitle: 'Women Crush Wednesday',
+                subtitle: 'WW Wednesday',
                 timezone: CONFIG.timezone,
                 imageBaseUrl: CONFIG.imageBaseUrl
             },
@@ -830,7 +830,6 @@ Instructions:
             const fullData = {
                 site: {
                     title: 'WW',
-                    subtitle: 'Women Crush Wednesday',
                     timezone: CONFIG.timezone,
                     imageBaseUrl: CONFIG.imageBaseUrl
                 },

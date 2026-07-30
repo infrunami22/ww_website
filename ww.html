@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WW - Women Crush Wednesday. Weekly nominee reveals every Wednesday at 09:00 CET.">
-    <title>WW - Women Crush Wednesday</title>
+    <meta name="description" content="WW Picks.">
+    <title>WW Picks</title>
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -24,8 +24,8 @@
                     <text x="30" y="40" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#logoGradient)" text-anchor="middle" opacity="0.5" transform="translate(8, 0)">W</text>
                 </svg>
                 <div class="logo-text">
-                    <h1 class="site-title">WW</h1>
-                    <p class="site-subtitle">Women Crush Wednesday</p>
+                    <h1 class="site-title">WW Picks</h1>
+                    <p class="site-subtitle">Collaborative Showcase</p>
                 </div>
             </div>
             <div class="header-actions">
@@ -101,8 +101,8 @@
                 </div>
 
                 <div class="admin-tabs">
-                    <button class="admin-tab active" data-tab="contestantA">Contestant A Entry</button>
-                    <button class="admin-tab" data-tab="contestantB">Contestant B Entry</button>
+                    <button class="admin-tab active" data-tab="contestantA">Participant A Entry</button>
+                    <button class="admin-tab" data-tab="contestantB">Participant B Entry</button>
                     <button class="admin-tab" data-tab="weekSetup">Week Setup</button>
                     <button class="admin-tab" data-tab="legacyImport">Legacy Import</button>
                 </div>
@@ -113,12 +113,12 @@
                     
                     <form id="contestantAForm" class="admin-form">
                         <div class="form-section">
-                            <h3>Your Nominee Details</h3>
+                            <h3>Your Weekly Pick Details</h3>
                             <p class="admin-note">You can edit until Wednesday 08:59 Budapest time</p>
                             
                             <div class="form-group">
-                                <label for="nomineeASoloName">Woman Name</label>
-                                <input type="text" id="nomineeASoloName" placeholder="e.g., Scarlett Johansson" required>
+                                <label for="nomineeASoloName">Subject Name</label>
+                                <input type="text" id="nomineeASoloName" placeholder="e.g., Person, Place, or Thing" required>
                             </div>
                             <div class="form-group">
                                 <label for="nomineeASoloShort">Short Description</label>
@@ -130,7 +130,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="nomineeASoloTags">Tags (comma-separated)</label>
-                                <input type="text" id="nomineeASoloTags" placeholder="actress, hollywood, marvel">
+                                <input type="text" id="nomineeASoloTags" placeholder="category, topic, theme">
                             </div>
                             <div class="form-group">
                                 <label>Image URLs (external links or GitHub paths)</label>
@@ -148,7 +148,7 @@
                     </form>
 
                     <div id="outputSectionA" class="output-section" style="display: none;">
-                        <h3>Your Nominee JSON</h3>
+                        <h3>Your Pick JSON</h3>
                         <p class="output-instructions">Copy this and replace the <code>nomineeA</code> section in <code>data/current.json</code></p>
                         <textarea id="jsonOutputA" class="json-output" readonly></textarea>
                         <div class="form-actions">
@@ -163,12 +163,12 @@
                     
                     <form id="contestantBForm" class="admin-form">
                         <div class="form-section">
-                            <h3>Your Nominee Details</h3>
+                            <h3>Your Weekly Pick Details</h3>
                             <p class="admin-note">You can edit until Wednesday 08:59 Budapest time</p>
                             
                             <div class="form-group">
-                                <label for="nomineeBSoloName">Woman Name</label>
-                                <input type="text" id="nomineeBSoloName" placeholder="e.g., Margot Robbie" required>
+                                <label for="nomineeBSoloName">Subject Name</label>
+                                <input type="text" id="nomineeBSoloName" placeholder="e.g., Person, Place, or Thing" required>
                             </div>
                             <div class="form-group">
                                 <label for="nomineeBSoloShort">Short Description</label>
@@ -180,7 +180,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="nomineeBSoloTags">Tags (comma-separated)</label>
-                                <input type="text" id="nomineeBSoloTags" placeholder="actress, australian, barbie">
+                                <input type="text" id="nomineeBSoloTags" placeholder="category, topic, theme">
                             </div>
                             <div class="form-group">
                                 <label>Image URLs (external links or GitHub paths)</label>
@@ -198,7 +198,7 @@
                     </form>
 
                     <div id="outputSectionB" class="output-section" style="display: none;">
-                        <h3>Your Nominee JSON</h3>
+                        <h3>Your Pick JSON</h3>
                         <p class="output-instructions">Copy this and replace the <code>nomineeB</code> section in <code>data/current.json</code></p>
                         <textarea id="jsonOutputB" class="json-output" readonly></textarea>
                         <div class="form-actions">
@@ -346,7 +346,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 WW - Women Crush Wednesday. A playful hobby project.</p>
+            <p>&copy; 2026 Weekly Picks. A collaborative showcase project.</p>
         </div>
     </footer>
 
