@@ -99,15 +99,23 @@
      */
     function resolveImageUrl(path) {
         if (!path) return 'assets/placeholders/default.jpg';
+        
+        // If it's already a full URL, use it as-is (add cache buster for external images too)
         if (path.startsWith('http://') || path.startsWith('https://')) {
-            return path;
+            // Add cache buster to prevent stale images
+            const separator = path.includes('?') ? '&' : '?';
+            return `${path}${separator}_=${Date.now()}`;
         }
+        
+        // For relative paths
         if (CONFIG.imageBaseUrl) {
             // Remove leading './' if present
             const cleanPath = path.replace(/^\.\//, '');
             return `${CONFIG.imageBaseUrl.replace(/\/$/, '')}/${cleanPath}`;
         }
-        return path;
+        
+        // Add cache buster to local images too
+        return `${path}?_=${Date.now()}`;
     }
 
     // ============================================
@@ -116,12 +124,17 @@
     
     async function loadData() {
         try {
+            // Add cache-busting timestamp to prevent stale data
+            const cacheBuster = `?t=${Date.now()}`;
+            
+            console.log('Loading data with cache buster:', cacheBuster);
+            
             // Try to load from separate files first (new format)
             const [weekConfigRes, currentARes, currentBRes, archiveRes] = await Promise.all([
-                fetch(CONFIG.dataPath.weekConfig).catch(() => null),
-                fetch(CONFIG.dataPath.currentA).catch(() => null),
-                fetch(CONFIG.dataPath.currentB).catch(() => null),
-                fetch(CONFIG.dataPath.archive)
+                fetch(CONFIG.dataPath.weekConfig + cacheBuster, { cache: 'no-store' }).catch(() => null),
+                fetch(CONFIG.dataPath.currentA + cacheBuster, { cache: 'no-store' }).catch(() => null),
+                fetch(CONFIG.dataPath.currentB + cacheBuster, { cache: 'no-store' }).catch(() => null),
+                fetch(CONFIG.dataPath.archive + cacheBuster, { cache: 'no-store' })
             ]);
 
             if (!archiveRes.ok) {
@@ -133,9 +146,14 @@
 
             // Check if we have the new separate file format
             if (weekConfigRes && weekConfigRes.ok && currentARes && currentARes.ok && currentBRes && currentBRes.ok) {
+                console.log('Loading from separate files (new format)');
                 const weekConfig = await weekConfigRes.json();
                 const currentA = await currentARes.json();
                 const currentB = await currentBRes.json();
+
+                console.log('Week config:', weekConfig);
+                console.log('Participant A:', currentA);
+                console.log('Participant B:', currentB);
 
                 // Merge the separate files into currentWeek structure
                 state.currentWeek = {
@@ -159,7 +177,8 @@
                 }
             } else {
                 // Fallback to legacy single file format
-                const currentRes = await fetch(CONFIG.dataPath.current);
+                console.log('Loading from legacy single file format');
+                const currentRes = await fetch(CONFIG.dataPath.current + cacheBuster, { cache: 'no-store' });
                 if (!currentRes.ok) {
                     throw new Error('Failed to load current week data');
                 }
@@ -174,6 +193,7 @@
                 }
             }
 
+            console.log('Final merged currentWeek:', state.currentWeek);
             return true;
         } catch (error) {
             console.error('Error loading data:', error);
@@ -256,6 +276,9 @@
                 ? resolveImageUrl(nominee.imageUrls[0]) 
                 : 'assets/placeholders/default.jpg';
 
+            // Log the image URL for debugging
+            console.log(`Rendering ${contestant}'s image:`, imageUrl);
+
             return `
                 <div class="contestant-card ${revealed ? 'revealed' : 'locked'}">
                     <div class="card-header">
@@ -269,7 +292,7 @@
                         <img src="${imageUrl}" 
                              alt="${revealed ? escapeHtml(nominee.womanName) : 'Hidden'}" 
                              class="nominee-image"
-                             onerror="this.src='assets/placeholders/default.jpg'">
+                             onerror="console.error('Image failed to load:', this.src); this.onerror=null; this.src='assets/placeholders/default.jpg';">
                         ${!revealed ? `
                             <div class="locked-overlay">
                                 <div class="locked-icon">🔒</div>
@@ -606,7 +629,8 @@
         try {
             // Load from separate file based on contestant
             const filePath = contestant === 'A' ? CONFIG.dataPath.currentA : CONFIG.dataPath.currentB;
-            const response = await fetch(filePath);
+            const cacheBuster = `?t=${Date.now()}`;
+            const response = await fetch(filePath + cacheBuster, { cache: 'no-store' });
             
             if (!response.ok) {
                 throw new Error(`Could not load ${filePath}`);
@@ -1101,7 +1125,15 @@ Instructions:
         showNomineeDetails,
         showArchiveDetails,
         openLightbox,
-        reload: init
+        reload: async function() {
+            console.log('Force reloading data...');
+            const loaded = await loadData();
+            if (loaded) {
+                renderCurrentWeek();
+                renderArchive();
+                console.log('Data reloaded successfully!');
+            }
+        }
     };
 
     // Start the app when DOM is ready
