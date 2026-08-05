@@ -33,7 +33,8 @@
         theme: localStorage.getItem('ww-theme') || 'light',
         countdownInterval: null,
         lightboxImages: [],
-        lightboxIndex: 0
+        lightboxIndex: 0,
+        imgurCache: {} // Cache for resolved Imgur album URLs
     };
 
     // ============================================
@@ -95,13 +96,62 @@
     // ============================================
     
     /**
+     * Fetch and cache Imgur album images
+     */
+    async function cacheImgurAlbums(imageUrls) {
+        const albumUrls = imageUrls.filter(url => url && url.includes('imgur.com/a/'));
+        
+        for (const albumUrl of albumUrls) {
+            // Skip if already cached
+            if (state.imgurCache[albumUrl]) continue;
+            
+            try {
+                const albumId = albumUrl.match(/imgur\.com\/a\/([a-zA-Z0-9]+)/);
+                if (albumId && albumId[1]) {
+                    console.log(`Fetching image from Imgur album: ${albumId[1]}`);
+                    
+                    // Fetch the album page HTML
+                    const response = await fetch(`https://imgur.com/a/${albumId[1]}`);
+                    const html = await response.text();
+                    
+                    // Extract the first image URL from the HTML
+                    // Look for pattern: "url":"https://i.imgur.com/XXX.jpg"
+                    const imageMatch = html.match(/"url":"(https?:[^"]+i\.imgur\.com[^"]+)"/);
+                    if (imageMatch) {
+                        // Unescape the URL (replace \/ with /)
+                        const imageUrl = imageMatch[1].replace(/\\\//g, '/');
+                        console.log(`Cached album ${albumId[1]} -> ${imageUrl}`);
+                        state.imgurCache[albumUrl] = imageUrl;
+                    } else {
+                        console.error(`Could not extract image from album: ${albumId[1]}`);
+                        state.imgurCache[albumUrl] = null; // Cache the failure
+                    }
+                }
+            } catch (error) {
+                console.error(`Error fetching Imgur album ${albumUrl}:`, error);
+                state.imgurCache[albumUrl] = null; // Cache the failure
+            }
+        }
+    }
+
+    /**
      * Resolve image URL based on configuration
      */
     function resolveImageUrl(path) {
         if (!path) return 'assets/placeholders/default.jpg';
         
-        // If it's already a full URL, use it as-is (add cache buster for external images too)
+        // If it's already a full URL
         if (path.startsWith('http://') || path.startsWith('https://')) {
+            // Check if this is a cached Imgur album
+            if (path.includes('imgur.com/a/') && state.imgurCache[path]) {
+                if (state.imgurCache[path] === null) {
+                    // Failed to resolve, use placeholder
+                    return 'assets/placeholders/default.jpg';
+                }
+                // Use cached direct image URL
+                path = state.imgurCache[path];
+            }
+            
             // Add cache buster to prevent stale images
             const separator = path.includes('?') ? '&' : '?';
             return `${path}${separator}_=${Date.now()}`;
@@ -194,6 +244,28 @@
             }
 
             console.log('Final merged currentWeek:', state.currentWeek);
+            
+            // Cache Imgur album images
+            const allImageUrls = [];
+            if (state.currentWeek) {
+                if (state.currentWeek.nomineeA && state.currentWeek.nomineeA.imageUrls) {
+                    allImageUrls.push(...state.currentWeek.nomineeA.imageUrls);
+                }
+                if (state.currentWeek.nomineeB && state.currentWeek.nomineeB.imageUrls) {
+                    allImageUrls.push(...state.currentWeek.nomineeB.imageUrls);
+                }
+            }
+            state.archive.forEach(entry => {
+                if (entry.nomineeA && entry.nomineeA.imageUrls) {
+                    allImageUrls.push(...entry.nomineeA.imageUrls);
+                }
+                if (entry.nomineeB && entry.nomineeB.imageUrls) {
+                    allImageUrls.push(...entry.nomineeB.imageUrls);
+                }
+            });
+            
+            await cacheImgurAlbums(allImageUrls);
+            
             return true;
         } catch (error) {
             console.error('Error loading data:', error);
