@@ -1,5 +1,47 @@
 {
-  "entries": [
+  "entries":  
+  "weekId": "32",
+  "season": "2026",
+  "revealAt": "2026-07-29T09:00:00+02:00",
+  "timezone": "Europe/Budapest",
+  "contestantA": "Eszu",
+  "contestantB": "Canvas",
+    "nomineeA": {
+    "womanName": "mratedMorgan",
+    "shortDescription": "On all fours or just on two... both are great ",
+    "longerDescription": "Happy ww! This week I am nominating mratedMorgan! Lately I have been consuming a lot of motorcycle content and then she randomly popped up on my feed with the following video:\nhttps://www.facebook.com/reel/38567055666226733\nI was immediately struck by her looks but I think I watched it early in the morning and it was so confusing to me what the other porsche guy did so I had to watch it like 5x at least. After this one tho I followed her though and realized she has a crazy collection, including bikes. She has a gt4 rs + i4 m50 🏍️ s1k (x2) + zx6r. I mean pretty generic, but cool cars and bikes nonetheless. Also she is quite blessed in both departments so she is quite dreamy. Face card is not my favorite, but the rest of what I know about her makes up for it. One more reason to like Porsches, if I saw her in hers I would be waving extra hard. ",
+    "imageUrls": [
+      "https://i.imgur.com/aPsaxej.png",
+      "https://i.imgur.com/9aM8ZG8.png",
+      "https://i.imgur.com/HOFLTU2.png"
+    ],
+    "tags": [
+      "bike",
+      "baddie"
+    ],
+    "sourceNote": "",
+    "manuallyEntered": true
+  },
+  "nomineeB": {
+    "womanName": "Autumn Spooner",
+    "shortDescription": "Girl on four wheels 😛",
+    "longerDescription": "Happy Woman Crush Wednesday! Here's somebody that I got reminded of a few days ago. I was constantly seeing her posts on Insta a few years back with her purple Camaro that I really like, and she appeared again now. Since then she got 2 other cars as you can see, so perfect for 3 images. I don't know much about her apart from the cars, and the fact that she has booooooooooooooooooooooooooooooooooooooooooobs",
+    "imageUrls": [
+      "https://i.imgur.com/0ebZqyr.png",
+      "https://i.imgur.com/mojZzNp.png",
+      "https://i.imgur.com/AB6fkQJ.png"
+    ],
+    "tags": [
+      "car",
+      "brunette",
+      "busty",
+      "boobs",
+      "american",
+      "honkers"
+    ],
+    "sourceNote": "",
+    "manuallyEntered": true
+  },
     {
       "weekId": "30",
       "season": "2026",
