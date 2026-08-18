@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "weekId": "33",
+      "season": "2026",
+      "revealAt": "2026-08-12T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+        "nomineeA": {
+          "womanName": "Ariana Grande",
+          "shortDescription": "Surname like Starbucks",
+          "longerDescription": "Happy ww! This week I am nominating Ariana Grande! Lowkey shocked I haven't had her in here, but here we are. Since she is well known I will skip the intro. Her peak looks era was around 2019-2020 in my opinion. Also insane how many phases she had in her life, her most recent is lowkey disturbing but who am I to judge. ",
+          "imageUrls": [
+            "https://i.imgur.com/YvqK1hI.png",
+            "https://i.imgur.com/U7rfgg9.png",
+            "https://i.imgur.com/Wac4vvS.png"
+          ],
+          "tags": [
+            "short",
+            "og-baddie",
+            "shapeshifter"
+          ],
+          "sourceNote": "",
+          "manuallyEntered": true
+        },
+        "nomineeB": {
+        "womanName": "Hannah Stein",
+        "shortDescription": "If Shubble and Annie had a baby",
+        "longerDescription": "Stumbled upon this cutie pie with a cutesy girly vibe and I was immediately impressed 😛. Based on her reels she's a bit annoying (not in the charming [for me] way), but it's nothing I couldn't handle",
+        "imageUrls": [
+          "https://i.imgur.com/bloDhhf.png",
+          "https://i.imgur.com/J232CmP.png",
+          "https://i.imgur.com/qbAUXuL.png"
+        ],
+        "tags": [
+          "redhead",
+          "cute",
+          "American",
+          "petite"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+        }
+    },
+    {
       "weekId": "32",
       "season": "2026",
       "revealAt": "2026-07-29T09:00:00+02:00",
