@@ -1,87 +1,981 @@
 {
   "entries": [
     {
-      "weekId": "33",
+      "weekId": "54",
       "season": "2026",
-      "revealAt": "2026-08-12T09:00:00+02:00",
-      "timezone": "Europe/Budapest",
-      "contestantA": "Eszu",
-      "contestantB": "Canvas",
-        "nomineeA": {
-          "womanName": "Ariana Grande",
-          "shortDescription": "Surname like Starbucks",
-          "longerDescription": "Happy ww! This week I am nominating Ariana Grande! Lowkey shocked I haven't had her in here, but here we are. Since she is well known I will skip the intro. Her peak looks era was around 2019-2020 in my opinion. Also insane how many phases she had in her life, her most recent is lowkey disturbing but who am I to judge. ",
-          "imageUrls": [
-            "https://i.imgur.com/YvqK1hI.png",
-            "https://i.imgur.com/U7rfgg9.png",
-            "https://i.imgur.com/Wac4vvS.png"
-          ],
-          "tags": [
-            "short",
-            "og-baddie",
-            "shapeshifter"
-          ],
-          "sourceNote": "",
-          "manuallyEntered": true
-        },
-        "nomineeB": {
-        "womanName": "Hannah Stein",
-        "shortDescription": "If Shubble and Annie had a baby",
-        "longerDescription": "Stumbled upon this cutie pie with a cutesy girly vibe and I was immediately impressed 😛. Based on her reels she's a bit annoying (not in the charming [for me] way), but it's nothing I couldn't handle",
-        "imageUrls": [
-          "https://i.imgur.com/bloDhhf.png",
-          "https://i.imgur.com/J232CmP.png",
-          "https://i.imgur.com/qbAUXuL.png"
-        ],
-        "tags": [
-          "redhead",
-          "cute",
-          "American",
-          "petite"
-        ],
-        "sourceNote": "",
-        "manuallyEntered": true
-        }
-    },
-    {
-      "weekId": "32",
-      "season": "2026",
-      "revealAt": "2026-07-29T09:00:00+02:00",
+      "revealAt": "2026-07-29T13:00:58+02:00",
       "timezone": "Europe/Budapest",
       "contestantA": "Eszu",
       "contestantB": "Canvas",
       "nomineeA": {
-        "womanName": "mratedMorgan",
-        "shortDescription": "On all fours or just on two... both are great ",
-        "longerDescription": "Happy ww! This week I am nominating mratedMorgan! Lately I have been consuming a lot of motorcycle content and then she randomly popped up on my feed with the following video:\nhttps://www.facebook.com/reel/38567055666226733\nI was immediately struck by her looks but I think I watched it early in the morning and it was so confusing to me what the other porsche guy did so I had to watch it like 5x at least. After this one tho I followed her though and realized she has a crazy collection, including bikes. She has a gt4 rs + i4 m50 🏍️ s1k (x2) + zx6r. I mean pretty generic, but cool cars and bikes nonetheless. Also she is quite blessed in both departments so she is quite dreamy. Face card is not my favorite, but the rest of what I know about her makes up for it. One more reason to like Porsches, if I saw her in hers I would be waving extra hard. ",
+        "womanName": "Nikki Howard",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! This week I am nominating Nikki Howard! Generally she is like a solid 7 with the funny content she makes a good 5 but I was recommended this video “when he is younger than you” and with that dress on and recent look she is a solid 9 in my books!\nhttps://www.youtube.com/watch?v=sSXW4tkggQg\nAlso this is the only video I saw from her lol I just checked her stuff out cause she was hot",
         "imageUrls": [
-          "https://i.imgur.com/aPsaxej.png",
-          "https://i.imgur.com/9aM8ZG8.png",
-          "https://i.imgur.com/HOFLTU2.png"
+          "./media/dac9f429-a3c8-4736-a269-8894135514bd.jpeg",
+          "./media/90c447f1-7496-4da4-abf2-f3cb8ec07668.jpeg",
+          "./media/d1c42f38-1021-435e-8fb1-4c3718ae2093.jpeg"
         ],
         "tags": [
-          "bike",
+          "baddie",
+          "youtuber"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "QTCinderella",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! I'm sure you're familiar with QTCinderella, and even though I never watched her, I always thought she's a 10/10, but since Ludwig engaged her she's quite definitely off the market 🥲",
+        "imageUrls": [
+          "MISSING - 1785322858589"
+        ],
+        "tags": [
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "53",
+      "season": "2026",
+      "revealAt": "2026-07-22T09:39:22+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Shakira",
+        "shortDescription": "Happy ww",
+        "longerDescription": "Happy ww! This week I am nominating… Shakira! Lowkey had an image of her face in my head from back in the day and cause of that didnt really think she was super hot which is still partially true but she is not that bad actually!\nThe fact that she has participated in more world cups than her ex husband pique is really funny and I really enjoyed her half-time performance. The song was great, she looked great and it was cool that she included children too. The last part when the kids sang too was the best imo.\nI think she has been nominated by you before so this might be a match 🤓",
+        "imageUrls": [
+          "./media/40740704-0647-473a-afde-2be56a50af28.jpeg",
+          "./media/32a59dab-da05-41a2-a09e-bb47f22f0164.jpeg",
+          "./media/2aa72a91-5ac4-4bd6-9fa7-c34e8f7e5544.jpeg",
+          "./media/5a42ecf2-45af-439c-a8d7-8f0412acc615.jpeg"
+        ],
+        "tags": [
+          "baddie",
+          "singer"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Candi Buunny",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! This week I'm doing something we never did before, which is featuring someone without any idea what she looks like 🤪\nCandi Buunny is a decently sized, although not too active FNAF YouTuber (her last video is 7 months old 😩), and even tho I don't know what she looks like, I'm in love with her voice ❤️\nAnd not just the voice itself, but also how she's \"using it\", like in the intro of her latest video (the one I attached), she's a never ending source of positive energy and I find that incredibly appealing",
+        "imageUrls": [
+          "./media/ca61331d-82a2-410b-8671-dc3dc2ea344e.wav"
+        ],
+        "tags": [
+          "redhead",
+          "youtuber",
+          "fnaf",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "52",
+      "season": "2026",
+      "revealAt": "2026-07-15T10:32:21+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Lily Strange",
+        "shortDescription": "Happy ww",
+        "longerDescription": "Happy ww! This week I am nominating Lily Strange! She got recommended to me as a Facebook friend and I checked out the profile as she was really hot and although she is indeed a bit strange I would smash.",
+        "imageUrls": [
+          "./media/ad60bcee-9d07-4fa9-b8cc-b153e8a5c638.jpeg",
+          "./media/027a6c74-18ff-416a-805a-ae3ea7ae7416.jpeg",
+          "./media/99870915-e641-4e52-bd81-ff4f25ab6e10.jpeg"
+        ],
+        "tags": [
           "baddie"
         ],
         "sourceNote": "",
         "manuallyEntered": true
       },
       "nomineeB": {
-        "womanName": "Autumn Spooner",
-        "shortDescription": "Girl on four wheels 😛",
-        "longerDescription": "Happy Woman Crush Wednesday! Here's somebody that I got reminded of a few days ago. I was constantly seeing her posts on Insta a few years back with her purple Camaro that I really like, and she appeared again now. Since then she got 2 other cars as you can see, so perfect for 3 images. I don't know much about her apart from the cars, and the fact that she has booooooooooooooooooooooooooooooooooooooooooobs",
+        "womanName": "Lindsay Brewer",
+        "shortDescription": "Happy Woman Crush Wednesday with Lindsay Brewer",
+        "longerDescription": "Happy Woman Crush Wednesday with Lindsay Brewer!\nShe's currently racing Lamborghini Super Trofeo North America in that fabulous pink Huracán. Obviously it's a championship for wealthy amateurs, so she's not exactly a top driver, but as you can imagine, it's not hard for her to get the funds with her social media presence (these pictures are just from the last few weeks)\nAs indicated by the last picture, she recently got married, but maybe one day I'll see another one like her 🥲",
         "imageUrls": [
-          "https://i.imgur.com/0ebZqyr.png",
-          "https://i.imgur.com/mojZzNp.png",
-          "https://i.imgur.com/AB6fkQJ.png"
+          "MISSING - 1784108014144"
         ],
         "tags": [
-          "car",
-          "brunette",
-          "busty",
-          "boobs",
-          "american",
-          "honkers"
+          "racing",
+          "character",
+          "american"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "51",
+      "season": "2026",
+      "revealAt": "2026-07-08T08:37:17+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "miss unknown",
+        "shortDescription": "happy ww",
+        "longerDescription": "happy ww! This week I am nominating miss unknown! Or rather, the company Gianna Belucci. (Stay with me now)\nI got their FB ads like a week ago first and Mr.zuck did indeed notice I keep staring at it for quite a while so it keeps coming back to my feed. I dont know who the model is, I am not that invested to find out but in this combination I would definitely take her 😈\nThese lace shits are one of the greatest weapons women have over me and this one specifically reminds me of what Yennefer wears a lot so I  really hope that my gf will like these (or not cause its gonna get wild if she does 🤪)",
+        "imageUrls": [
+          "./media/75169424-a066-438e-84b5-1c8235eb05aa.jpeg",
+          "./media/fc1c8a5e-9a1b-482a-8d2f-fb7f659b93e4.jpeg",
+          "./media/e6c19017-70d1-4d6e-9fe4-ee05ede62fea.jpeg",
+          "./media/ea5c4f6c-6110-41d0-bfbf-52deabd71959.jpeg",
+          "./media/a19b1a47-28a9-4534-a873-54a4d7aa5971.jpeg",
+          "./media/1e8a820a-3f61-432f-9410-b07584da6e00.jpeg",
+          "./media/2265e836-41b4-46e3-b78e-3eb1c2ab6ce0.jpeg"
+        ],
+        "tags": [
+          "unhinged"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "BIA",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! After delaying her for 3 weeks, here's BIA!\nI only ever liked 2 or 3 songs from her, so she wasn't really on my radar, but that changed when she got featured on Ava Max's \"Energy\", a song made for the World Cup\nI think it's pretty good, although nothing special, but when I saw the attached reel, I got reminded of BIA's existence, and she's so fine, she had to be featured",
+        "imageUrls": [
+          "./media/9ee79d1e-042b-44df-85cb-9c6fb9f3c9d7.mp4"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "singer",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "50",
+      "season": "2026",
+      "revealAt": "2026-07-01T12:47:49+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Lizzie Whistle",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! I am nominating Lizzie Whistle, a cosplayer! Cosplayers were never on my radar as I didn’t know they dress up as got characters too, and just always assumed they are usually unattractive people wearing customes. Plus the only exposure I got to them was from Georgina, and they were dudes. However on tiktok one day I got the first pic’s cosplay from Lizzie on my feed and was pretty speechless. I mean first of all I believe she is super hot without the customes too although I could only find these two QA question photos but I think you can kinda tell from the cosplays anyways. Seconldy I was blown away by the cosplay itself as it was one of the best ones I’ve seen of my ultimate gaming mommy, Panam. Then I saw she later did many of my fav videogame women like Yennefer and Felicia and they are equally hawt. Also it unlocks some freaky time interactions I didn’t think of before till Georgina mentioned them, but now I love the idea even more.",
+        "imageUrls": [
+          "./media/19f2de2d-3586-4736-a035-468679e23722.jpeg",
+          "./media/85c6004c-92c5-46f6-9df4-ba2b22975164.jpeg",
+          "./media/047c4b70-d094-4c4e-a3bb-a6885208bf24.jpeg",
+          "./media/bc650244-3ff4-472d-9a21-6dd9bcd59fe8.jpeg",
+          "./media/6f7f906c-48b1-4d32-a42e-c26a1716fc2f.jpeg",
+          "./media/32cc4e1c-5fdc-4e8a-a996-88376af0ad66.jpeg",
+          "./media/dfd5351c-b746-4bce-87b2-9fd7a460bfba.jpeg"
+        ],
+        "tags": [
+          "baddie",
+          "gamer",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Lando's gf Margarida Corceiro",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Do you remember how I planned a specific person 2 weeks ago, and I delayed them 2 times! Well, let's make it 3!\nI recently saw a post how after months of speculation, now it's like 99% sure that Lando broke up with his girlfriend, and that reminded me of her existence, so here she is!\nI don't know much about her but I'm really into this aesthetic 😩\n(also impressive boob size relative to her body)",
+        "imageUrls": [
+          "MISSING - 1782902869698"
+        ],
+        "tags": [
+          "character",
+          "irl",
+          "celebrity-relationship"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "49",
+      "season": "2026",
+      "revealAt": "2026-06-24T11:55:04+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "TO-DO: UPDATE LIVE NOMINEE",
+        "shortDescription": "Entry not found",
+        "longerDescription": "No nomination submitted this week",
+        "imageUrls": [
+          "MISSING - Week 49"
+        ],
+        "tags": [
+          "missing"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "TO-DO: UPDATE LIVE NOMINEE",
+        "shortDescription": "Given that we'll meet up later today, would you be down for a \"Woman Crush Wednesday Live™️\"",
+        "longerDescription": "Given that we'll meet up later today, would you be down for a \"Woman Crush Wednesday Live™️\"? 🤪",
+        "imageUrls": [
+          "MISSING - 1782294904043"
+        ],
+        "tags": [
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "48",
+      "season": "2026",
+      "revealAt": "2026-06-17T13:08:45+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Chloe Farkas",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! \nThis week I am not celebrating with the planned one, maybe next week. This week I have Chloe Farkas!\nIt all started with Richard Morris, a queer motorsport driver! They posted a photo for pride and I felt a sense of proudness and their caption touched my heart so I decided to follow them on insta.\nThen I started to look through their insta and saw this post:\nand I loved the caption, obviously clicked for the motorcycle and stayed for the absolute baddie who is in the back.\nShe was tagged so it was easy to hunt her down and she is apparently some presenter and producer but based on her profile she is a big lgbtq supporter, actually Community Champion (wtf 😭) and she is very into motorcycles not fo mention how hot she is so she has my heart.\n(RAWRR yes break the rules mommy 😭😭)",
+        "imageUrls": [
+          "./media/808f4943-3f8b-42b8-956a-d0476e428c7e.jpeg",
+          "./media/80f78040-16ce-4fbb-9812-1d89878cd6ca.jpeg",
+          "./media/a7f26686-6b33-4d3f-b4c1-16f0bddb2a4c.jpeg",
+          "./media/0a7c839c-d07e-416f-8ff9-721a2e53f3fc.jpeg",
+          "./media/2b3fc402-513a-48e9-829a-c64ae5e6e5f9.jpeg"
+        ],
+        "tags": [
+          "baddie",
+          "racing"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Blair",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! I took inspiration from you, so instead of the whoever I had planned, I present to you someone I found on Instagram a few minutes ago, Blair!\nShe's a streamer and voice actor, and a dedicated goth, not just the looks, but she has a lot of signature items and loves to visit gothic building, and pretty much anything that's eerie\nI'm still not a huge goth fan, but I do kinda like it, but on top of that, she has a bit of a slutty vibe that I like 😛",
+        "imageUrls": [
+          "MISSING - 1781707253536"
+        ],
+        "tags": [
+          "actress",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "47",
+      "season": "2026",
+      "revealAt": "2026-06-10T07:53:59+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Inde Navaratte",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! This week I would like to celebrate with Inde Navaratte!\nIt all started with this youtube short video, where I saw the thumbnail and I was like holy shit who is this fyne shit. I never clicked on a YT short this fast before.\nPeople were saying that she is way hotter with the glasses, so I looked up to see why she is trending and what she looks like w/o glasses and boy oh boy was I mesmerized.\nUser unsent a message\nAnyhow then I looked up that she is in the movie Obsession and I liked the plot so I was super intrigued but I was quite blinded by Inde so I didn’t really comprehend that it is a horror movie with pyschological horror in it.\nSo I decided not to watch in theatres ans what solidified the decision for me was this video:\nhttps://www.instagram.com/reel/DZPp75AN9Fn/?igsh=a3J0MzBsb3FqenRi\nMe fr waiting for her to show up 🤓\nI watched some interviews about her and apparently she is a wild one, she watches more anime then normal movies, on her 18th bday she went skydiving then got her nipples pierced and she loves to get random tattooes. \nI mean FUCK can she get any better ???\nIts safe to say I got a new .. Obsession 🤓🤭",
+        "imageUrls": [
+          "./media/cb860eb0-d50e-4b16-8a3d-64cc1af3c6fa.jpeg",
+          "./media/c3125e16-0859-4f67-bda3-da8dcf1e2a2e.jpeg",
+          "./media/cbd4d160-3c07-4419-a610-23a2d1eb6397.jpeg",
+          "./media/c6b72dab-b148-494e-8cf7-c45ec3977bb8.gif",
+          "./media/b6248a93-5575-4c96-8ea5-6310eff87e98.gif"
+        ],
+        "tags": [
+          "baddie",
+          "unhinged",
+          "youtuber",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Nun from a portugese video",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! I dedicate this one to you, cause I thought you would enjoy a Spanish speaking nun",
+        "imageUrls": [
+          "MISSING - 1781082336362"
+        ],
+        "tags": [
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "46",
+      "season": "2026",
+      "revealAt": "2026-06-03T10:22:41+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Sara Saffari",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! \nThis week I am celebrating with Sara Saffari! (Arguably the first boy on the list (explanation coming below 😈))\nSo I have been debating whether I should nominate her for quite some time now but due to lack of option for today, I decided to do so. She is a gymshark athlete and makes yt content like Patty, also they sometimes collab. I genuenly cannot tell her real personality cause I feel like she fakes it a bit. She is naturally funny in it, but her whole persona online is that she wants a boyfriend but nobody she is with in her vids is her boyfriend. Also she often talks about her type which is always too good to be true like : my height or taller than me is enough, good personality, funny. When asked about physiqual traits she always says she doesn’t have any.\nHer content is not lifechanging but lighthearted and entertaining especially when she is joking around with others. One of the funniest jokes within her audience is that they call her a little boy or handsome young man since she is quite massive and I think at some point somebody thought she was a lil boy or smth.\nAlso many think the boyfriend thing is for views and in reality she is a lesbian which she is playing on atm by having more female collabs and flirting with them more than usual.\nHowever if her personality is true, she is a dime for sure and she is pretty hot in general so she gets my vote.",
+        "imageUrls": [
+          "./media/3a0c044e-9c23-49c3-8360-4a89f89d0c6d.jpeg",
+          "./media/ba068476-877d-43b2-afb1-58fdc4cd133b.jpeg",
+          "./media/014d26b1-0937-447c-81c8-9301fc95dadd.jpeg",
+          "./media/e31ce271-a020-4cc7-8dc1-b31ee3f3581a.jpeg"
+        ],
+        "tags": [
+          "baddie",
+          "athlete"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Unknown - from Marshmello video",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday!\nExcuse the low quality, but this week I'm featuring someone from the music video of \"Keep it Mello\" from Marhsmello. Back in 2016 when this song came out, it was my favorite for a really long time, partially because I found her so hot, and that still stands today 😩\nAlso a connection to this is that when I was about to rizz Liza, once her hair was in a bun, and I thought to myself \"I usually don't like this hairstyle but on her it's decent\", so I complimented it, and a few days later while I was listening to this song, Attila texted me about it, and I was like \"damn, idk how far the gossip goes but it's scary\"\nSo tbh it's a bad memory so I don't really like being reminded of this song but whoever this woman is is so fine 😩🙏",
+        "imageUrls": [
+          "MISSING - 1780474961620"
+        ],
+        "tags": [
+          "baddie",
+          "singer",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "45",
+      "season": "2026",
+      "revealAt": "2026-05-27T11:33:07+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Doodle",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! This week I am celebrating with Doodle on a Motorcycle!\nI was looking up some tips on how to handle a bigger bike as a short rider and whether it changes the handling of the bike.\nMany people advised online not to lower because it will ride a lot different but actually most people said on Youtube that you probably won’t feel the difference. Plus that most motogp riders are short so the bikes are customized there as well when it comes to seat height.\nOverall it is great to listen to tips from someone who is pretty and also rides motorcycles so yeah, she gets my nominee.",
+        "imageUrls": [
+          "./media/b8cb2218-5f09-454b-899b-58ab55abba41.jpeg",
+          "./media/ebe70c28-6d83-4079-8925-f076d4776223.jpeg",
+          "./media/054ac42f-9458-4c48-8f79-dafd00d3b608.jpeg"
+        ],
+        "tags": [
+          "youtuber"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Klara Andersson",
+        "shortDescription": "Happy Woman Crush Wednesday with Klara Andersson",
+        "longerDescription": "Happy Woman Crush Wednesday with Klara Andersson!\nThis weekend the Rallycross World Championship is coming to Nyirád for the 3rd year in a row, so here's the only female driver!\n(She didn't enter the first round a few weeks ago due to a lack of sponsors, but I believe she's racing this weekend)\nShe may not be fighting for wins, but she's super nice, and in rallycross you can freely walk around the garage area, so seeing her there is on the table",
+        "imageUrls": [
+          "MISSING - 1779874387877"
+        ],
+        "tags": [
+          "racing",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "44",
+      "season": "2026",
+      "revealAt": "2026-05-20T10:08:27+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Nia Long",
+        "shortDescription": "Happy WW with Nia Long",
+        "longerDescription": "Happy WW with Nia Long! \nActually your choice inspired mine this round!\nI was thinking about childhood crushes and then I remembered I recently saw Big Momma (Gagyi Mami) on TV since it was airing while I was in the living room and I found it super entertaining and its rare that I laugh on shows aired on TV.\nOne of the side characters in the movie is Nia Long, who had even songs written about her btw, and I gotta say she had her spell on me even at age 10.\nHowever where she really mesmerized me was in one of my favorite childhood movies, titled Are We There Yet?(Tor-túra). I have seen that movie countless amount of times its about Nick(Ice Cube) falling in love with a single mom and helping the mom by taking her kids to her to a far away state and the kids making it as hard as possible since they don’t want a step dad they want their real parents to make up.\nEverytime I rewatch the movie tho I can’t help but cringe and think man this cannot be worth it. The kids ruin bro’s car piece by piece to complete destruction. I mean cmon man no wonder your damn dad left yall.\nAnyway since she was a childhood crush I always get warmth in my heart when I think about her so I am happy I got reminded of her again. 🥹\nHer now\nHer in big momma, big momma’s reaction is real AF btw\nHer in are we there yet 😜\nThe whip before, after, and the verse from J.Cole 🤓\nBonus: In this interview she reacted to it and said: He is actually not too young he just doesn’t know it.\nI mean DAYUM!\nSay less!",
+        "imageUrls": [
+          "./media/3da4f63a-3e33-45f6-998e-42fd5f18a333.jpeg",
+          "./media/05a6e7b9-80c8-4f12-a9eb-599623853019.jpeg",
+          "./media/763571c9-80e2-4ca5-997a-ee2d4497f349.jpeg",
+          "./media/0426a4f8-4a2f-4f05-897f-56a0bfcfa266.jpeg",
+          "./media/f3f2d5cf-1808-403f-a28e-aaa6ef404aba.jpeg",
+          "./media/bc9fca5c-9419-448c-a431-39e4d4a65090.jpeg",
+          "./media/6435971e-0073-47d3-9985-676f6505d080.jpeg",
+          "./media/e1c534d4-73bf-4bf0-9ed5-d2cd3278877f.jpeg",
+          "./media/ce42a258-7673-4698-8fe2-9ccf673e14fa.jpeg",
+          "./media/d614f6c8-9cae-493d-85d2-1e3ad778770f.jpeg",
+          "./media/e29444c9-cedf-4e21-9c87-28770299e875.jpeg",
+          "./media/a8254ef1-509a-419c-a63c-c35cde860e6f.jpeg",
+          "./media/f6454e84-e40a-4d12-a51a-8486ff405d3d.jpeg",
+          "./media/9217c326-c5ab-473e-9ae8-8e9f2a11acea.gif"
+        ],
+        "tags": [
+          "redhead",
+          "singer",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Ramasz Vanda",
+        "shortDescription": "Happy Woman Crush Wednesday with Ramasz Vanda",
+        "longerDescription": "Happy Woman Crush Wednesday with Ramasz Vanda!\nShe's a teacher first and foremost, now in Ajka, but used to be in Rendek, and she was teaching grammar and literature to me there in 5-8. grade\nI have many memories from that time, one that always comes to mind is when I felt dizzy in class, but she didn't know, and told me to not \"look so bored\". (That was never cleared up  😭)\nAlso on her first day she made us do a general test about stuff we learned in previous years, and I lowkey started crying because I didn't know much, and she tried her best to help me\nAlso I don't think my Mom has any proper friends, but she was certainly the closest when they were colleagues in Rendek, they still meet occasionally\nShe was always a Vettel, Ferrari and mostly a Lewis fan, and she also felt depressed after the incident of '21\nAs you can see I couldn't find a selfie without dogs, she has multiple, and most of them are trained therapy dogs (I think she does training herself but I'm not sure)\nShe used to be quite the dancer, her brother still is, he was the one teaching the szalagavató dance to us\nI remembered her because recently me and my Mom met her in Müller, and I actually locked eyes with her for a moment without recognizing her, and I still hope she didn't think I was ignoring her on purpose 🙈\nOh I think she won a local beauty contest as well",
+        "imageUrls": [
+          "MISSING - 1779264507082"
+        ],
+        "tags": [
+          "redhead",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "43",
+      "season": "2026",
+      "revealAt": "2026-05-13T09:52:36+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Yvette",
+        "shortDescription": "Happy ww",
+        "longerDescription": "Happy ww! This week I have this random chick who is apparently friends with my sis in law and has been recommended to me on FB a bunch of times.\nShe looks hella hot on these 2 recent pics although towards the older ones she looks more and more generic and least to my taste but it just means she upgraded with time.\nShe has a few photos with her boyfriend on her page so I won’t be plugging myself just yet to my sis in law but I wish I knew more about her cause damn she fine.\nAnd on Fb her name is Yvette and I like a hot chick with a cool unique name!",
+        "imageUrls": [
+          "./media/d4c5c079-7fb8-45de-95b3-9f0a5eed5cab.jpeg",
+          "./media/8ac16638-97a7-45ff-8ed1-1dd97089e69f.jpeg"
+        ],
+        "tags": [
+          "baddie"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Blonde runner girl",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! To keep the theme of last week, I bring you fellow runner, the blonde girl I keep running (🤪) into\nObviously I don't have a picture of her, so I have Lando's girlfriend and Szabó Zsófi as reference\nI usually run somewhere between 11 and 12, and I only saw her when I was a bit lazy and late, so around 13, which happened a lot towards the end of last year, but not really since then, so the last time I saw her was around Christmas\n(She was running together with another girl, and they were both wearing ugly Christmas sweaters 😩)\n(And her scent was always so sweet 🥹)",
+        "imageUrls": [
+          "MISSING - 1778658756576"
+        ],
+        "tags": [
+          "blonde",
+          "athlete",
+          "character",
+          "irl",
+          "celebrity-relationship"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "42",
+      "season": "2026",
+      "revealAt": "2026-05-06T09:38:25+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Mint",
+        "shortDescription": "Happy ww",
+        "longerDescription": "Happy ww! This week I am nominating Mint from NTE!\nIt all started from this yt video that I watched on tuesday morning because I woke up earlier than normal.\nIt is basically a chinese \"gta\" with an anime style graphics. \nAnd bro made the vid explaining how fun it is to drive these offbrand whips in china and the vibes gave forza 6 so I gave in and downloaded it. \nNow one thing I forgot is that anime games have anime women and although at the beginning you cringe, it does turn you on after a while especially since they are well endowed and wear revealing clothes and moan for no reason. \nAlmost all the women in it are hot af but Mint is my fav so far cause she showed the most personality so far. \nShe is like a beginner level worker in your newly joined company and she has a really good nose, and attaches a smell to ppl and always describes the smell of the scenery where you are which I find quite calming and cool. She calls you Coco short for cocoa and explains why a bit later, and tbh nicknaming is quite cute so she got plus points there. \nThen she later asks you out for ice cream and says this: \nshe said this for mint chocolate ice cream and 1. there should be a third option saying fuck yeah lets mix our juices now and try it 2. that was hella damn smooth ngl ",
+        "imageUrls": [
+          "./media/b9f33219-c4b3-4853-bba9-c5a22e956862.jpeg",
+          "Failed to download media",
+          "./media/7cdc251c-816e-40fc-a86e-7ac0a1eb6afd.jpeg"
+        ],
+        "tags": [
+          "cute",
+          "baddie",
+          "gamer",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Rude guy's hot girlfriend",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! This week I have a short story for you🤪\nThere is a house on the edge of Ajka I always run past, and there used to be a beagle. It almost always barked at me, and one day the owner was there (looked like Doug Demuro), and he said to the dog \"Bark at that [unintelligible]!\"\nA few months later while running I found a license plate on the ground, brought it home, and had my Dad share it on Facebook, and sure enough, the owner quickly showed up, and it was him! (he gave him a bottle of low quality wine as a thank you gift) If I knew it was his I would've burned it!\nWith all that said, soon after, the house was listed for sale, and some chubby bald guy bought it, but he has a wife/girlfriend who's fine af! I never looked at her that closely but she seems to have all the right curves. I attached a picture of Mrs. Bell for reference, because she's the closest visually I can think of, but imagine her 50% hotter\nP.S.: car wise the place went from a gray, 2000s Golf to a gray, 2000s A4\nOh and as for the timing, I saw her 2 days ago in the outfit on the picture, that's when I got the idea",
+        "imageUrls": [
+          "MISSING - 1778053105065"
+        ],
+        "tags": [
+          "baddie",
+          "character",
+          "irl",
+          "celebrity-relationship"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "41",
+      "season": "2026",
+      "revealAt": "2026-04-29T10:10:11+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Diane Guerrero",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! This week we have a real good one I think 😛😘 A bit of a throwback for me, an OG if you will, named Diane Guerrero. She played Maritza in Orange is the new black, I think one of the first hit shows that Netflix had in Hungary, I remember seeing commercials for it a lot on Youtube at that time, around 2015-16 maybe? Now what the real entertainment was for me with that show was her character cause I couldnt put together how someone can be so hawt! Another example of me slowly discovering one of earth’s gifts, latinas! I followed her after I watched some of the show on insta and everytime I see her posts even later I’m like DAMN, I was cooking back in the day with choosing baddies to follow. She gives me some ariana grande vibes for sure and I couldnt believe my eyes when I saw her age, now the pictures except for the ones where she is in a prison jumpsuit are recent and she is 39!!! Years old. I think she can pass as 23-24 easily, the age she was in the jumpsuit photos. Also since I follow her on there I got to know her personality a bit, and she seems wonderful. She is actually best friends with one of her cast members from orange is the new black, and they often hang out and post pictures together, I included one where they are posing at a table. She often shares personal stories and raises awareness to things she is not liking, like Trump lol She hated his anti immigrant actions and she even shared that earlier in her life an abortion saved her life and how Trump banning it would be terrible for women. I hope one day I can date a woman like her caliber cause she has it all in my eyes!\nP.s: recently she started dating women exclusively and it hit harder than a truck..",
+        "imageUrls": [
+          "./media/7954b021-b839-4b6f-9d78-ae9c62fcba2a.jpeg",
+          "./media/f2e6d59d-2453-4706-8477-981dda9abde0.jpeg",
+          "./media/3b8f1eeb-e37b-4444-aa18-b400bd1f19d3.jpeg",
+          "./media/23167f49-d664-4f2e-899b-d6c17dd27add.jpeg",
+          "./media/e5e4e776-aa00-47f7-ab9c-a8332ffe6ffa.jpeg",
+          "./media/3b36d14d-8f47-4eb9-b48d-6e9dfe418200.jpeg",
+          "./media/5185b974-b355-4e8e-aee3-6881e8050413.jpeg",
+          "./media/ef8e55b3-4e92-4705-92a4-dfbc7aba0df7.jpeg",
+          "./media/a5a928b8-69a0-4123-bd9c-5e1c6527f3b5.jpeg",
+          "./media/84ccab7a-37c4-47a3-a701-7ec217c79d78.jpeg",
+          "./media/6376c0aa-333e-4673-ab6f-901390b94320.jpeg",
+          "./media/4e225684-404a-44ba-8044-f15df71f6b8e.jpeg",
+          "./media/4b417ce0-f372-4d5b-bb98-c70db6602f89.jpeg"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "youtuber",
+          "character",
+          "latina",
+          "hungarian"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Hannah Fry",
+        "shortDescription": "Happy Woman Crush Wednesday with Hannah Fry",
+        "longerDescription": "Happy Woman Crush Wednesday with Hannah Fry!\nAmong many things, she's a math professor at the University and Cambridge, and she's a presenter in various science related shows, most importantly the co-host of \"The Rest Is Science\" podcast (alongside Michael from VSauce). I know her thanks to clips of that podcast often going viral, since they both do a great job at making science sound fun and understandable\nAnd all that intelligence is really turning me on 😩. I wouldn't mind if she screamed the 2nd law of Newton instead of my name\nVisually I think she a beautiful and incredibly friendly looking face and smile, topped off with that majestic hair. She's 42 but still such a baddie it's unbelievable 😩",
+        "imageUrls": [
+          "MISSING - 1777450211111"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "40",
+      "season": "2026",
+      "revealAt": "2026-04-22T13:42:38+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Maude Apatow",
+        "shortDescription": "Happy ww",
+        "longerDescription": "Happy ww! This week I am nominating Maude Apatow. I am rewatching Euphoria and I know I have nominated many girls from it but I think I havent nominated her yet. In the Euphoria roster she is pretty outnumbered but generally I think she is a really cute girl and she has a sweet character. Kinda reminds me of a hotter version of Eliza. Not much to say other than that. Ps.: Now that I am older the show is not really hitting the same lol Ps2(no sony hehe): I did not mean to call to notify you about this, sorry!",
+        "imageUrls": [
+          "./media/6bdec98a-a34d-41ff-9835-7b5858c0b4e9.jpeg",
+          "./media/8d315129-9c10-4087-b435-0214e7058d0f.jpeg",
+          "./media/2b4b19cd-fb04-4341-ab13-ab29b759d01e.jpeg",
+          "./media/438ad3e1-2f9c-4c55-b8e1-a265e7747458.jpeg"
+        ],
+        "tags": [
+          "redhead",
+          "cute",
+          "baddie",
+          "character",
+          "irl"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "bludnymph",
+        "shortDescription": "Happy Woman Crush Wednesday with Canadian singer, bludnymph",
+        "longerDescription": "Happy Woman Crush Wednesday with Canadian singer, bludnymph!\nUntil recently I was only aware of one of her songs, but about a month ago, while I was recording a Terraria video, I had her whole library playing, and I became a huge fan!\nCurrently I'm really into slut pop, and sure enough, most of her work is freaky af, and I think the vibe comes across from some of the pictures\nAnd shockingly, she may not be lesbian, since she often sings about having sex with men, but the only person we now she dated is a woman, so it's not confirmed\nThe huge library is thanks to the fact that she's very active on Instagram and as you can see there are no 2 posts where she looks the same lol\nThe second to last picture is 10 years old, that's why it's black and white (actually that's not my doing, I guess she knew it's gonna be old or something)\nThe last picture is the preview of my YouTube Music library, which she completely took over, and turned freaky🤪\n(also any text on the images comes from me, just to be clear)\nHmm it was sent in 2 chuncks\nI mean the end of the 1st chunk lol",
+        "imageUrls": [
+          "MISSING - 1776878597980"
+        ],
+        "tags": [
+          "singer",
+          "youtuber",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "39",
+      "season": "2026",
+      "revealAt": "2026-04-15T12:43:41+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Princess Diana",
+        "shortDescription": "Happy ww",
+        "longerDescription": "Happy ww! This week I am nominating Princess Diana! She is the true embodiment of a princess and I think its terrible that we have lost her and apparently it was no accident! She reminds me a lot of my mom since she has super good energy and an open minded personality and they also look a bit similar. Diana was brave enough to stand up for people with AIDS for example and wasn’t afraid to shake their hands and interact with them despite most being scared due to misinformation on how it spreads. Also she was not afraid to break the rules, and when her sons had a parent race at school she broke the rules to attend and I always feel super wholesome when I hear that story. Now you may wonder why now I have nominated her, well it is because she was linked to the king of pop, MJ! When he performed in London and Diana was there he took off one of his biggest songs, Dirty Diana from his set because he felt it would be disrespectful. However Diana said it was her fav song and she feels sad for missing out on it. They had a lil flirt going on between them and I think they would have made a great couple. So since MJ’s new movie is airing soon in Hungary I got reminded of them once again, hence the nomination! Overall she is the embodiment of pretty inside and out!",
+        "imageUrls": [
+          "./media/cd1f6046-43e3-4ee3-91bb-0e7428e17a7a.jpeg",
+          "./media/9b5f9930-7da4-41bf-a709-ef75ebba0990.jpeg",
+          "./media/66f96ff2-aac7-4e83-9d2e-46bddb4b9add.jpeg",
+          "./media/151408da-a1b4-47e6-bbc5-0f7b5d440023.jpeg",
+          "./media/53e0c10b-0fbd-42ed-bc13-9b6f2c7bf5b7.jpeg",
+          "./media/70adbb57-c8e6-4b2f-a2da-cef57d65a157.jpeg"
+        ],
+        "tags": [
+          "redhead",
+          "singer",
+          "character",
+          "hungarian"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Hungary's new First Lady",
+        "shortDescription": "Happy Woman Crush Wednesday with our new First Lady",
+        "longerDescription": "Happy Woman Crush Wednesday with our new First Lady! 🤪\nInitially I wasn't the big fan, but boss man's movie showed a lot new, cute looks of her\nMy favorite was when he was nervous about a speech backstage and she just stood there like: 🙂",
+        "imageUrls": [
+          "MISSING - 1776249821214"
+        ],
+        "tags": [
+          "cute",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "38",
+      "season": "2026",
+      "revealAt": "2026-04-08T13:26:36+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Rio",
+        "shortDescription": "Happy ww",
+        "longerDescription": "Happy ww! This week I am nominating Kali Uchis! A very well rounded woman in my eyes namely because #1 she is hot af #2 She has incredible music #3 she is half colombian and speaks spanish 🥵\nA bit more in detail her music is incredibly good and in my opinion very unique and I love rediscoverign some of her spanish verses and realising I understand a tad bit more than last time. Also she was a good bonding topic with Rio and also I was in her top 0.1% listeners in 2024 maybe and I received a special vid from her so I am a bit biased. Lastly she is dating Don Toliver one of my fav RnB male artists who funnily enough also makes quite unique music imo so they are a great fit!",
+        "imageUrls": [
+          "./media/7314e541-2563-442b-94d7-058549e60aec.jpeg",
+          "./media/94171b1e-4499-481d-af26-d5d269f2af30.jpeg",
+          "./media/c5ddbc7d-2377-4b52-a7fe-cdcc9e585fff.jpeg"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "singer"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Donát Anna Júlia",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! With the elections nearly upon us, here's who I find the hottest politician, Donát Anna Júlia!\nShe was so sad when she made the announcement that Momentum won't participate, but I hope they get back in business soon, at least for her ❤️",
+        "imageUrls": [
+          "MISSING - 1775657894953"
+        ],
+        "tags": [
+          "baddie",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "37",
+      "season": "2026",
+      "revealAt": "2026-04-01T13:13:28+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Malu",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! (Sry dont have time to crop them)\nThis week I am further proving your concept that lesbians are luring us in. Malu is also a youtuber and I followed her around the time when I followed Verena. She is mesmerising in my opinion and my heart aches everytime I get reminded she exclusively dates women.\nBonus is that her music taste is similar to mine and sometimes I even get new favorite songs from her posts.",
+        "imageUrls": [
+          "./media/636f6b2e-8eaf-423b-9168-8b27d5403955.jpeg",
+          "./media/0ad8b21f-e774-4524-af3f-d89f8dd259d9.jpeg",
+          "./media/1d0a8d13-9fd8-4f16-bfe5-24243de8b74a.jpeg",
+          "./media/b8c76b3d-4427-46da-a949-539c536bf1a9.jpeg",
+          "./media/4f4f6234-b5b8-4936-adb2-14ed0e08654c.jpeg",
+          "./media/fb56108d-7d7c-4718-8041-b5c7cbb88cd0.jpeg"
+        ],
+        "tags": [
+          "singer",
+          "youtuber"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "TO-DO:Think it was a prank? and not the actual pick. Martina",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! This week I have a controversial pick, Martina! I always found her bitchy personality surprisingly appealing, and her ass was surely one to look at😛",
+        "imageUrls": [
+          "MISSING - 1775042008088"
+        ],
+        "tags": [
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "36",
+      "season": "2026",
+      "revealAt": "2026-03-25T14:25:22+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Abigail and Haley",
+        "shortDescription": "happy ww",
+        "longerDescription": "happy ww! I believe I havent had a stardew valley themed one, so here I go! This week I am sharing with you my dilemma duo, Abigail and Haley. So my obvious choice would be Abigail, and in my first playtrough (got about 15 hours in) I did choose her so lets start with her. She is an edgy, hot, bit introverted girl who plays the flute(😈) and plays videogames and likes swords. Also she eats rocks and mineral which is well interesting but I can get used to that. She has purple hair and is said to be the secret daughter of the wizard in town. Now I really like her and refer to her as my chosen one everytime I see her but there is also another one .. a BLONDE baddie. Her name is Haley and she calls you cute despite your farmer clothes on the first day. Now that boosted her like 10x to me because I like bold women if they are hot! And on the other hand with Abigail she is more of a slow burn and doesnt really flirt with you. However Haley also ignores you often in the beginning and looks through you (playing hard to get 🤓). Also she is the popular girl that everybody wants which boosts her ego but also my pick towards her bc who doesnt like dating the mean popular girl. If I would have to imagine them as irl actors Haley is obviously Sydney Sweeney looks wise and Abigail is like a hotter version of abby from ncis or smth. I included some fan art that is supposed to represent them more than their game pictures.",
+        "imageUrls": [
+          "./media/7ffd25fc-4df8-47a6-bcf8-08e020f1c1bc.jpeg",
+          "./media/d0a10c6a-c3c5-478f-bbd3-8d1a95ff0a66.gif"
+        ],
+        "tags": [
+          "blonde",
+          "cute",
+          "baddie",
+          "actress",
+          "gamer",
+          "character",
+          "irl"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "TO-DO:No nomination",
+        "shortDescription": "Entry not found",
+        "longerDescription": "No nomination submitted this week",
+        "imageUrls": [
+          "MISSING - Week 36"
+        ],
+        "tags": [
+          "missing"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "35",
+      "season": "2026",
+      "revealAt": "2026-03-18T12:01:06+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Vereena",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! This week I am bringing back another OG one who I used to like a lot in HS then forgot about then reconnected with once she got viral for her accident. Her name is Vereena and she is from egypt but was born in the USA. Back in the day she did vlogs on what it was like going to school in the U.S and stuff I didnt rly care for her content tbh I just thought she was hot AF so I watched them. First 4 pics are from around that era. Then she got into bikes haha which I had no idea about until I got a post on my feed from her that was her latest and all the comments were saying hope she makes it and that she isnt dead. Then I did some digging and found out she was into bikes and got into an accident with a friend and she got paralyzed and was in a coma and now is in a wheelchair at age 21. She hopes she can one day regain her ability to walk and she is one of the reasons why I do understand people’s fear when I mention getting a bike.\nalso she often gets into drama apparently whenever I see her posts she is getting flamed in the comments so she is also controversial lol\nDoctors believe she wont be able to walk again",
+        "imageUrls": [
+          "./media/504041af-dbd4-4a3f-93e5-fd2173e99d60.jpeg",
+          "./media/3b0fa63a-3ff2-443e-9ea1-2bcf4d25cc33.jpeg",
+          "./media/39ae3d99-8bc7-4b59-9500-2d72a2e21be3.jpeg",
+          "./media/423a9ae9-ade0-44d4-8ecb-88c6a29f8af2.jpeg",
+          "./media/597f7f5c-1299-4295-84ef-3fb394a33080.jpeg",
+          "./media/474cac0b-2259-412a-8a55-8468263fe4e5.jpeg",
+          "./media/903b555e-1a33-4625-b7df-5c43198b559f.jpeg",
+          "./media/c472955e-2c75-45ce-aa51-6881fec2d279.jpeg"
+        ],
+        "tags": [
+          "baddie"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Kurucz Kitti",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Ever since we started this, Ava Max was my favorite, but a few weeks ago she got dethroned, so let me introduce you to the new #1, Kurucz Kitti!\nShe's on the same theme as last week's girl, namely that she's out there on social media complaining about our government. Obviously we're on the same opinion, but the intelligence coming from her videos really captivated me.\nI was impressed by her appearance from the get-go, but what really convinced me are the 2 videos where she's wearing that white sweater. The first time I saw those I just watched them over and over without even paying attention to what she's talking about. And it's generally true that I prefer the way she looks on videos over those pictures full of filters and makeup.\nWhat makes her a bit less appealing is that after digging I'm 99% sure that she's dating the photographer who took most of the pictures. But oh well, not like I would ever even see her irl.\nAs a fun fact, she currently lives in Budapest, but she's actually from Saturdayplace, and she went for the title of Miss Hungary multiple times as Iron County's face but never won.\nHer hair progression so far is brown -> blonde -> brown -> black. I love her with blonde hair but I gotta say black suits her the best.\nAnd for a different kind of progression I included some workout pics for you along with a before-after comparison.",
+        "imageUrls": [
+          "MISSING - 1773831666653"
+        ],
+        "tags": [
+          "blonde",
+          "baddie",
+          "character",
+          "hungarian",
+          "irl"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "34",
+      "season": "2026",
+      "revealAt": "2026-03-11T13:15:40+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Bella sisters",
+        "shortDescription": "happy Ww",
+        "longerDescription": "happy Ww! This week I am nominating the Bella sisters from Resident Evil Village! They are chasing you in a castle of theirs and I can honestly say I was smiling and giggling while playing instead of being scared. It was my first time not being scared in a horror game and it was great 😃 Also why they cut you up they say things like “mm maaan bloood” and stuff like that which adds to the “ excitement “😈",
+        "imageUrls": [
+          "./media/d42a2166-3090-49d1-b280-6089d2218228.jpeg"
+        ],
+        "tags": [
+          "redhead",
+          "gamer",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "maydayhungary",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Here's @maydayhungary, a cute girl complaining about the government!",
+        "imageUrls": [
+          "MISSING - 1773231340403"
+        ],
+        "tags": [
+          "cute",
+          "character",
+          "hungarian",
+          "irl"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "33",
+      "season": "2026",
+      "revealAt": "2026-03-04T10:18:12+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Alice Heart",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! This time I have an og lady, Alice Heart from FH1. Specifically the photo reference chic but I love how much she is rooting for you and how flirtatious she is 🤪 (before I sleep I play a bit of fh1)",
+        "imageUrls": [
+          "./media/0db8797f-e7ee-4266-8b2d-62ddb30e267b.jpeg",
+          "./media/a21233ce-3642-47fa-b041-f136a6b3e36e.jpeg"
+        ],
+        "tags": [
+          "baddie"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Unknown - Gorgeous mechanic lady ",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! This week I'm doing something new, I'm nominating someone even though I have no idea who she is! I was watching a race recently when they randomly cut to her in the garage and it's one of the prettiest and cutest faces I have ever seen so I had to take a screenshot\nOn that note, it's great to see more women in motorsport, especially in mechanic roles, because usually they are not as desirable as driving\nOnce we talked about it before, and we came to the conclusion that being a barista is the hottest job a woman can have, but I'm asking again if there are any others you find especially hot. Honestly I don't really care about their job so I cannot say much",
+        "imageUrls": [
+          "MISSING - 1772621349492"
+        ],
+        "tags": [
+          "cute",
+          "baddie",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "32",
+      "season": "2026",
+      "revealAt": "2026-02-25T09:00:57+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Hoyeon Jung",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! This week I am nominating a real gem - Hoyeon Jung. I saw her only in Squid game a pretty cool show from Netflix and she only had a part in the first season. However she was very memorable to many because she is waaaayy too fine. Fun fact I learned from Georgina 🤓 that in Korea their beauty standard are very different from ours so they consider her unattractive💀",
+        "imageUrls": [
+          "./media/9f7a857a-1272-4432-9e6f-45bef303457f.jpeg",
+          "./media/e8b2c51d-42fd-4827-94d8-d8563b25be71.jpeg",
+          "./media/b7332b24-2d30-4a38-910c-e198ac465122.jpeg",
+          "./media/0a405b4b-33e1-4632-ab06-c84bf3636f88.jpeg"
+        ],
+        "tags": [
+          "baddie",
+          "gamer",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Bella Grilli",
+        "shortDescription": "Happy Woman Crush Wednesday with Bella Grilli",
+        "longerDescription": "Happy Woman Crush Wednesday with Bella Grilli! I first learned about her in December, when the video I attached went viral on both Instagram and TikTok (you might've seen it🧐). I think she's telling the story in a cute way, but most importantly the ACCENT😩. I don't know what kind of accent it is exactly, but I always found any accent from the UK sexy in women (and funny in men)\nI followed her after that video but her content was disappointing since then so I made the hard decision of unfollowing her now😢",
+        "imageUrls": [
+          "MISSING - 1772019261628"
+        ],
+        "tags": [
+          "cute",
+          "character",
+          "british"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "31",
+      "season": "2026",
+      "revealAt": "2026-02-18T11:04:24+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Chloe Kim",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! This week I am nominating Chloe Kim, the coolest snowboarder I know. Lowkey wish she would be my instructor this weekend as I am going to a snowboard training this weekend. 🙏\nBro thought of the warning as I was doing it",
+        "imageUrls": [
+          "MISSING - 1771442642425"
+        ],
+        "tags": [
+          "woman-crush"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "S1rena",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Here's S1rena, a German artist I found on the 30th of December. I was listening to her for the whole of January, and I was shocked not to get the achievement for being one of her listeners, I can only assume that her channel is not big enough to provide them\n(It goes without saying that she's lesbian)",
+        "imageUrls": [
+          "MISSING - 1771409064656"
+        ],
+        "tags": [
+          "character"
         ],
         "sourceNote": "",
         "manuallyEntered": true
@@ -90,316 +984,1185 @@
     {
       "weekId": "30",
       "season": "2026",
-      "revealAt": "2026-07-29T09:00:00+02:00",
+      "revealAt": "2026-02-11T12:00:28+02:00",
       "timezone": "Europe/Budapest",
-      "contestantA": "Boss",
-      "contestantB": "Bence",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
       "nomineeA": {
-        "womanName": "Zendaya",
-        "shortDescription": "Emmy-winning actress, singer, and fashion icon",
-        "longerDescription": "Zendaya has established herself as one of the most talented young actresses of her generation. From her Disney Channel beginnings to her powerful performances in Euphoria and the Dune franchise, she brings depth and authenticity to every role. She's also a fashion icon known for her bold red carpet choices and her work as a producer.",
+        "womanName": "TO-DO:No nomination",
+        "shortDescription": "Entry not found",
+        "longerDescription": "No nomination submitted this week",
         "imageUrls": [
-          "assets/images/2026-w30-adam-zendaya-01.webp",
-          "assets/images/2026-w30-adam-zendaya-02.webp"
+          "MISSING - Week 30"
         ],
         "tags": [
-          "actress",
-          "singer",
-          "fashion",
-          "euphoria"
+          "missing"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
+        "manuallyEntered": true
       },
       "nomineeB": {
-        "womanName": "Florence Pugh",
-        "shortDescription": "British actress known for powerful performances",
-        "longerDescription": "Florence Pugh has rapidly become one of the most respected actresses in cinema. Known for her roles in Midsommar, Little Women, and Black Widow, she brings incredible emotional depth and fearlessness to her performances. Her versatility spans from period dramas to psychological horror to superhero blockbusters.",
+        "womanName": "Laci Ferno",
+        "shortDescription": "Happy Woman Crush Wednesday with Laci Ferno",
+        "longerDescription": "Happy Woman Crush Wednesday with Laci Ferno! I know nothing about her apart from the fact that she's racing cars but I thought featuring someone called Laci would be funny",
         "imageUrls": [
-          "assets/images/2026-w30-bence-florence-pugh-01.webp",
-          "assets/images/2026-w30-bence-florence-pugh-02.webp",
-          "assets/images/2026-w30-bence-florence-pugh-03.webp"
+          "MISSING - 1770807628296"
         ],
         "tags": [
-          "actress",
-          "british",
-          "marvel"
+          "racing",
+          "character"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
-      },
-      "status": "revealed",
-      "notes": "Last week of July"
+        "manuallyEntered": true
+      }
     },
     {
       "weekId": "29",
       "season": "2026",
-      "revealAt": "2026-07-22T09:00:00+02:00",
+      "revealAt": "2026-02-04T12:20:04+02:00",
       "timezone": "Europe/Budapest",
-      "contestantA": "Adam",
-      "contestantB": "Bence",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
       "nomineeA": {
-        "womanName": "Ana de Armas",
-        "shortDescription": "Cuban-Spanish actress and rising Hollywood star",
-        "longerDescription": "Ana de Armas has captivated audiences with her performances in films like Knives Out, No Time to Die, and Blonde. Originally from Cuba, she has successfully transitioned to Hollywood stardom while maintaining her distinctive charm and talent. Her portrayal of Marilyn Monroe in Blonde earned widespread critical acclaim.",
+        "womanName": "TO-DO: fix desc - Rosalita",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW!\nAlso, best believe if I see this in the apocalypse I do not care about the zombies anymore 😭🧟\nhell yeah bro has it all planned out fr 💯\nYeah you know the nice girl from next door who you wouldnt notice usually but since she is there you do and she is actually golden",
         "imageUrls": [
-          "assets/images/2026-w29-adam-ana-de-armas-01.webp",
-          "assets/images/2026-w29-adam-ana-de-armas-02.webp",
-          "assets/images/2026-w29-adam-ana-de-armas-03.webp",
-          "assets/images/2026-w29-adam-ana-de-armas-04.webp"
+          "./media/3c5c268c-d90a-4b53-ad28-ded3702ecd65.jpeg",
+          "./media/e5b56c2a-0903-4367-8c72-9a92396b283e.jpeg",
+          "./media/b8f5ee4d-afa4-4692-bf21-45eb979f4e68.jpeg",
+          "./media/4d39722d-0471-4698-8c62-11a7c3e6f6a2.jpeg",
+          "./media/4caab3d6-bf65-44bc-b52c-abd01e551146.jpeg",
+          "./media/9ed74449-1903-4d02-8a18-bf23832494a7.jpeg",
+          "./media/0a464c28-65fe-4749-8792-0c502f1c062c.jpeg",
+          "./media/1da332c7-0093-45fc-8c3d-e43dd931d018.jpeg"
         ],
         "tags": [
-          "actress",
-          "cuban",
-          "hollywood",
-          "bond"
+          "irl"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
+        "manuallyEntered": true
       },
       "nomineeB": {
-        "womanName": "Emma Stone",
-        "shortDescription": "Academy Award-winning actress",
-        "longerDescription": "Emma Stone is one of the most acclaimed actresses of her generation. From her breakout in Easy A to her Oscar-winning performance in La La Land, she consistently delivers performances that are both emotionally resonant and technically brilliant. Her recent work in Poor Things has earned widespread praise.",
+        "womanName": "TO-DO: No nomination",
+        "shortDescription": "Entry not found",
+        "longerDescription": "No nomination submitted this week",
         "imageUrls": [
-          "assets/images/2026-w29-bence-emma-stone-01.webp",
-          "assets/images/2026-w29-bence-emma-stone-02.webp"
+          "MISSING - Week 29"
         ],
         "tags": [
-          "actress",
-          "oscar-winner",
-          "hollywood"
+          "missing"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
-      },
-      "status": "revealed",
-      "notes": "Mid-July selection"
+        "manuallyEntered": true
+      }
     },
     {
       "weekId": "28",
       "season": "2026",
-      "revealAt": "2026-07-15T09:00:00+02:00",
+      "revealAt": "2026-01-28T11:38:21+02:00",
       "timezone": "Europe/Budapest",
-      "contestantA": "Adam",
-      "contestantB": "Bence",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
       "nomineeA": {
-        "womanName": "Anya Taylor-Joy",
-        "shortDescription": "Argentine-British actress and model",
-        "longerDescription": "Anya Taylor-Joy has become one of the most distinctive talents in cinema. Her haunting performance in The Witch launched her career, and she's since starred in Split, Emma, The Queen's Gambit, and Furiosa. Her ethereal beauty and intense performances make every role memorable.",
+        "womanName": "Hunter Schafer",
+        "shortDescription": "Anyways, here is my ww for the week",
+        "longerDescription": "Anyways, here is my ww for the week! I nominate my trans sister Hunter Schafer! A girl of her status always makes me feel good that she has went through similar struggles in her childhood and I will always look up to her for that. She is a classy woman from what I know and she apparently dated Rosalia secretly for a bit so she is bisexual which for some reason is exciting for me! Also she mentioned in an interview that she often hooks up with her friends when she is single which is quite questionable on the other hand but in theory should increase my chances which is great! Recently she was fan voted to play Zelda in the Zelda movie but due to some unkown reason they selected another woman even though I also agree she would’ve been perfect. She was in Euphoria btw thats where I discovered her when I was still in Pannon for linguistics.",
         "imageUrls": [
-          "assets/images/2026-w28-adam-anya-taylor-joy-01.webp",
-          "assets/images/2026-w28-adam-anya-taylor-joy-02.webp",
-          "assets/images/2026-w28-adam-anya-taylor-joy-03.webp"
+          "./media/0ea3d7c5-2b82-4075-b04f-fa86dfcfa0d7.jpeg",
+          "./media/eac1306e-bd26-488a-8249-6b3772f965d0.jpeg",
+          "./media/c678040f-2d79-41fb-b6e3-b1518ccd36b7.jpeg",
+          "./media/5e1bd827-19aa-445c-bd8c-06e0cc293c4b.jpeg",
+          "./media/15d99bc8-3221-442f-8220-842e99191892.jpeg"
         ],
         "tags": [
-          "actress",
-          "british",
-          "the-queens-gambit",
-          "model"
+          "redhead",
+          "character",
+          "irl"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
+        "manuallyEntered": true
       },
       "nomineeB": {
         "womanName": "Sydney Sweeney",
-        "shortDescription": "Actress known for Euphoria and The White Lotus",
-        "longerDescription": "Sydney Sweeney has quickly become one of Hollywood's most talked-about young actresses. Her performances in Euphoria and The White Lotus showcase her incredible range and emotional depth. She's also ventured into producing and has become a cultural phenomenon with her authentic social media presence.",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Here's Sydney Sweeney, someone who should've been picked long ago! I was thinking about choosing her when she came up in conversation last weekend, and that solidified this morning when I saw that set of promotional images. I would only rate her 9/10 because I'm not a big fan of her face, but obviously the mlikers are something else😛\nAs for the personality, I don't know a whole lot about her. Liána always says she's dumb, but she could never provide evidence, although being a Trump supporter is more than enough proof by itself. Honestly, I could live with that, because I don't care that much about politics anyway, but especially because she's friends with the (wife of) the Nascar GOAT himself😩\nOnce you said you're not a big fan of her in general, but I could barely keep up with removing your like icon for the screenshots🧐\nAlso as the last picture I attached the one you went completely crazy over",
         "imageUrls": [
-          "assets/images/2026-w28-bence-sydney-sweeney-01.webp",
-          "assets/images/2026-w28-bence-sydney-sweeney-02.webp",
-          "assets/images/2026-w28-bence-sydney-sweeney-03.webp"
+          "MISSING - 1769596701021"
         ],
         "tags": [
-          "actress",
-          "euphoria",
-          "producer"
+          "baddie",
+          "unhinged",
+          "racing",
+          "character",
+          "celebrity-relationship"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
-      },
-      "status": "revealed",
-      "notes": "Mid-July week"
+        "manuallyEntered": true
+      }
     },
     {
       "weekId": "27",
       "season": "2026",
-      "revealAt": "2026-07-08T09:00:00+02:00",
+      "revealAt": "2026-01-21T13:02:05+02:00",
       "timezone": "Europe/Budapest",
-      "contestantA": "Adam",
-      "contestantB": "Bence",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
       "nomineeA": {
-        "womanName": "Gal Gadot",
-        "shortDescription": "Israeli actress and former model, Wonder Woman star",
-        "longerDescription": "Gal Gadot became a global icon as Wonder Woman, bringing strength, grace, and humanity to the superhero role. A former Miss Israel and IDF veteran, she has starred in the Fast & Furious franchise and numerous blockbusters. Her charisma and presence have made her one of the most recognizable actresses worldwide.",
+        "womanName": "Katherine",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! This week I have a niche one. Recently started playing Kingdom Come 2. Love the game so far and its a great improvement from the first. In the first you had a love interest who saved your life in the beginning and in the second one you travel far away. I tried to stay loyal but then the nominee, Katherine came around and she has some great reasons for switching. 🍒 Fun fact she is in the meme video I sent with the “ females 🤓👆🏼” and other than the great reasons she is also playing hard to get and has a great story so far so we shall see what happens 😈\nAnother fun fact is that I really like medieval games and sometimes wish I could live in those times for a few days\nAlso tell me you dont have the urge to motorboat⚓️",
         "imageUrls": [
-          "assets/images/2026-w27-adam-gal-gadot-01.webp",
-          "assets/images/2026-w27-adam-gal-gadot-02.webp"
+          "./media/af6942c8-ab42-4671-a546-e7e07cb44eed.jpeg",
+          "./media/dc75c981-c128-41de-afca-eb7f6fc29b3a.jpeg",
+          "./media/cda38430-345a-45d1-a2a7-1956ab99c83e.jpeg",
+          "./media/d9ae1611-7ceb-4dab-807e-8045944b4e57.jpeg",
+          "./media/3488a098-405b-4090-bb9c-41098162c510.jpeg",
+          "./media/e8d357a6-107a-48dc-8cb3-420c8e641200.jpeg"
         ],
         "tags": [
-          "actress",
-          "israeli",
-          "wonder-woman",
-          "model"
+          "gamer",
+          "character"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
+        "manuallyEntered": true
       },
       "nomineeB": {
-        "womanName": "Jenna Ortega",
-        "shortDescription": "Rising star actress, known for Wednesday",
-        "longerDescription": "Jenna Ortega has emerged as one of Gen Z's most exciting talents. Her portrayal of Wednesday Addams became a cultural phenomenon, showcasing her ability to bring depth and nuance to iconic characters. She's also starred in Scream and X, proving her versatility across genres.",
+        "womanName": "Andrea Botez",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Here's the younger Botez sister, Andrea! They were both known for playing chess, but in the last couple of years she transitioned towards being a dj. By now she hosted shows in several places around the US and Europe, and produced some original songs as well. (Her shows are on YouTube as well and sometimes I listen to them while editing)\nUnfortunately recently she lost hearing in her left ear, and even though she's taking all the treatments she can, it's uncertain if she's gonna get it back😕",
         "imageUrls": [
-          "assets/images/2026-w27-bence-jenna-ortega-01.webp",
-          "assets/images/2026-w27-bence-jenna-ortega-02.webp",
-          "assets/images/2026-w27-bence-jenna-ortega-03.webp"
+          "MISSING - 1768996925262"
         ],
         "tags": [
-          "actress",
-          "wednesday",
-          "gen-z"
+          "singer",
+          "youtuber",
+          "character"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
-      },
-      "status": "revealed",
-      "notes": "Early July"
+        "manuallyEntered": true
+      }
     },
     {
       "weekId": "26",
       "season": "2026",
-      "revealAt": "2026-07-01T09:00:00+02:00",
+      "revealAt": "2026-01-14T12:26:36+02:00",
       "timezone": "Europe/Budapest",
-      "contestantA": "Adam",
-      "contestantB": "Bence",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
       "nomineeA": {
-        "womanName": "Blake Lively",
-        "shortDescription": "Actress, entrepreneur, and style icon",
-        "longerDescription": "Blake Lively rose to fame in Gossip Girl and has maintained a successful film career with roles in The Age of Adaline, A Simple Favor, and The Shallows. Beyond acting, she's a successful entrepreneur and is known for her impeccable fashion sense at major events. She brings charm, wit, and intelligence to everything she does.",
+        "womanName": "Tyla",
+        "shortDescription": "Anyways happy WW",
+        "longerDescription": "Anyways happy WW! This week I am nominating Tyla! I have no idea how she hasnt been nominated on my end, probably because I always tried to keep it as recent and valid as possible but this week I listened to a lot of songs from her in the gym so she gets the nomination. She is a 10/10 top baddie anyways so she deserves to be on the list 😋\nYes",
         "imageUrls": [
-          "assets/images/2026-w26-adam-blake-lively-01.webp",
-          "assets/images/2026-w26-adam-blake-lively-02.webp",
-          "assets/images/2026-w26-adam-blake-lively-03.webp"
+          "./media/4373c7bc-4732-4e3d-a7e5-032421959fe7.jpeg",
+          "./media/795fd60d-cf64-4ead-b41e-2f1ad88d257e.jpeg",
+          "./media/48f82e51-e892-459a-b3ab-68a3e700dc84.jpeg",
+          "./media/22ebc0bd-64de-48ab-85e3-07fa1c06ed7e.jpeg"
         ],
         "tags": [
-          "actress",
-          "entrepreneur",
-          "fashion",
-          "gossip-girl"
+          "baddie",
+          "singer"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
+        "manuallyEntered": true
       },
       "nomineeB": {
-        "womanName": "Lily Collins",
-        "shortDescription": "British-American actress and model",
-        "longerDescription": "Lily Collins has charmed audiences with her performances in Emily in Paris, Mirror Mirror, and Love, Rosie. The daughter of musician Phil Collins, she's carved out her own successful career with grace and talent. Her natural elegance and strong performances have made her a beloved figure in entertainment.",
+        "womanName": "Angelica Trae",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! This is one of the rare instances where I bring someone who's actually on my mind currently, Angelica Trae! I don't know how do define her, I follow her on Instagram because of her silly videos (mostly video game related), but she also has a ton of cosplays as pictured above, and on Twitch she's regularly streaming playing through old games, although I do not watch Twitch so I don't know much about that. I think I found her because Shubble follows her, and they both live in LA, although they do not appear on any of each other's posts so I don't think they actually know each other. My struggle is, that while I get the impression that she's a great person, visually I would say she's fine, but nothing special. So I really want to like her, I just can't do it fully! And the reason she's on my mind currently is that I'm a certified dreamer, which applies to daytime as well, and last week I started streaming, so I was thinking how cool it would be if I somehow I befriended her on Twitch and at some point I visited her in LA and we would do all kinds of fun things\n(especially minigolf)",
         "imageUrls": [
-          "assets/images/2026-w26-bence-lily-collins-01.webp",
-          "assets/images/2026-w26-bence-lily-collins-02.webp"
+          "Failed to download media"
         ],
         "tags": [
-          "actress",
-          "model",
-          "emily-in-paris",
-          "british"
+          "redhead",
+          "baddie",
+          "gamer",
+          "character"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
-      },
-      "status": "revealed",
-      "notes": "First week of July"
+        "manuallyEntered": true
+      }
     },
     {
       "weekId": "25",
       "season": "2026",
-      "revealAt": "2026-06-24T09:00:00+02:00",
+      "revealAt": "2026-01-07T12:05:31+02:00",
       "timezone": "Europe/Budapest",
-      "contestantA": "Adam",
-      "contestantB": "Bence",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
       "nomineeA": {
-        "womanName": "Hailee Steinfeld",
-        "shortDescription": "Actress, singer, and multi-talented performer",
-        "longerDescription": "Hailee Steinfeld earned an Oscar nomination at age 14 for True Grit and has since built an impressive career as both an actress and singer. From her role in the Pitch Perfect franchise to Hawkeye in the MCU, and hits like 'Starving' and 'Let Me Go,' she excels in every medium she explores.",
+        "womanName": "Sadie Sink",
+        "shortDescription": "Anyways happy ww",
+        "longerDescription": "Anyways happy ww! This week I must stick with the Stranger Things topic for one more time as there is someone else I must nominate. Her name is Sadie Sink and she joined the show I think in the second season of the show and she has been a constant crush for me since! She was born in 2002 so she was basically the same age as us and although I wouldnt say she is super “special” in her looks but it is a terrific composition! So if I couldnt date the mom then I would go for her lol\nMay I ask where the pink haired pussy assumption came from lol",
         "imageUrls": [
-          "assets/images/2026-w25-adam-hailee-steinfeld-01.webp",
-          "assets/images/2026-w25-adam-hailee-steinfeld-02.webp",
-          "assets/images/2026-w25-adam-hailee-steinfeld-03.webp"
+          "./media/508ea5c4-409f-4d13-be94-2adf66bd82be.jpeg",
+          "./media/86e1ecb9-0a1d-4dde-b270-e9b4b9142713.jpeg",
+          "./media/0c440b4b-ae47-4d54-b228-7e4ca94fb38f.jpeg",
+          "./media/35fad089-d45b-4121-b109-2b794c9edc25.jpeg"
         ],
         "tags": [
-          "actress",
-          "singer",
-          "marvel",
-          "hawkeye"
+          "redhead",
+          "character"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
+        "manuallyEntered": true
       },
       "nomineeB": {
-        "womanName": "Saoirse Ronan",
-        "shortDescription": "Irish-American actress, multiple Oscar nominee",
-        "longerDescription": "Saoirse Ronan is one of the most acclaimed actresses of her generation. With multiple Oscar nominations for films like Lady Bird, Little Women, Brooklyn, and Atonement, she consistently delivers performances of extraordinary depth and nuance. Her ability to embody complex characters has made her a critical darling.",
+        "womanName": "iluvmeww",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Here's a typical e-girl, iluvmeww! I found her Instagram recently, and she fits perfectly into the category I described, so not the look I wanna smash that much, but someone I would imagine would be really cool! (not her specifically since I'm not into the sfw online hoe stuff). Last week she was also recommended to me on YouTube, because she released her first song, which is alright I guess, but since she's straight, I don't have much faith in her musical career. I have faith in her love towards Fnaf tho, since she wore a Chica cosplay and dressed as Vanessa when she watched the new movie!",
         "imageUrls": [
-          "assets/images/2026-w25-bence-saoirse-ronan-01.webp",
-          "assets/images/2026-w25-bence-saoirse-ronan-02.webp"
+          "MISSING - 1767783931316"
         ],
         "tags": [
-          "actress",
-          "irish",
-          "oscar-nominee"
+          "e-girl",
+          "singer",
+          "youtuber",
+          "fnaf",
+          "character",
+          "irl"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
-      },
-      "status": "revealed",
-      "notes": "Late June selection"
+        "manuallyEntered": true
+      }
     },
     {
       "weekId": "24",
-      "season": "2026",
-      "revealAt": "2026-06-17T09:00:00+02:00",
+      "season": "2025",
+      "revealAt": "2025-12-31T13:32:32+02:00",
       "timezone": "Europe/Budapest",
-      "contestantA": "Adam",
-      "contestantB": "Bence",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
       "nomineeA": {
-        "womanName": "Ariana Grande",
-        "shortDescription": "Pop superstar, actress, and vocal powerhouse",
-        "longerDescription": "Ariana Grande is one of the biggest pop stars in the world, known for her incredible four-octave vocal range and hit songs like 'Thank U, Next' and '7 Rings.' Beyond music, she's acted in Victorious, appeared in films, and used her platform for social causes. Her talent, style, and authenticity have earned her millions of devoted fans.",
+        "womanName": "Karen Wheeler",
+        "shortDescription": "Happy ww",
+        "longerDescription": "Happy ww! this week I brought non other than the hottest milf of Stranger Things, Karen Wheeler! Since I was pretty young when the show first came out (15) I didnt really understand the power of MILFS just yet but boy oh boy do I know now. They even played on it in the 2nd and 3rd season since the main antagonist who is in his 20s tries to rizz her and calls her her daughter’s sister 😃\nFirst 3 are in show pics and last 2 are her irl",
         "imageUrls": [
-          "assets/images/2026-w24-adam-ariana-grande-01.webp",
-          "assets/images/2026-w24-adam-ariana-grande-02.webp",
-          "assets/images/2026-w24-adam-ariana-grande-03.webp",
-          "assets/images/2026-w24-adam-ariana-grande-04.webp"
+          "./media/ebf82415-2b2b-47bd-864e-6af06a94cdab.jpeg",
+          "./media/ba642a7f-c7d5-4623-b9f2-0f94bcf4879d.jpeg"
         ],
         "tags": [
-          "singer",
-          "pop",
-          "actress",
-          "icon"
+          "baddie",
+          "milf",
+          "character",
+          "irl"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
+        "manuallyEntered": true
       },
       "nomineeB": {
-        "womanName": "Taylor Swift",
-        "shortDescription": "Global music icon and songwriter extraordinaire",
-        "longerDescription": "Taylor Swift is one of the best-selling music artists of all time. From her country roots to pop dominance to indie-folk exploration, she's constantly evolved while maintaining her signature storytelling prowess. The Eras Tour became the highest-grossing tour ever, cementing her status as a cultural phenomenon. Her songwriting has earned countless awards and influenced a generation.",
+        "womanName": "Ava Max",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! For the last day of the year, I bring my favorite from 2025, my current #1, Ava Max!\nI was listening to rap all my life, but about 2 years ago I naturally switches to pop (no idea why). And specifically to women. And (apart from some heavy hitters) always lesbians. I literally found another one yesterday (it's way beyond a coincidence)\nMy parents listen to a fair bit of Rádió 1, so I have to as well, and Stefi does on her own will. For years we were joking about \"her\", but more so about how they overuse her songs. So I didn't even consider listening to her\nThat all changed however when the music video of her song \"Wet Hot American Dream\" came out on the 1st of July. She showed basically everything, and suddenly I realized that to me she's the hottest person ever!\nAnd then I listened to her 3 albums, and I love them ❤️\n(It turns out Rádió 1 is only playing her collabs with djs)\nI attached the best of her whole Instagram (☢️no make up pic alert☢️)",
         "imageUrls": [
-          "assets/images/2026-w24-bence-taylor-swift-01.webp",
-          "assets/images/2026-w24-bence-taylor-swift-02.webp"
+          "MISSING - 1767221318177"
+        ],
+        "tags": [
+          "baddie",
+          "singer",
+          "character",
+          "american"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "23",
+      "season": "2025",
+      "revealAt": "2025-12-24T09:15:35+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Bailey Bass",
+        "shortDescription": "Happy ww",
+        "longerDescription": "Happy ww! This week I’d like to nominate Bailey Bass since she played an avatar lady in the recent movie and made the movie less boring! Thought she was too young for me from the avatar but was thankful to realize she is actually 22. You can see the avatar form too on the pic\nOn that note, would you date a woman much (10+ cm taller than you)? Or just taller than you?",
+        "imageUrls": [
+          "./media/470867fd-ce66-4c0d-b439-119924969f54.jpeg",
+          "./media/be376574-9326-4ba4-a542-92c41e1566b4.jpeg",
+          "./media/ba634a9c-4f32-450d-accd-e418b5ba870c.jpeg"
+        ],
+        "tags": [
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Mariah Carey",
+        "shortDescription": "Happy Woman Crush Wednesday and Holidays",
+        "longerDescription": "Happy Woman Crush Wednesday and Holidays! What a day! To combine the two, here's (young) Mariah Carey, who's still a milf I would fuck with, but back in the day, damn!\n(also I left a small present in your Instagram dms 🎁)",
+        "imageUrls": [
+          "MISSING - 1766564135363"
+        ],
+        "tags": [
+          "milf",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "22",
+      "season": "2025",
+      "revealAt": "2025-12-17T09:23:46+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Ella Purnell",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! This week I’d like to nominate Ella Purnell! She is a bit boring compared to my normal type but she just has super unique eyes and she has super good energy through the screen so I will give it to her! I dont know many of her roles but I love her in Fallout and the new season started yesterday so I cannot wait to see more 😍\nLast is her in Fallout",
+        "imageUrls": [
+          "./media/85482ab9-ff5f-4819-8f43-5548cac8b563.jpeg",
+          "./media/16beea10-8e2f-486e-9c6f-c258cc77f660.jpeg",
+          "./media/5aa01368-fb7f-4197-8f85-c425a7247163.jpeg",
+          "./media/b83e2b02-563f-432d-b048-4fc98ce206a5.jpeg"
+        ],
+        "tags": [
+          "redhead"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Kiss Ramóna",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Keeping the blonde trend going today I bring you Kiss Ramóna! Our family was a big Among Friends fan back in the day, and she was the only hot woman in that, so I have fond memories of her from that time.\nAnd as a really fun fact, the Lotus Ladies Cup, which, as the name suggests, was a one-make series exclusively for women, had a Hungarian version in 2011, and she was part of the grid! The field consisted of 12 drivers, some being actual racing drivers, some being celebrities (Ördög Nóra was the only other one I know). They had 7 race weekends (6 in Hungary, 1 in Slovakia), one of those being a support race for the Hungarian Grand Prix! Since we only started attending F1 in 2012, we didn't see that, however, a month later they went to what used to be (before Balaton Park) the second biggest racetrack in Hungary, the Pannoniaring. It's right next to the village of Osztffyasszonyfa, and there's only one village between that and Kenyeri! It's mainly intended and used by bikes, and you can actually hear them from my Grandma's old house. So obviously we went there to see them on Sunday (that was the only time we went to the track actually, the place isn't really meant for spectators), and she finished on the podium on both days! We could stand quite close to the podium, so I could see her with my own eyes. She finished the season 5th, narrowly missing out on 3rd!",
+        "imageUrls": [
+          "Failed to download media",
+          "Failed to download media"
+        ],
+        "tags": [
+          "blonde",
+          "baddie",
+          "racing",
+          "character",
+          "hungarian"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "21",
+      "season": "2025",
+      "revealAt": "2025-12-10T10:37:06+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "TO-DO: No nomination",
+        "shortDescription": "Entry not found",
+        "longerDescription": "No nomination submitted this week",
+        "imageUrls": [
+          "MISSING - Week 21"
+        ],
+        "tags": [
+          "missing"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Vanessa",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! With the Five Nights at Freddy's 2 movie finally here, I bring you game universe Vanessa! In the first vr game, which is the first modern game, also a game in-universe, we play as her, as a beta tester. There her mind is (partially) taken over by a \"virus\", urging her to commit murders similar to the past, which she (allegedly) does in the next game. There's she's working as a security guard, but when she's taken over she gets on the rabbit costume and becomes Vanny! (Vanessa + bunny obviously)\nBonus fun fact: she loves bees, flowers and cupcakes (most basic female traits they could've come up with)\nEven funner fact that she has daddy issues",
+        "imageUrls": [
+          "MISSING - 1765359426263"
+        ],
+        "tags": [
+          "redhead",
+          "gamer",
+          "fnaf",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "20",
+      "season": "2025",
+      "revealAt": "2025-12-03T11:17:49+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Victoria Pedretti",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! This week I’d like to nominate Victoria Pedretti aka the actor for Love Quinn from the show *YOU*. As said at first Elizabeth was the main interest but then Joe killed her lol and moved to LA and met Love there ( no pun intended) . Unlike Elizabeth’s character she was basically the female version of him and she was not afraid to kill to show her love (pun2.0) and Joe basically pussied out and killed her even though they had a kid together too. Bro had it all and fucked it all up! Also she was very flirtatious in the show and she was originally a baker and she sparked in me the idea that dating a baker would be literally so goated. They just look so hot creating rhose shits and then you can also taste it (the meal also) . Simply lovely!\nHoping one day I can meet my own Love and we can be crazy together 😍",
+        "imageUrls": [
+          "./media/a6920d53-ed23-4bd6-bab1-9cbdc6310606.jpeg",
+          "./media/6066d295-016e-4b34-8422-1f36e376d8a6.jpeg",
+          "./media/e66a0e58-23c6-42c0-bf51-9c82d218ed76.jpeg",
+          "./media/c4942de8-7403-4ae4-8b68-50f5cfa61f2b.jpeg",
+          "./media/cebdb4e8-8e25-449c-a7a9-52744cd151c9.jpeg"
+        ],
+        "tags": [
+          "baddie",
+          "unhinged",
+          "actress",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Elizabeth Lail",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! With the Five Nights at Freddy's 2 movie even closer upon us, here's the actual peak of the movie universe, Vanessa, played by Elizabeth Lail!",
+        "imageUrls": [
+          "MISSING - 1764757069693"
+        ],
+        "tags": [
+          "redhead",
+          "fnaf",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "19",
+      "season": "2025",
+      "revealAt": "2025-11-26T10:00:07+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Odessa A'Zion",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! For this occasion I am throwing in Odessa A’Zion into the mix! Don’t know much ab her tbh. I first saw her in the Until Dawn movie and was shocked on how hot she is ppl say if L.A was a person it would be her and I couldn’t agree more. Since then I didn’t see her in any other movies but I did see her on tiktok in a new show and gotta say she has still got me in a chokehold! The bikini photo is from that show.\nShe just has that 🔥SPICE🔥 with the hair and the piercings + jewerly and I love it",
+        "imageUrls": [
+          "./media/88d898e8-55c4-40b2-8d03-68c5d09b89e7.jpeg",
+          "./media/c4665228-b2a9-4024-bef0-5aeaec63227f.jpeg",
+          "./media/88fa584b-fa14-4362-a868-2d536f26d2df.jpeg"
+        ],
+        "tags": [
+          "baddie",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "McKanne Grace",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! With the Five Nights at Freddy's 2 movie almost upon us, I bring you McKanne Grace! She's a big fan, and she approached the director herself to ask for a role, because she really wanted to be involved in something FNAF related. She's going to play an unknown character in the beginning who's only purpose is to die. I don't find her super attractive, but she's certainly cute!",
+        "imageUrls": [
+          "MISSING - 1764147607074"
+        ],
+        "tags": [
+          "redhead",
+          "cute",
+          "baddie",
+          "fnaf",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "18",
+      "season": "2025",
+      "revealAt": "2025-11-19T11:42:49+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Aayat",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! This week I’d like to nominate Aayat aka the co-owner of Hall Of Tech! Honestly she is a 10 in all fields I really cannot bring up nerf points other than her not being mine but yeah.. also she doesnt seem to fake her knowledge and she is quite funny so all around blown away …",
+        "imageUrls": [
+          "./media/b8d00090-cc59-4062-b184-93ab4804421d.jpeg",
+          "Failed to download media",
+          "./media/dd72f345-9353-4de1-b96f-87311bae25da.jpeg",
+          "./media/98815fee-68af-4138-b427-2b149275ab30.jpeg",
+          "./media/5becfb67-7610-41ff-9172-0ad8660dd120.jpeg"
+        ],
+        "tags": [
+          "woman-crush"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "MadFry",
+        "shortDescription": "Happy Woman Crush Wednesday with MadFry",
+        "longerDescription": "Happy Woman Crush Wednesday with MadFry! She's doing outfit checks on YouTube to about 100k subscribers (she has no other socials, hence the crappy screenshots), and a few days ago one her videos was recommended to me for reasons a genuinely do not understand, but she looked fine, so I clicked on it, and damn, look at that cake! (also got some muscle and belly button pics just for you😉)",
+        "imageUrls": [
+          "MISSING - 1763548969696"
+        ],
+        "tags": [
+          "baddie",
+          "youtuber",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "17",
+      "season": "2025",
+      "revealAt": "2025-11-12T09:37:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Claudia Dummit",
+        "shortDescription": "I would like to nominate Claudia Dummit for this weeks WW",
+        "longerDescription": "I would like to nominate Claudia Dummit for this weeks WW! Overall by a tiny bit she is I think the hottest woman in the *The Boys* universe ( including Gen V ) and I think most of the fan base would agree. Her face card is just insane and her character is a rude lady whose secret superpower is that she can blow your head up (😜) soo yeah! I believe they have similar faces with Toni.",
+        "imageUrls": [
+          "./media/313e2bb1-fba4-40f0-bfd8-536068f55b9b.jpeg",
+          "./media/a37ffa60-b300-4c20-bcf3-0e99b9a91e29.jpeg",
+          "./media/2c895e67-9c53-474a-ba55-d8eb485afc8e.jpeg",
+          "./media/dd5d5ba5-fbe2-4185-a5bb-f1aef8506999.jpeg"
+        ],
+        "tags": [
+          "baddie",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Toni Breidinger",
+        "shortDescription": "Happy Woman Crush Wednesday with our first racing driver, Toni Breidinger",
+        "longerDescription": "Happy Woman Crush Wednesday with our first racing driver, Toni Breidinger! She competes in the Nascar Truck Series (3rd biggest Nascar category [she's pretty bad even there]), and that's basically all I know about her.",
+        "imageUrls": [
+          "MISSING - 1762936620209"
+        ],
+        "tags": [
+          "racing",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "16",
+      "season": "2025",
+      "revealAt": "2025-11-05T08:41:50+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "a member from the superhero team of",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! As promised I’d like to nominate a member from the superhero team of Dispatch! so far you have 2 romance options and I chose Blonde Blazer! She is a cutesy flirtacious girl who is the boss of your company and is mostly occupied with work. The other love interest Invisigal is more interesting when it comes to her personality bc she always calls you hot and admits she had a hot sex dream with you and you can see the dream and apparently shei s a freak but her look is just lacking compared to Blonde Blazer.",
+        "imageUrls": [
+          "./media/fda31a1d-bb4d-4a11-b8de-e9a0c58a2889.jpeg",
+          "./media/04e1210f-b950-4550-9f2c-e5120acfff2e.jpeg"
+        ],
+        "tags": [
+          "redhead",
+          "blonde",
+          "cute",
+          "baddie",
+          "irl"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Carmaxlla",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! This week I brought Carmaxlla, someone I know hardly anything about, I just got recommended some her videos and the one I attached really convinced me about her character. Visually she may not be among my favorites, but I do think she's cute! (Especially her eyes",
+        "imageUrls": [
+          "MISSING - 1762336547483"
+        ],
+        "tags": [
+          "cute",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "15",
+      "season": "2025",
+      "revealAt": "2025-10-29T10:56:27+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Cate",
+        "shortDescription": "Happy ww",
+        "longerDescription": "Happy ww! This week I was hesitating between two characters from the TV show Gen V which just aired its new season. In the end I chose the baddie, Cate. The tv show is a spin off to the main show The Boys and it is about superhero university students and her superpower is that she can manipulate people. (YES I KNOW 😍.. perfect!!!) She has to touch you and what she says you will do.. there are conflicts in the show where ppl who are close to her are annoyed that she manipulated them but I would never complain thats for sure. This season they had to nerf her and she became a mini villain but bae is on the right track again.\nand for reference my dream scenario, bro getting manipulated:",
+        "imageUrls": [
+          "./media/caae67cd-fc84-4af6-ba8f-7b60e725fe68.jpeg",
+          "./media/83638031-1528-4464-8089-5b3c0fb600e0.jpeg",
+          "./media/17da1d3a-3304-4a8a-b4d2-00454636d685.jpeg",
+          "./media/e256fbfb-f846-4778-81a6-dcd717cb323b.jpeg",
+          "./media/a72cf85a-c306-4449-8cc1-3e40d1433699.jpeg",
+          "./media/cad45302-74cf-4ae6-8952-4404131284a4.gif"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Luci",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! This time I have a special one, Luci!\nWell her name is anything but special, cause she's a singer, and various sites like YouTube and Spotify confuse her with a band with the same name (also it's very difficult to find her on Instagram)\nBased on the pictures I collected, she could be my #1, but seeing everything I would only give her a 9 realistically\nI never really got the point of listening to albums instead of specific songs that you like, but early December last year I discovered her \"bittersweet\" album, where I was shocked to discover that I like every single song on it, so I had it on repeat for a month, which you can see on my winter Recap (also during Christmas so there's an extra connection there)\nI saved her for this week because she has Halloween themed pictures, mostly from last year, but the last one is from yesterday, and you can see some other, well, stuff😏\nAlso important topic of discussion is that she's a lesbian, but that didn't stop me from including her, we already discussed how I just list women I find attractive, and their orientation doesn't change how they look, so I don't see a problem with it, therefore I'll continue doing it",
+        "imageUrls": [
+          "MISSING - 1761731787884"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "singer",
+          "youtuber",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "14",
+      "season": "2025",
+      "revealAt": "2025-10-22T12:00:08+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Luna",
+        "shortDescription": "also HAPPY WW",
+        "longerDescription": "also HAPPY WW!! This week as I have teased I would like to nominate my bae from Eterneum! All the ladies are pretty hot in there although some have pretty shallow personalities. (I hope you have played a bit by now) However my bae has a pretty interesting backstory and I think she is a fucking baddie , Luna! She makes the characters feel much more human and I am happy now I can share my love for her with someone lol\nFav look\nHonestly… I get it\nBro is judging you\nFor having the gooner game on your desktop\nthat is brave!",
+        "imageUrls": [
+          "./media/e773a934-66e5-4a5d-adb1-7db86385931a.jpeg",
+          "./media/f21bb735-a036-4360-98c2-b3c4c385d4cd.jpeg",
+          "./media/bed1a78c-7da3-4e7e-a47b-106a1120fdad.jpeg",
+          "./media/95705866-466c-4765-816f-6aebaa78285f.jpeg"
+        ],
+        "tags": [
+          "baddie",
+          "gamer",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Tóth Andi",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Here's Tóth Andi, who I think is currently the hottest Hungarian celebrity, although the roster is so lackluster it doesn't mean much (I would rate her 8/10). Similarly to my other mentiones, I starting paying attention to her looks after I got into her music, which I think is pretty good! Her best album is certainly the last, called, well, \"The Last Album\". After that she stopped making music",
+        "imageUrls": [
+          "MISSING - 1761127208085"
+        ],
+        "tags": [
+          "baddie",
+          "singer",
+          "character",
+          "hungarian"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "13",
+      "season": "2025",
+      "revealAt": "2025-10-15T09:37:52+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Miranda Lawson",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! This week I am once again nominating someone from the Mass Effect series since its the only game I’m playing atm that has a story. Last time I nominated Jack, the bald lady and I can report she died 😅. She got into a fight with my current nominee, the one I decided to date, so rip lil baldie but the real baddie took over. Her name is Miranda Lawson and she was picked up by an evil corpo and made into a baddie (literally they paid for the best “parts” to make the perfect machine. Also she is quite rude and moody to you in the beginning so you know I was sold.\nAlso, honorable mention is that they added the ship’s ai as a robot who is named Edi. They basically transferred her into a robot and boy oh boy did they make it for the gooners.",
+        "imageUrls": [
+          "./media/e30c5cb4-ebe0-413a-8e27-0235e15886ae.jpeg",
+          "./media/4cc4e0e5-f2d4-4ace-b570-1af84d2acfed.jpeg",
+          "./media/7bf27c70-4426-4ecc-b531-73085f77996e.jpeg"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "gamer",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Tate McRae",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! She obviously needs no introduction! It was inevitable that she showed up at one point, but I'm surprised you didn't nominate her yet 🤔 Last week I brought a picture where she was together with Tate McRae so I thought her time has come. I put together what I think are her 10 hottest Instagram pictures from this year so far! (from 10th to 1st)",
+        "imageUrls": [
+          "MISSING - 1760519139401"
+        ],
+        "tags": [
+          "baddie",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "12",
+      "season": "2025",
+      "revealAt": "2025-10-08T09:21:07+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Emma Watson",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! This week I would like to celebrate with a classic( and classy 😉🥂) choice who I’m sure everybody knows. I nominate as my WW, Emma Watson! I liked her in harry potter as a kid obviously and I did not see any of her newer movies but apparently that increases my chances!! She recently appeared on a fashion show as a guest(visuals above) and looked pretty foine if u ask me. No idea how she is 35 cause she looks way younger but that is a great thing. Also I love that she is an activist and speaks up for in many topics especially in acceptance! A true princess!",
+        "imageUrls": [
+          "MISSING - 1759908067677"
+        ],
+        "tags": [
+          "redhead",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Tate McRae",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! After mentioning her chat theme yesterday I was reminded of Tate McRae! In the last 1-2 years as I transitioned to listening to white girl music, I really got into her songs, she's always in my top 5 singers of my YouTube Music Recaps! But obviously she's here because I find her really attractive as well, although I'm not a big fan of her face, so she \"only\" gets a 9 from me (her black dress is my favorite)",
+        "imageUrls": [
+          "MISSING - 1759915701024"
+        ],
+        "tags": [
+          "baddie",
+          "singer",
+          "youtuber",
+          "character",
+          "irl"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "11",
+      "season": "2025",
+      "revealAt": "2025-10-01T10:15:06+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Katseye (Manon, Daniela, Lara)",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW !! This week I would like to nominate, not one, not TWO.... but 6 women who are part of a KPOP group called Katseye. I liked pretty much nothing about KPOP till now but oh boy now I am a super fan of them. Incredible how they can collect so many baddies this group is like a fucking thanos glove and each one of them is an infinity stone. \nHere is the group in full and now as a speciality I will go over them with my personal rating and welcome you to do the same! \nStarting with my favorite, the OG, the one who even started my obession and the only reason why I knew about them at the beginning... Manon! She is a mixed swiss and ghana resident and boy oh boy would I like to get a feel on how this combination works. She is, once again, very close if not the living version of my ultimate type and I go crazy everytime I see her. Bonus is the picture when she is in a jersey, that is my favorite team !! Never really seen any celebrities support my team and its an italian one so idk if its for fashion or what but it basically means she wants me. \ninfinity/10\nOkay a very close second and the one where I was like okay this group is fucking cracked is Daniela! She is dominican I believe and has that real siren look and once again boy oh boy would I like to be seducted. If she pulls up anywhere near me in the second look she is not leaving without me !!! Bonus: my prediction is that she will be your fav \n10000000000/10\nOkay then we have Lara, the spicy one in the group, probably the finest indian girl I've seen. When I saw her I was like okay is this fucking group on crack or do they all have magical powers to be this fucking hot??? Also she is the goat of the group apparently because she can do everything and did some dancing or some shit on live tv when she was a child but pretty much all of them did. \n10000000/10",
+        "imageUrls": [
+          "Failed to download media",
+          "Failed to download media",
+          "Failed to download media",
+          "Failed to download media",
+          "Failed to download media",
+          "Failed to download media",
+          "Failed to download media",
+          "Failed to download media"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "unhinged",
+          "irl"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Emma Davies Dixon",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Here's Emma Davies Dixon, former British champion runner, but more importantly, the wife of Scott Dixon, my favorite Indycar driver!",
+        "imageUrls": [
+          "MISSING - 1759306506071"
+        ],
+        "tags": [
+          "racing",
+          "athlete",
+          "character",
+          "british",
+          "celebrity-relationship"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "10",
+      "season": "2025",
+      "revealAt": "2025-09-24T10:39:28+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Panam Palmer",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! This week I have someone I should have honestly nominated the first or the second time we started doing this but I am here to redeem myself. Her name is Panam Palmer and she is scaringly similar to my dream woman!(99% .. 1 deducted bc she is not real.. sadly) You can imagine my shock when I first saw her in the game not knowing she even exists. (I would have not waited 6 months and acquired a PS5 to play it). Now with my new PC I am able to enjoy the game in VR thanks to a mod and seeing her in front of me just solidified my choice even more. Wish Cyberpunk was a happier game cause there are no good endings truly, but I always choose to romance her no matter what and choose the ending where you can spend the most time with her!\nFun fact, when I first saw her in game I was so fucking shocked I was kept away from fine shit for 6 months that I couldnt sleep and I remember my exact room layout (had several since) and how I barely slept in the next few days and did nothing but play Cyberpunk 🤓",
+        "imageUrls": [
+          "MISSING - 1758705049494"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "gamer",
+          "racing"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "TO-DO: Unknown",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! This week I have something special, the one and only bus crush! After thorough research I couldn't find anyone really looking like her, but based on these images you can get the idea. I did however find the exact hairstyle. And the bus.",
+        "imageUrls": [
+          "MISSING - 1758703168692"
+        ],
+        "tags": [
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "9",
+      "season": "2025",
+      "revealAt": "2025-09-17T10:32:31+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Aayat (Hall of Tech)",
+        "shortDescription": "Happy Ww",
+        "longerDescription": "Happy Ww! This week I’d like to nominate hall of tech! I thought of her a lot while building my pc and I wish I had her by my side … assisting🤪",
+        "imageUrls": [
+          "MISSING - 1758102956567"
+        ],
+        "tags": [
+          "woman-crush"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Inna",
+        "shortDescription": "Happy Woman Crush Wednesday with Inna",
+        "longerDescription": "Happy Woman Crush Wednesday with Inna!",
+        "imageUrls": [
+          "MISSING - 1758097951518"
+        ],
+        "tags": [
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "8",
+      "season": "2025",
+      "revealAt": "2025-09-10T09:46:33+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "June",
+        "shortDescription": "Also happy WW",
+        "longerDescription": "Also happy WW! This week I’d like to nominate June from Fear The Walking Dead! She is extremely lovely in the show and it took like 2 seasons for them to be together fully (with John, on the right) so no wonder I am crushing on her too atp. Also I think John is a cool guy so I aspire to be him!",
+        "imageUrls": [
+          "./media/5b1ada74-538a-4028-b4d6-6249369d033e.jpeg"
+        ],
+        "tags": [
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Nuha",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! Here's Nuha, an African living in Hungary, from the \"Nuhamarci\" account, which does unfortunately mean that she's already taken by another Marci. 😭 They don't have any pictures, just videos, so I had to crop out these crappy screenshots. The first video I saw was where she's reading names from Coke bottles, it went pretty big, you might've seen that one",
+        "imageUrls": [
+          "MISSING - 1757500388896"
+        ],
+        "tags": [
+          "baddie",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "7",
+      "season": "2025",
+      "revealAt": "2025-09-03T08:50:34+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Jack",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! This week I’d like to nominate a crazy bitch! She is from ME2 and she is absolutely unhinged. Not surprisingly I fw it tho and I believe some women look much better without hair!\nAlso this is her original fit in the game 😬",
+        "imageUrls": [
+          "./media/63e3c1cd-10a8-4ecc-a253-7dc915d0282a.jpeg"
+        ],
+        "tags": [
+          "unhinged",
+          "gamer"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Scarlett Johansson",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! I bring up the slightly controversial Scarlet Johansson. I think her best feature is the most important one, her face. Other than that she's not unique anywhere in particular, but the overall proportions and shape lead to an immaculate figure overall 😩👌",
+        "imageUrls": [
+          "MISSING - 1756892720204"
+        ],
+        "tags": [
+          "character",
+          "racing"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "6",
+      "season": "2025",
+      "revealAt": "2025-08-27T07:29:29+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Isabela Merced",
+        "shortDescription": "We got to another WW",
+        "longerDescription": "We got to another WW! This week I would like to celebrate with Isabela Merced! Yes, yes another latina. She actually acted at Disney at the same time es Jenna! At first I wasnt a huge fan but then I saw her play Dina in The Last of Us one of my most fav games and I used to have a crush on the in-game and face model of Dina so it was only right I add her to the list. (I think she got the role on purpose) But the season she was in the show was ruined so I have yet to watch it BUT I did watch Alien Romulus for her and not only was it a goated movie but I realized she is indeed a baddie and this week I watched Superman and she was in it too hence the nomination. She is also apparently a gamer so she is jumping tiers in my ranking system!",
+        "imageUrls": [
+          "./media/fd50883d-01fd-4578-8bd5-70cb5cd59e2a.jpeg"
+        ],
+        "tags": [
+          "baddie",
+          "gamer",
+          "character",
+          "latina"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Andrea Kaden",
+        "shortDescription": "Lovely Woman Crush Wednesday to you too",
+        "longerDescription": "Lovely Woman Crush Wednesday to you too! This week I have something obscure. There's a Fnaf fan song from 2016 which is incredibly popular with hundreds of millions of views on YouTube, but I never really liked it. However I saw some memes about it recently, so I gave it another chance and it's not as bad as I remembered, so I liked the video. Soon I got recommended the \"Live Action\" version, where you can see her (Andrea Kaden) singing, and she's so fine😩. However since I learned that she recently married the guy on the last pic I'm way less excited",
+        "imageUrls": [
+          "MISSING - 1756285397970"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "singer",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "5",
+      "season": "2025",
+      "revealAt": "2025-08-20T10:14:39+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Isadora",
+        "shortDescription": "Happy WW",
+        "longerDescription": "Happy WW! This week I will nominate Isadora from Wednesday! She is the new music teacher in the show and I would love to play her like an instrument! 🎸🎷🎻",
+        "imageUrls": [
+          "./media/135bc83c-064c-4f37-8e88-c3417053fd7e.jpeg"
         ],
         "tags": [
           "singer",
-          "songwriter",
-          "pop",
-          "icon",
-          "eras-tour"
+          "character"
         ],
         "sourceNote": "",
-        "manuallyEntered": false
+        "manuallyEntered": true
       },
-      "status": "revealed",
-      "notes": "Mid-June music icons week"
+      "nomineeB": {
+        "womanName": "Ava Max",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! This week I present to you my absolute favorite look, Ava Max! I always liked her, but ever since the \"Wet Hot American Dream\" music video came out (pictured above), she's my #1!",
+        "imageUrls": [
+          "MISSING - 1755677679799"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "singer",
+          "character",
+          "american"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "4",
+      "season": "2025",
+      "revealAt": "2025-08-13T10:52:31+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Morticia",
+        "shortDescription": "I nominate Morticia from Wednesday for my WW#4",
+        "longerDescription": "I nominate Morticia from Wednesday for my WW#4! She is an absolute baddie and since she is more age appropriate in wednesday I do not feel bad for crushing on her too!",
+        "imageUrls": [
+          "MISSING - 1755078740401"
+        ],
+        "tags": [
+          "baddie",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "TO-DO: Unknown",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday! When we first discussed the idea I had the first 4 already figured out, but I delay #4 because of a bit of an actuality. Yesterday I saw a meme about how LL. Junior's girlfriend (kinda) cheated on him almost immediately after they got together, and the first picture is what was shown of her, and I was like \"damn, what a crazy pull for LL. Junior!\". Examining her other pictures she doesn't seem that special but still fine in my books",
+        "imageUrls": [
+          "MISSING - 1755075151523"
+        ],
+        "tags": [
+          "redhead",
+          "baddie",
+          "unhinged",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "3",
+      "season": "2025",
+      "revealAt": "2025-08-06T09:19:02+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "TO-DO: No nomination",
+        "shortDescription": "Entry not found",
+        "longerDescription": "No nomination submitted this week",
+        "imageUrls": [
+          "MISSING - Week 3"
+        ],
+        "tags": [
+          "missing"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Unknown",
+        "shortDescription": "Here's my contribution to Woman Crush Wednesday\nMy second and last irl one\nThe only one I genuine...",
+        "longerDescription": "Here's my contribution to Woman Crush Wednesday\nMy second and last irl one\nThe only one I genuinely asked out\nHonestly looking at her pictures she looks worse than I remembered",
+        "imageUrls": [
+          "MISSING - 1754464742426"
+        ],
+        "tags": [
+          "redhead",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "2",
+      "season": "2025",
+      "revealAt": "2025-07-30T09:45:31+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Rio",
+        "shortDescription": "A woman who I actually know and exists",
+        "longerDescription": "Happy Women Crush Wednesday #2! This week I am nominating my very confusing crush, Rio! I was trying my best to get her out of my mind and it was going good for a while.. till the meetup got renewed for this year as well and she showed interest in meeting up with me! Will this ever end? I hope so!",
+        "imageUrls": [
+          "./media/e0f3b64c-ec5e-4b71-a2e2-d92c358b4600.jpeg"
+        ],
+        "tags": [
+          "real","irl","pain"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Liza",
+        "shortDescription": "Celebrating this Woman Crush Wednesday with my first irl one that I (kinda [not really]) asked out",
+        "longerDescription": "Celebrating this Woman Crush Wednesday with my first irl one that I (kinda [not really]) asked out!",
+        "imageUrls": [
+          "./media/608971cf-0366-4a04-b356-a203273df6ee.jpeg"
+        ],
+        "tags": [
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
+      "weekId": "1",
+      "season": "2025",
+      "revealAt": "2025-07-23T10:12:09+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Jenna Ortega",
+        "shortDescription": "Happy WWW#1",
+        "longerDescription": "Happy WWW#1! (Woman Crush Wednesday Week 1)\nAlso starting w the obvious one, with my absolute fav look, she recently appeared in a podcast so she is 100% on my mind once again!",
+        "imageUrls": [
+          "MISSING - 1753261311112"
+        ],
+        "tags": [
+          "redhead",
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Shubble",
+        "shortDescription": "Happy Woman Crush Wednesday",
+        "longerDescription": "Happy Woman Crush Wednesday!\nI had to start with the obvious one\n(also epic belly button reveal)",
+        "imageUrls": [
+          "MISSING - 1753258329303"
+        ],
+        "tags": [
+          "character"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
     }
   ]
 }
