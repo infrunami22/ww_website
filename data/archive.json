@@ -1,30 +1,72 @@
 {
   "entries": [
     {
+      "weekId": "57",
+      "season": "2026",
+      "revealAt": "2026-08-19T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "INFRUNAMI",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Jorja Smith",
+        "shortDescription": "Even Drake wanted this cookie bad...",
+        "longerDescription": "Happy ww! My nominee is named Jorja Smith and she is a singer and songwriter from the UK. She is quite popular in the UK and she became famous when she was featured on Drake's 2017 album titled More Life. (man what a time that was..) The song was quite good and after that I later on liked a few of her other songs too and then I randomly saw what she looks like and I was shocked. Where has she been hiding before??? Later on I also found out Drake wanted to or potentially hit that before and he really wanted her but apparently she just used him for clout. With her figure I would allow it personally... Second pic is the photo she randomly had on one of the songs of hers I was listening to that made me look up what she looks like lol ",
+        "imageUrls": [
+          "https://i.imgur.com/StySYKT.png",
+          "https://i.imgur.com/x7BNYfp.png",
+          "https://i.imgur.com/Q3ohig6.png"
+        ],
+        "tags": [
+          "drake",
+          "fumbled",
+          "thiqq"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Agnes Larsson",
+        "shortDescription": "Also known as Lady Agnes, she's Minecraft's Game Director",
+        "longerDescription": "To celebrate the release of my first Minecraft video, here's an important figure for the game 🤪. She's Swedish, and has been working at Mojang since 2016, getting promoted to Game Director in 2021. She's a public figure as she's one of the two higher-ups who always appear in the Minecraft Live shows (showing off what's next for the game 1-2x a year). I always thought she's really cute, and you should hear and see her speak, even cutesier than you would think (thinking about it, it may be better for you to avoid her lol). The first few times I thought she's like 25, but actually she was born in 89 🤯 (upon a closer look, wrinkles and such are visible, but still). She has one daughter, multiple cats, and she's very passionate about inclusivity, creativity, and any kind of positive impact the game can make, so overall she's a very positive character.",
+        "imageUrls": [
+          "https://i.imgur.com/b28zomc.png"
+        ],
+        "tags": [
+          "Swedish",
+          "blonde",
+          "cute",
+          "gaming",
+          "Minecraft"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
       "weekId": "56",
       "season": "2026",
       "revealAt": "2026-08-12T09:00:00+02:00",
       "timezone": "Europe/Budapest",
       "contestantA": "Eszu",
       "contestantB": "Canvas",
-        "nomineeA": {
-          "womanName": "Ariana Grande",
-          "shortDescription": "Surname like Starbucks",
-          "longerDescription": "Happy ww! This week I am nominating Ariana Grande! Lowkey shocked I haven't had her in here, but here we are. Since she is well known I will skip the intro. Her peak looks era was around 2019-2020 in my opinion. Also insane how many phases she had in her life, her most recent is lowkey disturbing but who am I to judge. ",
-          "imageUrls": [
-            "https://i.imgur.com/YvqK1hI.png",
-            "https://i.imgur.com/U7rfgg9.png",
-            "https://i.imgur.com/Wac4vvS.png"
-          ],
-          "tags": [
-            "short",
-            "og-baddie",
-            "shapeshifter"
-          ],
-          "sourceNote": "",
-          "manuallyEntered": true
-        },
-        "nomineeB": {
+      "nomineeA": {
+        "womanName": "Ariana Grande",
+        "shortDescription": "Surname like Starbucks",
+        "longerDescription": "Happy ww! This week I am nominating Ariana Grande! Lowkey shocked I haven't had her in here, but here we are. Since she is well known I will skip the intro. Her peak looks era was around 2019-2020 in my opinion. Also insane how many phases she had in her life, her most recent is lowkey disturbing but who am I to judge. ",
+        "imageUrls": [
+          "https://i.imgur.com/YvqK1hI.png",
+          "https://i.imgur.com/U7rfgg9.png",
+          "https://i.imgur.com/Wac4vvS.png"
+        ],
+        "tags": [
+          "short",
+          "og-baddie",
+          "shapeshifter"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
         "womanName": "Hannah Stein",
         "shortDescription": "If Shubble and Annie had a baby",
         "longerDescription": "Stumbled upon this cutie pie with a cutesy girly vibe and I was immediately impressed 😛. Based on her reels she's a bit annoying (not in the charming [for me] way), but it's nothing I couldn't handle",
@@ -41,9 +83,9 @@
         ],
         "sourceNote": "",
         "manuallyEntered": true
-        }
-     },
-     {
+      }
+    },
+    {
       "weekId": "55",
       "season": "2026",
       "revealAt": "2026-07-29T09:00:00+02:00",
@@ -86,8 +128,8 @@
         "sourceNote": "",
         "manuallyEntered": true
       }
-     },
-     {
+    },
+    {
       "weekId": "54",
       "season": "2026",
       "revealAt": "2026-07-29T13:00:58+02:00",
