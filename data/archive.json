@@ -1,9 +1,6 @@
 {
   "entries": [
     {
-<<<<<<< HEAD
-      "weekId": "53",
-=======
       "weekId": "56",
       "season": "2026",
       "revealAt": "2026-08-12T09:00:00+02:00",
@@ -92,7 +89,6 @@
      },
      {
       "weekId": "54",
->>>>>>> cb125a220e4cff3999eb2464f931175f979ed579
       "season": "2026",
       "revealAt": "2026-07-29T13:00:58+02:00",
       "timezone": "Europe/Budapest",
