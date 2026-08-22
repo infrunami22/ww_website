@@ -1,7 +1,98 @@
 {
   "entries": [
     {
+<<<<<<< HEAD
       "weekId": "53",
+=======
+      "weekId": "56",
+      "season": "2026",
+      "revealAt": "2026-08-12T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+        "nomineeA": {
+          "womanName": "Ariana Grande",
+          "shortDescription": "Surname like Starbucks",
+          "longerDescription": "Happy ww! This week I am nominating Ariana Grande! Lowkey shocked I haven't had her in here, but here we are. Since she is well known I will skip the intro. Her peak looks era was around 2019-2020 in my opinion. Also insane how many phases she had in her life, her most recent is lowkey disturbing but who am I to judge. ",
+          "imageUrls": [
+            "https://i.imgur.com/YvqK1hI.png",
+            "https://i.imgur.com/U7rfgg9.png",
+            "https://i.imgur.com/Wac4vvS.png"
+          ],
+          "tags": [
+            "short",
+            "og-baddie",
+            "shapeshifter"
+          ],
+          "sourceNote": "",
+          "manuallyEntered": true
+        },
+        "nomineeB": {
+        "womanName": "Hannah Stein",
+        "shortDescription": "If Shubble and Annie had a baby",
+        "longerDescription": "Stumbled upon this cutie pie with a cutesy girly vibe and I was immediately impressed 😛. Based on her reels she's a bit annoying (not in the charming [for me] way), but it's nothing I couldn't handle",
+        "imageUrls": [
+          "https://i.imgur.com/bloDhhf.png",
+          "https://i.imgur.com/J232CmP.png",
+          "https://i.imgur.com/qbAUXuL.png"
+        ],
+        "tags": [
+          "redhead",
+          "cute",
+          "American",
+          "petite"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+        }
+     },
+     {
+      "weekId": "55",
+      "season": "2026",
+      "revealAt": "2026-07-29T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "mratedMorgan",
+        "shortDescription": "On all fours or just on two... both are great ",
+        "longerDescription": "Happy ww! This week I am nominating mratedMorgan! Lately I have been consuming a lot of motorcycle content and then she randomly popped up on my feed with the following video:\nhttps://www.facebook.com/reel/38567055666226733\nI was immediately struck by her looks but I think I watched it early in the morning and it was so confusing to me what the other porsche guy did so I had to watch it like 5x at least. After this one tho I followed her though and realized she has a crazy collection, including bikes. She has a gt4 rs + i4 m50 🏍️ s1k (x2) + zx6r. I mean pretty generic, but cool cars and bikes nonetheless. Also she is quite blessed in both departments so she is quite dreamy. Face card is not my favorite, but the rest of what I know about her makes up for it. One more reason to like Porsches, if I saw her in hers I would be waving extra hard. ",
+        "imageUrls": [
+          "https://i.imgur.com/aPsaxej.png",
+          "https://i.imgur.com/9aM8ZG8.png",
+          "https://i.imgur.com/HOFLTU2.png"
+        ],
+        "tags": [
+          "bike",
+          "baddie"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Autumn Spooner",
+        "shortDescription": "Girl on four wheels 😛",
+        "longerDescription": "Happy Woman Crush Wednesday! Here's somebody that I got reminded of a few days ago. I was constantly seeing her posts on Insta a few years back with her purple Camaro that I really like, and she appeared again now. Since then she got 2 other cars as you can see, so perfect for 3 images. I don't know much about her apart from the cars, and the fact that she has booooooooooooooooooooooooooooooooooooooooooobs",
+        "imageUrls": [
+          "https://i.imgur.com/0ebZqyr.png",
+          "https://i.imgur.com/mojZzNp.png",
+          "https://i.imgur.com/AB6fkQJ.png"
+        ],
+        "tags": [
+          "car",
+          "brunette",
+          "busty",
+          "boobs",
+          "american",
+          "honkers"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+     },
+     {
+      "weekId": "54",
+>>>>>>> cb125a220e4cff3999eb2464f931175f979ed579
       "season": "2026",
       "revealAt": "2026-07-29T13:00:58+02:00",
       "timezone": "Europe/Budapest",
