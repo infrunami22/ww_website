@@ -6,12 +6,11 @@ on:
     - cron: '0 0 * * 4'
   workflow_dispatch: # Allows manual triggering
 
-permissions:
-  contents: write
-
 jobs:
   reset-week:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
