@@ -22,7 +22,7 @@ def get_next_wednesday(from_date=None):
     
     next_wednesday = from_date + timedelta(days=days_ahead)
     # Set time to 09:00:00 in the Budapest timezone
-    next_wednesday = next_wednesday.replace(hour=9, minute=0, second=0, microsecond=0)
+    next_wednesday = next_wednesday.replace(hour=12, minute=0, second=0, microsecond=0)
     
     return next_wednesday
 

@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "weekId": "57",
+      "season": "2026",
+      "revealAt": "2026-08-19T09:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "INFRUNAMI",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Jorja Smith",
+        "shortDescription": "Even Drake wanted this cookie bad...",
+        "longerDescription": "Happy ww! My nominee is named Jorja Smith and she is a singer and songwriter from the UK. She is quite popular in the UK and she became famous when she was featured on Drake's 2017 album titled More Life. (man what a time that was..) The song was quite good and after that I later on liked a few of her other songs too and then I randomly saw what she looks like and I was shocked. Where has she been hiding before??? Later on I also found out Drake wanted to or potentially hit that before and he really wanted her but apparently she just used him for clout. With her figure I would allow it personally... Second pic is the photo she randomly had on one of the songs of hers I was listening to that made me look up what she looks like lol ",
+        "imageUrls": [
+          "https://i.imgur.com/StySYKT.png",
+          "https://i.imgur.com/x7BNYfp.png",
+          "https://i.ibb.co/wrhzHbQM/o-AXj-Eo-Mq-Baw-Svz-F232q-ZBe.jpg",
+          "https://i.imgur.com/Q3ohig6.png"
+        ],
+        "tags": [
+          "drake",
+          "fumbled",
+          "thiqq"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Agnes Larsson",
+        "shortDescription": "Also known as Lady Agnes, she's Minecraft's Game Director",
+        "longerDescription": "To celebrate the release of my first Minecraft video, here's an important figure for the game 🤪. She's Swedish, and has been working at Mojang since 2016, getting promoted to Game Director in 2021. She's a public figure as she's one of the two higher-ups who always appear in the Minecraft Live shows (showing off what's next for the game 1-2x a year). I always thought she's really cute, and you should hear and see her speak, even cutesier than you would think (thinking about it, it may be better for you to avoid her lol). The first few times I thought she's like 25, but actually she was born in 89 🤯 (upon a closer look, wrinkles and such are visible, but still). She has one daughter, multiple cats, and she's very passionate about inclusivity, creativity, and any kind of positive impact the game can make, so overall she's a very positive character.",
+        "imageUrls": [
+          "https://i.imgur.com/b28zomc.png"
+        ],
+        "tags": [
+          "Swedish",
+          "blonde",
+          "cute",
+          "gaming",
+          "Minecraft"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
       "weekId": "56",
       "season": "2026",
       "revealAt": "2026-08-12T09:00:00+02:00",
