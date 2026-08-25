@@ -670,7 +670,7 @@
         
         if (now >= deadline) {
             warningEl.style.display = 'block';
-            warningEl.innerHTML = '<strong>⚠️ Deadline Passed</strong><br>The editing deadline (Wednesday 08:59 Budapest time) has passed. You can no longer modify this week\'s entry.';
+            warningEl.innerHTML = '<strong>⚠️ Deadline Passed</strong><br>The editing deadline (Wednesday 12:00 Budapest time) has passed. You can no longer modify this week\'s entry.';
             
             // Disable form
             const form = document.getElementById(`contestant${contestant}Form`);
@@ -686,7 +686,7 @@
             
             if (hours < 24) {
                 warningEl.style.display = 'block';
-                warningEl.innerHTML = `<strong>⏰ Deadline Reminder</strong><br>You have ${hours} hours and ${minutes} minutes left to edit (until Wednesday 08:59 Budapest time).`;
+                warningEl.innerHTML = `<strong>⏰ Deadline Reminder</strong><br>You have ${hours} hours and ${minutes} minutes left to edit (until Wednesday 12:00 Budapest time).`;
                 warningEl.style.backgroundColor = '#fff3cd';
                 warningEl.style.borderColor = '#ffc107';
             }
