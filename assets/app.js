@@ -368,7 +368,7 @@
                         ${!revealed ? `
                             <div class="locked-overlay">
                                 <div class="locked-icon">🔒</div>
-                                <div class="locked-text">Locked until Wednesday 09:00</div>
+                                <div class="locked-text">Locked until Wednesday 12:00</div>
                                 <div class="locked-text" style="font-size: 0.875rem; margin-top: 0.5rem;">
                                     ${escapeHtml(nominee.shortDescription || 'Nominee ready')}
                                 </div>
