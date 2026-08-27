@@ -1,6 +1,54 @@
 {
   "entries": [
     {
+      "weekId": "58",
+      "season": "2026",
+      "revealAt": "2026-08-26T12:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Stormi Valerio",
+        "shortDescription": "Another one from my kind",
+        "longerDescription": "Happy ww! This week I am nominating Stormi Valerio. Recently I have had quite a few people telling me to open tiktok, and she popped up when I opened it up to check the message they sent me. Made me reconsider not using tiktok so actively as I used to, but I would have had to watch a lot of brainrot to get to such a good pull. Last image is my reaction realizing this. I don't know much about her other than being hot and I really like her tattoos. ",
+        "imageUrls": [
+          "https://i.imgur.com/0Mhw6fQ.png",
+          "https://i.imgur.com/dLTfT5x.jpeg",
+          "https://i.imgur.com/ex1U23o.jpeg",
+          "https://i.imgur.com/OGYOCIW.png"
+        ],
+        "tags": [
+          "baddie",
+          "tattoed",
+          "tiktokPull"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Bianca Censori",
+        "shortDescription": "A body icon",
+        "longerDescription": "Getting featured later than probably expected, she very much deserves to be here, cause I think her body is a solid 10/10! The boobs should get a sculpture to use as a reminder as to how that part of the female body peaked. I also love her smarts, but how Kanye portrayed her as a trophy is beyond me. I would also get a bit of enjoyment out of my girlfriend wearing revealing clothes sometimes, to show others what they cannot have, but carrying her around like a stuffed animal is baffling. Unsurprisingly, that didn't help their relationship, although I'm confused about their status at the moment.",
+        "imageUrls": [
+          "https://i.imgur.com/712ybzW.png",
+          "https://i.imgur.com/O3LrJ1e.png",
+          "https://i.imgur.com/PEto6jm.png"
+        ],
+        "tags": [
+          "celebrity",
+          "boobs",
+          "honkers",
+          "melons",
+          "jugs",
+          "airbags",
+          "milkers",
+          "10/10"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
       "weekId": "57",
       "season": "2026",
       "revealAt": "2026-08-19T09:00:00+02:00",
@@ -353,7 +401,6 @@
           "https://i.imgur.com/sdjFBNg.png",
           "https://i.imgur.com/lbzyrbT.png",
           "https://i.imgur.com/ukN5Pzy.png"
-
         ],
         "tags": [
           "missing"
