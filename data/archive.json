@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "weekId": "59",
+      "season": "2026",
+      "revealAt": "2026-09-02T12:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Abbie Hern",
+        "shortDescription": "lowkey made me reconsider my hate for the british ",
+        "longerDescription": "Happy WW! This week I am nominating Abbie Hern! A few weeks ago I heard the news that one of my comfort shows from 2020, named Ted Lasso is getting a reboot! It is about an imaginary British football team and it went on for 3 seasons. The story and everything is quite wholesome and lighthearted and it has great humor. Also the main character is played by Jason Sudeikis. Now this reboot for the 4th season came 3 years after the last one, and now it features a women's team instead of a male team. It made me realize a lot of things like how women's football in general is ignored by most football fans and stuff but this nomination is not about that :P In the second episode when they are getting the team together the new lady coach talks about a girl she could not recruit even though she is super talented because they have beef and then she popped up on the screen when they tried to convince her and I was like oh boy oh boy do I hope yall will convince her cause I wanna see her again! Then I got to thinking and realized that lowkey the UK is not that bad in the sense that it is a great lure for lightskin + darkskin women and when I am hating on the british in general I include them also so overall I will decrease my hating lol ",
+        "imageUrls": [
+          "https://i.imgur.com/KM9sSe7.png",
+          "https://i.imgur.com/6XnEGxW.png",
+          "https://i.imgur.com/25z22At.png",
+          "https://i.imgur.com/014MVre.png"
+        ],
+        "tags": [
+          "milk-chocolate",
+          "fine-shyt",
+          "football"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "amber.maarie",
+        "shortDescription": "Showing the way to the next generation",
+        "longerDescription": "Here's an American teacher who gets decent views on the reels she does about the silly stuff her very young students say on a daily basis. I always find her very cute in those videos, and Idk, maybe because of my family background I have something towards teachers 🤪",
+        "imageUrls": [
+          "https://i.imgur.com/cn4yz0J.png",
+          "https://i.imgur.com/sJJORQO.png",
+          "https://i.imgur.com/xG6sUt7.png"
+        ],
+        "tags": [
+          "American",
+          "teacher",
+          "blonde"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
       "weekId": "58",
       "season": "2026",
       "revealAt": "2026-08-26T12:00:00+02:00",
