@@ -1,6 +1,47 @@
 {
   "entries": [
     {
+      "weekId": "60",
+      "season": "2026",
+      "revealAt": "2026-09-09T12:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Peggy Gou",
+        "shortDescription": "She was between 2 goats last week",
+        "longerDescription": "Happy Ww! This week I have Peggy Gou! Yes, she is the DJ from the event where Leclerc earraped thousands of people. She left a great impression on me from the vid since she is a hot tattooed asian. I checked out her insta and found out she is south korean, pretty interesting. Other than that don’t know much, but I wanted to keep my nominations fresh so she is getting this one. ",
+        "imageUrls": [
+          "https://i.imgur.com/lY8hTfY.jpeg",
+          "https://i.imgur.com/Za19RmY.jpeg",
+          "https://i.imgur.com/ujY8viy.jpeg"
+        ],
+        "tags": [
+          "Hot",
+          "Asian",
+          "Tattooed",
+          "DJ"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Bella LeBaron",
+        "shortDescription": "Not what it seems",
+        "longerDescription": "For a long time I thought cosplayers are cringe, but even though that's certainly true in some cases, nowadays when I see baddies like her, I'm like \"Smashing dozens of characters for the price of one? Yes sir!\". Obviously, on top of that, cosplaying Freddy is a plus (and she's proud of her recent progress in the gym 😛)",
+        "imageUrls": [
+          "https://i.imgur.com/jXqARMD.png",
+          "https://i.imgur.com/jh8s9Sv.png",
+          "https://i.imgur.com/Xp0Q4FY.png"
+        ],
+        "tags": [
+          "cosplay"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
       "weekId": "59",
       "season": "2026",
       "revealAt": "2026-09-02T12:00:00+02:00",
