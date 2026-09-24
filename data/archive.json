@@ -1,6 +1,48 @@
 {
   "entries": [
     {
+      "weekId": "62",
+      "season": "2026",
+      "revealAt": "2026-09-23T12:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Nathalie Mcgloin",
+        "shortDescription": "A true inspiration",
+        "longerDescription": "Happy Ww! I am nominating Nathalie Mcgloin, the first female disabled racer! I saw her on the career ladder, because the host started a new spin off where he interviews disabled ppl since he broke his leg so he himself cannot get on the ladder either. Lowkey funny a bit that he only started featuring when he also experienced disabilities but oh well. For me its a bit hard to imagine how one can be so strong of a character to be this driven despite their circumstances since they must be running into blockers in all aspects of life. I originally planned someone else for this week but she moved me (no pun, sorry) so much that I decided to have her this week. Also, what sealed the deal was that she is racing in a Porsche 🐎Hype 4/10, motivation 8/10! ",
+        "imageUrls": [
+          "https://i.imgur.com/5RQzKAJ.jpeg",
+          "https://i.imgur.com/dyegfY5.jpeg",
+          "https://i.imgur.com/fcMu5sJ.jpeg"
+        ],
+        "tags": [
+          "Disabled",
+          "racing",
+          "driver"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      },
+      "nomineeB": {
+        "womanName": "Nyilas Szabina",
+        "shortDescription": "Mystery solved",
+        "longerDescription": "Her account was repeatedly recommended to me on IG because at some point she apparently followed me. A few weeks ago I requested to follow her back, because based on her profile picture (1st pic), she had some potential. Yesterday she finally accepted it, and I have mixed feelings. The 2nd pic is what I think the best one is, the 3rd is what seems to be the worst. The difference is crazy, like going from a 10 to a 5. The better pics most likely have filters and such, it's difficult to say what reality may be.",
+        "imageUrls": [
+          "https://i.imgur.com/c0tmVnT.png",
+          "https://i.imgur.com/TRoPl4q.png",
+          "https://i.imgur.com/cqHBNCW.png"
+        ],
+        "tags": [
+          "Hungarian",
+          "mysterious",
+          "possibly gypsy"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true
+      }
+    },
+    {
       "weekId": "61",
       "season": "2026",
       "revealAt": "2026-09-16T12:00:00+02:00",
