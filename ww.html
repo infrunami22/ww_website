@@ -108,6 +108,7 @@
                     <button class="admin-tab" data-tab="contestantB">Participant B Entry</button>
                     <button class="admin-tab" data-tab="weekSetup">Week Setup</button>
                     <button class="admin-tab" data-tab="legacyImport">Legacy Import</button>
+                    <button class="admin-tab" data-tab="comments">Comments</button>
                 </div>
 
                 <!-- Contestant A Entry Form -->
@@ -341,6 +342,23 @@
                         <textarea id="legacyJSON" class="json-output" readonly></textarea>
                         <div class="form-actions">
                             <button type="button" id="copyLegacyJSON" class="button primary">Copy to Clipboard</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comments Tab -->
+                <div id="commentsTab" class="admin-tab-content" style="display: none;">
+                    <div class="form-section">
+                        <h3>Comment Posting</h3>
+                        <p class="admin-note">Paste a fine-grained GitHub token with Contents read/write access to this repository only. It is kept in this browser's local storage and is never committed.</p>
+                        <div class="form-group">
+                            <label for="githubToken">GitHub Token</label>
+                            <input type="password" id="githubToken" autocomplete="off" placeholder="github_pat_...">
+                        </div>
+                        <p id="githubTokenStatus" class="admin-note"></p>
+                        <div class="form-actions">
+                            <button type="button" id="saveGithubToken" class="button primary">Save Token</button>
+                            <button type="button" id="clearGithubToken" class="button secondary">Clear Token</button>
                         </div>
                     </div>
                 </div>

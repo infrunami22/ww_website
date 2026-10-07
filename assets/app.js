@@ -13,6 +13,11 @@
     const CONFIG = {
         timezone: 'Europe/Budapest',
         imageBaseUrl: '', // Set to empty for local repo mode, or URL for separate image repo
+        github: {
+            owner: 'infrunami22',
+            repo: 'ww_website',
+            branch: 'main'
+        },
         dataPath: {
             current: 'data/current.json', // Legacy fallback
             weekConfig: 'data/week-config.json',
@@ -31,6 +36,7 @@
         currentWeek: null,
         archive: [],
         theme: localStorage.getItem('ww-theme') || 'light',
+        githubToken: localStorage.getItem('ww-gh-token') || '',
         countdownInterval: null,
         lightboxImages: [],
         lightboxIndex: 0,
@@ -529,6 +535,12 @@
                     <em>Note: ${escapeHtml(nominee.sourceNote)}</em>
                 </div>
             ` : ''}
+
+            ${isRevealed(week.revealAt) ? `
+                <div class="comments-section" id="comments-${week.weekId}-${contestantKey}">
+                    ${renderCommentsSection(week.weekId, contestantKey)}
+                </div>
+            ` : ''}
         `;
 
         modal.style.display = 'flex';
@@ -566,6 +578,9 @@
                         `).join('')}
                     </div>
                 ` : ''}
+                <div class="comments-section" id="comments-${entry.weekId}-A">
+                    ${renderCommentsSection(entry.weekId, 'A')}
+                </div>
             </div>
 
             <div style="margin-top: 2rem;">
@@ -588,6 +603,9 @@
                         `).join('')}
                     </div>
                 ` : ''}
+                <div class="comments-section" id="comments-${entry.weekId}-B">
+                    ${renderCommentsSection(entry.weekId, 'B')}
+                </div>
             </div>
         `;
 
@@ -599,6 +617,168 @@
         const modal = document.getElementById(modalId);
         modal.style.display = 'none';
         document.body.style.overflow = '';
+    }
+
+    // ============================================
+    // Comments
+    // ============================================
+
+    function getNominee(weekId, key) {
+        const week = state.currentWeek;
+        if (week && week.weekId === weekId) {
+            return key === 'A' ? week.nomineeA : week.nomineeB;
+        }
+        const entry = state.archive.find(e => e.weekId === weekId);
+        return entry ? (key === 'A' ? entry.nomineeA : entry.nomineeB) : null;
+    }
+
+    function renderCommentsSection(weekId, key) {
+        const nominee = getNominee(weekId, key);
+        const comments = (nominee && nominee.comments) || [];
+
+        const list = comments.length > 0
+            ? comments.map(c => `
+                <div class="comment-item">
+                    <div class="comment-meta">
+                        <strong>${escapeHtml(c.name)}</strong>
+                        ${c.createdAt ? `<span class="text-muted">${formatDate(c.createdAt)}</span>` : ''}
+                    </div>
+                    <p class="comment-text">${escapeHtml(c.text)}</p>
+                </div>
+            `).join('')
+            : '<p class="text-muted">No comments yet.</p>';
+
+        // Only people with a saved GitHub token can post.
+        const form = state.githubToken ? `
+            <form class="comment-form" onsubmit="window.wwApp.submitComment('${weekId}', '${key}'); return false;">
+                <div class="form-group">
+                    <label for="commentName-${weekId}-${key}">Name</label>
+                    <input type="text" id="commentName-${weekId}-${key}" maxlength="60" required
+                           value="${escapeHtml(localStorage.getItem('ww-comment-name') || '')}">
+                </div>
+                <div class="form-group">
+                    <label for="commentText-${weekId}-${key}">Comment</label>
+                    <textarea id="commentText-${weekId}-${key}" rows="3" maxlength="2000" required></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="button primary">Post Comment</button>
+                </div>
+            </form>
+        ` : '';
+
+        return `<h3>Comments</h3>${list}${form}`;
+    }
+
+    function githubContentsUrl(path) {
+        const { owner, repo } = CONFIG.github;
+        return `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+    }
+
+    async function githubRequest(url, options = {}) {
+        const response = await fetch(url, {
+            ...options,
+            headers: {
+                'Accept': 'application/vnd.github+json',
+                'Authorization': `Bearer ${state.githubToken}`,
+                ...(options.headers || {})
+            }
+        });
+        if (!response.ok) {
+            const error = new Error(`GitHub request failed (${response.status})`);
+            error.status = response.status;
+            throw error;
+        }
+        return response.json();
+    }
+
+    function decodeBase64Utf8(base64) {
+        const binary = atob(base64.replace(/\s/g, ''));
+        return new TextDecoder().decode(Uint8Array.from(binary, c => c.charCodeAt(0)));
+    }
+
+    function encodeBase64Utf8(text) {
+        let binary = '';
+        new TextEncoder().encode(text).forEach(b => { binary += String.fromCharCode(b); });
+        return btoa(binary);
+    }
+
+    async function readRepoJson(path) {
+        const file = await githubRequest(
+            `${githubContentsUrl(path)}?ref=${CONFIG.github.branch}&t=${Date.now()}`,
+            { cache: 'no-store' }
+        );
+        return { sha: file.sha, data: JSON.parse(decodeBase64Utf8(file.content)) };
+    }
+
+    async function addCommentToRepo(weekId, key, comment) {
+        for (let attempt = 0; attempt < 2; attempt++) {
+            // Re-resolved on every attempt: the weekly reset may have archived this week in the meantime.
+            const config = await readRepoJson('data/week-config.json');
+            const isCurrent = config.data.weekId === weekId;
+            const path = isCurrent ? `data/current-${key.toLowerCase()}.json` : 'data/archive.json';
+
+            const { sha, data } = await readRepoJson(path);
+            const entry = isCurrent ? null : data.entries.find(e => e.weekId === weekId);
+            const nominee = isCurrent ? data.nominee : entry && entry[`nominee${key}`];
+            if (!nominee) {
+                throw new Error('Post not found in repository data.');
+            }
+            nominee.comments = [...(nominee.comments || []), comment];
+
+            try {
+                await githubRequest(githubContentsUrl(path), {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        message: `Add comment by ${comment.name} on week ${weekId}`,
+                        content: encodeBase64Utf8(JSON.stringify(data, null, 2)),
+                        sha,
+                        branch: CONFIG.github.branch
+                    })
+                });
+                return;
+            } catch (error) {
+                if (error.status !== 409 || attempt === 1) throw error;
+            }
+        }
+    }
+
+    async function submitComment(weekId, key) {
+        const nameEl = document.getElementById(`commentName-${weekId}-${key}`);
+        const textEl = document.getElementById(`commentText-${weekId}-${key}`);
+        const button = nameEl.closest('form').querySelector('button[type="submit"]');
+
+        const name = nameEl.value.trim();
+        const text = textEl.value.trim();
+        if (!name || !text) {
+            alert('Please enter both a name and a comment.');
+            return;
+        }
+
+        const comment = { name, text, createdAt: new Date().toISOString() };
+        button.disabled = true;
+        button.textContent = 'Posting...';
+
+        try {
+            await addCommentToRepo(weekId, key, comment);
+
+            const nominee = getNominee(weekId, key);
+            nominee.comments = [...(nominee.comments || []), comment];
+            localStorage.setItem('ww-comment-name', name);
+
+            document.getElementById(`comments-${weekId}-${key}`).innerHTML = renderCommentsSection(weekId, key);
+        } catch (error) {
+            console.error('Failed to save comment:', error);
+            alert(error.status === 401 || error.status === 403
+                ? 'GitHub rejected the token. Check it in the Comments tab of the editor panel.'
+                : `Could not save the comment: ${error.message}`);
+            button.disabled = false;
+            button.textContent = 'Post Comment';
+        }
+    }
+
+    function updateTokenStatus() {
+        document.getElementById('githubTokenStatus').textContent =
+            state.githubToken ? 'A token is saved in this browser.' : 'No token saved. Comment forms are hidden.';
     }
 
     // ============================================
@@ -815,6 +995,23 @@
         document.getElementById('copyJSON').addEventListener('click', () => copyToClipboard('jsonOutput'));
         document.getElementById('downloadJSON').addEventListener('click', downloadJSON);
         
+        // Comments tab: GitHub token management
+        updateTokenStatus();
+        document.getElementById('saveGithubToken').addEventListener('click', () => {
+            const input = document.getElementById('githubToken');
+            const token = input.value.trim();
+            if (!token) return;
+            state.githubToken = token;
+            localStorage.setItem('ww-gh-token', token);
+            input.value = '';
+            updateTokenStatus();
+        });
+        document.getElementById('clearGithubToken').addEventListener('click', () => {
+            state.githubToken = '';
+            localStorage.removeItem('ww-gh-token');
+            updateTokenStatus();
+        });
+
         // Initial deadline check
         checkDeadline('A');
     }
@@ -1196,6 +1393,7 @@ Instructions:
     window.wwApp = {
         showNomineeDetails,
         showArchiveDetails,
+        submitComment,
         openLightbox,
         reload: async function() {
             console.log('Force reloading data...');
