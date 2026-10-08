@@ -1,6 +1,87 @@
 {
   "entries": [
     {
+      "weekId": "64",
+      "season": "2026",
+      "revealAt": "2026-10-07T12:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Ayra Starr",
+        "shortDescription": "A real starrgirl",
+        "longerDescription": "Happy WW! This week I have Ayra Starr ✨! She is also an apop (african pop) and RnB artist similar to Tyla. I first heard about her through Spotify when her song “Hot Body” was recommended to me and I really like it. Tbh still do. Then for a while I haven’t got any of her songs recommended to me but then   In August her new album Starrgirl released and she featured many of my fav RnB artists like kwn, Wizkid, Leon Thomas, Rema, Zayn.. you get it it 😄 So after liking her songs a lot and seeing the album cover (pic 3) I decided to look her up cause it was promising and oh boy I wasn’t disappointed. Now I like her songs even more 😂 Hype 6.5/10, looks + songs got her here. 👅",
+        "imageUrls": [
+          "https://i.imgur.com/1kPHFzH.png",
+          "https://i.imgur.com/WrSgrQV.png",
+          "https://i.imgur.com/VwOfzVv.png",
+          "https://i.imgur.com/YRQcoYB.png"
+        ],
+        "tags": [
+          "baddie",
+          "music artist"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true,
+        "comments": [
+          {
+            "name": "Canvas",
+            "text": "The order was different but we came (🤠) to the same conclusion! She does in fact seem like someone you would enjoy, so I'm pretty surprised that she only gets a 6.5 hype score",
+            "createdAt": "2026-10-07T11:26:54.659Z"
+          },
+          {
+            "name": "Eszu",
+            "text": "Yeah, tbh its more like an 8, I was just comparing it to my 9.5 last week and I was super geeked out there",
+            "createdAt": "2026-10-07T15:34:08.811Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "Bro's felxible with numbers",
+            "createdAt": "2026-10-07T16:04:08.499Z"
+          }
+        ]
+      },
+      "nomineeB": {
+        "womanName": "Rose Gray",
+        "shortDescription": "You see her before you hear her",
+        "longerDescription": "Happy Woman Crush Wednesday! Upon browsing YouTube Music a few days ago, the picture that is first here stood out like a stripper in a nunnery. I was really hoping the song it's the cover of is also good, and thankfully it is, but nothing special. Maybe because it seems like she's straight, given that recently she married a guy 😭. But she's fine nevertheless, also she's British, which I usually like.",
+        "imageUrls": [
+          "https://i.imgur.com/YdHYDWf.jpeg",
+          "https://i.imgur.com/3K4QjnZ.png",
+          "https://i.imgur.com/vV5CGMq.png"
+        ],
+        "tags": [
+          "British",
+          "singer",
+          "redhead"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true,
+        "comments": [
+          {
+            "name": "Eszu",
+            "text": "gah dayum 🧐🔎🕵",
+            "createdAt": "2026-10-07T10:26:48.909Z"
+          },
+          {
+            "name": "Eszu",
+            "text": "She is my new favorite out of yours 🤓",
+            "createdAt": "2026-10-07T10:27:35.953Z"
+          },
+          {
+            "name": "Eszu",
+            "text": "She reminds me of Kat from Gen V, who I have featured previously",
+            "createdAt": "2026-10-07T11:25:20.660Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "I'm on a good streak apparently 🤪",
+            "createdAt": "2026-10-07T12:31:59.587Z"
+          }
+        ]
+      }
+    },
+    {
       "weekId": "63",
       "season": "2026",
       "revealAt": "2026-09-30T12:00:00+02:00",
