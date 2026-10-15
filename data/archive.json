@@ -1,6 +1,103 @@
 {
   "entries": [
     {
+      "weekId": "65",
+      "season": "2026",
+      "revealAt": "2026-10-14T12:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Beyoncé",
+        "shortDescription": "Many call her the queen of music (mostly americans)",
+        "longerDescription": "Happy ww! This week I am celebrating with a classic choice, Beyoncé. No introduction needed, and I always thought she was hot although recently she has had some weird looks. Funny story is that my parents once mentioned that her music is terrible and they do not get why americans hype her up so much but on the plus side she was the most gorgeous out of Destiny’s Child, her previous group. Even though my parents have silly opinions sometimes they also can appreciate some lightskin beauty, gives me hope for the future! Also her caliber doesn’t fit with Jay-Z but it gives me hope that with $ you can score way beyond your league. Hype:6.5/10 Bad AF but not a new find ",
+        "imageUrls": [
+          "https://i.imgur.com/R8htxuw.png",
+          "https://i.imgur.com/v9iPZOE.png",
+          "https://i.imgur.com/M3sz7jT.jpeg",
+          "https://i.imgur.com/SELzKpp.png"
+        ],
+        "tags": [
+          "Queen",
+          "og",
+          "lightskin",
+          "milf?"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true,
+        "comments": [
+          {
+            "name": "Canvas",
+            "text": "She's certainly aging gracefully 🤪",
+            "createdAt": "2026-10-14T10:05:36.533Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "I loved her in The Pink Panther, and especially how bro almost rizzed her up, if he wouldn't have destroyed the hotel room",
+            "createdAt": "2026-10-14T10:07:44.064Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "And she might be my new favorite of yours 🤔",
+            "createdAt": "2026-10-14T10:08:25.425Z"
+          },
+          {
+            "name": "Eszu",
+            "text": "Damn okay! I thought this classic one wouldn’t hit as hard but here we are🤪",
+            "createdAt": "2026-10-14T11:17:04.845Z"
+          }
+        ]
+      },
+      "nomineeB": {
+        "womanName": "Sisi",
+        "shortDescription": "Yesyes",
+        "longerDescription": "Happy Woman Crush Wednesday! I may not listen to her songs, but ever since I watched a short interview with her, I'm keeping an eye on her, since she made the impression of someone really likeable! My favorite fun fact about her is that she's a fan of Puzsér (something they have in common with Kiara Lord). She aslo has funny shorts, one of them was recommended to me this morning, which is the reason I chose her for today.",
+        "imageUrls": [
+          "https://i.imgur.com/cxBZYeW.png",
+          "https://i.imgur.com/rExMRKa.png",
+          "https://i.imgur.com/mkSUHRp.png"
+        ],
+        "tags": [
+          "Hungarian",
+          "singer"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true,
+        "comments": [
+          {
+            "name": "Eszu",
+            "text": "I still do not get the teaser but not bad!",
+            "createdAt": "2026-10-14T11:17:48.971Z"
+          },
+          {
+            "name": "Eszu",
+            "text": "Wonder why her leg is green on the last pic 🤔",
+            "createdAt": "2026-10-14T11:18:33.823Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "\"Sí\" in some languages means \"Yes\", so she's basically called \"Yesyes\"",
+            "createdAt": "2026-10-14T11:50:55.385Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "And yes, I know that the word is spelled with an \"í\", and her name is spelled with \"i\", cut your bro a break 🤓",
+            "createdAt": "2026-10-14T11:51:00.905Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "Until you pointed it out, I didn't even realize that her legs are painted lol",
+            "createdAt": "2026-10-14T11:51:58.363Z"
+          },
+          {
+            "name": "Eszu",
+            "text": "Oh well I mean it was quite a rough teaser for an unknown (sorry) lady but makes sense 😄",
+            "createdAt": "2026-10-14T14:43:05.853Z"
+          }
+        ]
+      }
+    },
+    {
       "weekId": "64",
       "season": "2026",
       "revealAt": "2026-10-07T12:00:00+02:00",
