@@ -710,6 +710,18 @@
         return { sha: file.sha, data: JSON.parse(decodeBase64Utf8(file.content)) };
     }
 
+    function writeRepoJson(path, data, sha, message) {
+        return githubRequest(githubContentsUrl(path), {
+            method: 'PUT',
+            body: JSON.stringify({
+                message,
+                content: encodeBase64Utf8(JSON.stringify(data, null, 2)),
+                sha,
+                branch: CONFIG.github.branch
+            })
+        });
+    }
+
     async function addCommentToRepo(weekId, key, comment) {
         for (let attempt = 0; attempt < 2; attempt++) {
             // Re-resolved on every attempt: the weekly reset may have archived this week in the meantime.
@@ -726,15 +738,7 @@
             nominee.comments = [...(nominee.comments || []), comment];
 
             try {
-                await githubRequest(githubContentsUrl(path), {
-                    method: 'PUT',
-                    body: JSON.stringify({
-                        message: `Add comment by ${comment.name} on week ${weekId}`,
-                        content: encodeBase64Utf8(JSON.stringify(data, null, 2)),
-                        sha,
-                        branch: CONFIG.github.branch
-                    })
-                });
+                await writeRepoJson(path, data, sha, `Add comment by ${comment.name} on week ${weekId}`);
                 return;
             } catch (error) {
                 if (error.status !== 409 || attempt === 1) throw error;
@@ -778,7 +782,9 @@
 
     function updateTokenStatus() {
         document.getElementById('githubTokenStatus').textContent =
-            state.githubToken ? 'A token is saved in this browser.' : 'No token saved. Comment forms are hidden.';
+            state.githubToken
+                ? 'A token is saved in this browser.'
+                : 'No token saved. Comment forms are hidden and picks cannot be published automatically.';
     }
 
     // ============================================
@@ -944,6 +950,57 @@
     }
 
     // ============================================
+    // Admin Panel - Publish Nominee to Repository
+    // ============================================
+
+    async function publishNominee(contestant) {
+        const form = document.getElementById(`contestant${contestant}Form`);
+        if (!form.checkValidity()) {
+            form.reportValidity();
+            return;
+        }
+        if (!state.githubToken) {
+            alert('Save a GitHub token in the Comments tab first.');
+            return;
+        }
+
+        const nominee = collectNomineeData(`${contestant}Solo`);
+        const path = `data/current-${contestant.toLowerCase()}.json`;
+        const button = document.getElementById(`publish${contestant}`);
+        const originalLabel = button.textContent;
+        button.disabled = true;
+        button.textContent = 'Publishing...';
+
+        try {
+            for (let attempt = 0; attempt < 2; attempt++) {
+                const { sha, data } = await readRepoJson(path);
+                // Comments live on the nominee, so carry them over when replacing the pick.
+                const comments = data.nominee && data.nominee.comments;
+                const output = {
+                    participantName: data.participantName || `Participant ${contestant}`,
+                    nominee: comments && comments.length ? { ...nominee, comments } : nominee
+                };
+
+                try {
+                    await writeRepoJson(path, output, sha, `Update pick for participant ${contestant}`);
+                    break;
+                } catch (error) {
+                    if (error.status !== 409 || attempt === 1) throw error;
+                }
+            }
+            alert('Your pick was published. The site updates after GitHub Pages rebuilds.');
+        } catch (error) {
+            console.error('Failed to publish nominee:', error);
+            alert(error.status === 401 || error.status === 403
+                ? 'GitHub rejected the token. Check it in the Comments tab.'
+                : `Could not publish your pick: ${error.message}`);
+        } finally {
+            button.disabled = false;
+            button.textContent = originalLabel;
+        }
+    }
+
+    // ============================================
     // Admin Panel - Copy to Clipboard
     // ============================================
     
@@ -982,11 +1039,13 @@
         // Contestant A handlers
         document.getElementById('loadCurrentA').addEventListener('click', () => loadCurrentNominee('A'));
         document.getElementById('generateAJSON').addEventListener('click', () => generateNomineeJSON('A'));
+        document.getElementById('publishA').addEventListener('click', () => publishNominee('A'));
         document.getElementById('copyJSONA').addEventListener('click', () => copyToClipboard('jsonOutputA'));
 
         // Contestant B handlers
         document.getElementById('loadCurrentB').addEventListener('click', () => loadCurrentNominee('B'));
         document.getElementById('generateBJSON').addEventListener('click', () => generateNomineeJSON('B'));
+        document.getElementById('publishB').addEventListener('click', () => publishNominee('B'));
         document.getElementById('copyJSONB').addEventListener('click', () => copyToClipboard('jsonOutputB'));
 
         // Week Setup handlers (full week entry)
