@@ -112,6 +112,42 @@ body {
     padding: var(--spacing-lg) 0;
 }
 
+.access-gate {
+    min-height: calc(100vh - 160px);
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-lg) var(--spacing-sm);
+}
+
+.access-gate-card {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-lg);
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.access-gate-input {
+    padding: 0.75rem;
+    font: inherit;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+}
+
+.access-gate-error {
+    min-height: 1.25em;
+    margin: 0;
+    color: var(--danger);
+    font-size: var(--font-size-sm);
+}
+
 /* ============================================
    Header
    ============================================ */

@@ -939,7 +939,7 @@
         // For separate files, wrap in the expected structure
         const output = {
             participantName: `Participant ${contestant}`,
-            nominee: nominee
+            nominee: { ...nominee, comments: [] }
         };
         
         const jsonOutput = JSON.stringify(output, null, 2);
@@ -974,11 +974,10 @@
         try {
             for (let attempt = 0; attempt < 2; attempt++) {
                 const { sha, data } = await readRepoJson(path);
-                // Comments live on the nominee, so carry them over when replacing the pick.
-                const comments = data.nominee && data.nominee.comments;
+                // A new pick starts with a fresh, empty comment list.
                 const output = {
                     participantName: data.participantName || `Participant ${contestant}`,
-                    nominee: comments && comments.length ? { ...nominee, comments } : nominee
+                    nominee: { ...nominee, comments: [] }
                 };
 
                 try {
@@ -1056,10 +1055,15 @@
         
         // Comments tab: GitHub token management
         updateTokenStatus();
-        document.getElementById('saveGithubToken').addEventListener('click', () => {
+        document.getElementById('saveGithubToken').addEventListener('click', async () => {
             const input = document.getElementById('githubToken');
             const token = input.value.trim();
             if (!token) return;
+            const result = await verifyToken(token);
+            if (!result.ok) {
+                alert(result.message);
+                return;
+            }
             state.githubToken = token;
             localStorage.setItem('ww-gh-token', token);
             input.value = '';
@@ -1068,7 +1072,7 @@
         document.getElementById('clearGithubToken').addEventListener('click', () => {
             state.githubToken = '';
             localStorage.removeItem('ww-gh-token');
-            updateTokenStatus();
+            location.reload();
         });
 
         // Initial deadline check
@@ -1429,6 +1433,77 @@ Instructions:
     }
 
     // ============================================
+    // Access Gate
+    // ============================================
+
+    // Only collaborators with push access to the repo may view the app.
+    async function verifyToken(token) {
+        const { owner, repo } = CONFIG.github;
+        try {
+            const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+                headers: {
+                    'Accept': 'application/vnd.github+json',
+                    'Authorization': `Bearer ${token}`
+                }
+            });
+            if (response.status === 401) return { ok: false, message: 'GitHub rejected this token.' };
+            if (!response.ok) return { ok: false, message: `Could not verify the token (${response.status}).` };
+            const repoInfo = await response.json();
+            if (!repoInfo.permissions || !repoInfo.permissions.push) {
+                return { ok: false, message: 'This token does not have write access to the repository.' };
+            }
+            return { ok: true };
+        } catch (error) {
+            return { ok: false, message: 'Could not reach GitHub. Check your connection and try again.' };
+        }
+    }
+
+    function showGate(message = '') {
+        document.getElementById('appContent').style.display = 'none';
+        document.getElementById('adminToggle').style.display = 'none';
+        document.getElementById('accessGate').style.display = 'flex';
+        document.getElementById('accessGateError').textContent = message;
+    }
+
+    async function unlockApp() {
+        document.getElementById('accessGate').style.display = 'none';
+        document.getElementById('appContent').style.display = '';
+        document.getElementById('adminToggle').style.display = '';
+
+        const loaded = await loadData();
+        if (loaded) {
+            renderCurrentWeek();
+            renderArchive();
+        }
+    }
+
+    function setupAccessGate() {
+        document.getElementById('accessGateForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const input = document.getElementById('accessGateToken');
+            const button = document.getElementById('accessGateSubmit');
+            const token = input.value.trim();
+            if (!token) return;
+
+            button.disabled = true;
+            button.textContent = 'Checking...';
+            const result = await verifyToken(token);
+            button.disabled = false;
+            button.textContent = 'Unlock';
+
+            if (!result.ok) {
+                document.getElementById('accessGateError').textContent = result.message;
+                return;
+            }
+
+            state.githubToken = token;
+            localStorage.setItem('ww-gh-token', token);
+            input.value = '';
+            unlockApp();
+        });
+    }
+
+    // ============================================
     // Initialization
     // ============================================
     
@@ -1437,12 +1512,19 @@ Instructions:
         setupEventListeners();
         setupAdminPanel();
         setupLegacyImport();
+        setupAccessGate();
 
-        const loaded = await loadData();
-        if (loaded) {
-            renderCurrentWeek();
-            renderArchive();
+        if (!state.githubToken) {
+            showGate();
+            return;
         }
+
+        const result = await verifyToken(state.githubToken);
+        if (!result.ok) {
+            showGate(result.message);
+            return;
+        }
+        await unlockApp();
     }
 
     // ============================================

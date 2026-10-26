@@ -45,7 +45,7 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
                     </svg>
                 </button>
-                <button id="adminToggle" class="icon-button" aria-label="Toggle admin panel">
+                <button id="adminToggle" class="icon-button" aria-label="Toggle admin panel" style="display: none;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="3"/>
                         <path d="M12 1v6m0 6v6M5.6 5.6l4.2 4.2m4.2 4.2l4.2 4.2M1 12h6m6 0h6M5.6 18.4l4.2-4.2m4.2-4.2l4.2-4.2"/>
@@ -55,8 +55,19 @@
         </div>
     </header>
 
+    <!-- Access Gate -->
+    <main id="accessGate" class="access-gate" style="display: none;">
+        <form id="accessGateForm" class="access-gate-card">
+            <h2>Members only</h2>
+            <p class="admin-note">Enter your GitHub token to view the picks. It is verified against this repository and kept only in this browser's local storage.</p>
+            <input type="password" id="accessGateToken" class="access-gate-input" autocomplete="off" placeholder="github_pat_..." required>
+            <p id="accessGateError" class="access-gate-error" role="alert"></p>
+            <button type="submit" id="accessGateSubmit" class="button primary">Unlock</button>
+        </form>
+    </main>
+
     <!-- Main Content -->
-    <main class="main-content">
+    <main id="appContent" class="main-content" style="display: none;">
         <div class="container">
             <!-- Current Week Section -->
             <section id="currentWeekSection" class="section">
