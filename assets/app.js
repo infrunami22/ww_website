@@ -46,6 +46,42 @@
     // ============================================
     // Date & Timezone Utilities
     // ============================================
+
+    function getBudapestInstant(revealAtLocal) {
+        if (!revealAtLocal) return null;
+
+        // Remove an offset/Z if an old JSON value still has one
+        const cleanLocal = revealAtLocal.replace(/(Z|[+-]\d{2}:\d{2})$/, '');
+
+        // First approximate the moment by treating it as UTC
+        const utcGuess = new Date(`${cleanLocal}Z`);
+
+        // Ask the browser what Budapest time that approximate moment is
+        const parts = new Intl.DateTimeFormat('en-US', {
+            timeZone: 'Europe/Budapest',
+            hour12: false,
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit'
+        }).formatToParts(utcGuess).reduce((acc, part) => {
+            if (part.type !== 'literal') acc[part.type] = part.value;
+            return acc;
+        }, {});
+
+        const budapestAsUTC = new Date(
+            `${parts.year}-${parts.month}-${parts.day}T` +
+            `${parts.hour}:${parts.minute}:${parts.second}Z`
+        );
+
+        // Calculate Budapest's UTC offset at that date
+        const offsetMs = budapestAsUTC.getTime() - utcGuess.getTime();
+
+        // Convert the intended Budapest wall-clock time to the real UTC instant
+        return new Date(utcGuess.getTime() - offsetMs);
+    }
     
     /**
      * Get current date/time in Europe/Budapest timezone
@@ -57,23 +93,25 @@
     /**
      * Check if the current week is revealed
      */
-    function isRevealed(revealAtISO) {
-    if (!revealAtISO) return false;
-    return Date.now() >= new Date(revealAtISO).getTime();
-}
+    function isRevealed(revealAtLocal) {
+        const revealDate = getBudapestInstant(revealAtLocal);
+        return revealDate ? Date.now() >= revealDate.getTime() : false;
+    }
 
-function getTimeDifference(revealAtISO) {
-    const diff = new Date(revealAtISO).getTime() - Date.now();
+    function getTimeDifference(revealAtLocal) {
+        const revealDate = getBudapestInstant(revealAtLocal);
+        if (!revealDate) return null;
 
-    if (diff <= 0) return null;
+        const diff = revealDate.getTime() - Date.now();
+        if (diff <= 0) return null;
 
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((diff / (1000 * 60)) % 60);
-    const seconds = Math.floor((diff / 1000) % 60);
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-    return { days, hours, minutes, seconds };
-}
+        return { days, hours, minutes, seconds };
+    }
 
     /**
      * Format date for display
@@ -86,16 +124,6 @@ function getTimeDifference(revealAtISO) {
             day: 'numeric',
             timeZone: CONFIG.timezone
         }).format(date);
-    }
-
-    function getLocalOffset() {
-        const offsetMinutes = -new Date().getTimezoneOffset();
-        const sign = offsetMinutes >= 0 ? '+' : '-';
-        const abs = Math.abs(offsetMinutes);
-        const hours = String(Math.floor(abs / 60)).padStart(2, '0');
-        const minutes = String(abs % 60).padStart(2, '0');
-
-        return `${sign}${hours}:${minutes}`;
     }
 
     // ============================================
@@ -847,7 +875,7 @@ function getTimeDifference(revealAtISO) {
     function checkDeadline(contestant) {
         if (!state.currentWeek) return;
         
-        const revealDate = new Date(state.currentWeek.revealAt);
+        const revealDate = getBudapestInstant(state.currentWeek.revealAt);
         const now = new Date();
         
         // Deadline is 1 minute before reveal (08:59 AM on Wednesday)
@@ -1134,7 +1162,7 @@ Instructions:
         const weekData = {
             weekId: document.getElementById('weekId').value,
             season: document.getElementById('season').value,
-            revealAt: `${document.getElementById('revealDate').value}T${document.getElementById('revealTime').value}:00${getLocalOffset()}`,
+            revealAt: `${revealDate}T${revealTime}:00`,
             timezone: CONFIG.timezone,
             contestantA: document.getElementById('contestantAName').value,
             contestantB: document.getElementById('contestantBName').value,
