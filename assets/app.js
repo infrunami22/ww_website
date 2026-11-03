@@ -58,31 +58,22 @@
      * Check if the current week is revealed
      */
     function isRevealed(revealAtISO) {
-        if (!revealAtISO) return false;
-        const revealDate = new Date(revealAtISO);
-        const now = getCurrentBudapestTime();
-        return now >= revealDate;
-    }
+    if (!revealAtISO) return false;
+    return Date.now() >= new Date(revealAtISO).getTime();
+}
 
-    /**
-     * Calculate time difference for countdown
-     */
-    function getTimeDifference(revealAtISO) {
-        const revealDate = new Date(revealAtISO);
-        const now = getCurrentBudapestTime();
-        const diff = revealDate - now;
+function getTimeDifference(revealAtISO) {
+    const diff = new Date(revealAtISO).getTime() - Date.now();
 
-        if (diff <= 0) {
-            return null;
-        }
+    if (diff <= 0) return null;
 
-        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    const seconds = Math.floor((diff / 1000) % 60);
 
-        return { days, hours, minutes, seconds };
-    }
+    return { days, hours, minutes, seconds };
+}
 
     /**
      * Format date for display
@@ -95,6 +86,16 @@
             day: 'numeric',
             timeZone: CONFIG.timezone
         }).format(date);
+    }
+
+    function getLocalOffset() {
+        const offsetMinutes = -new Date().getTimezoneOffset();
+        const sign = offsetMinutes >= 0 ? '+' : '-';
+        const abs = Math.abs(offsetMinutes);
+        const hours = String(Math.floor(abs / 60)).padStart(2, '0');
+        const minutes = String(abs % 60).padStart(2, '0');
+
+        return `${sign}${hours}:${minutes}`;
     }
 
     // ============================================
@@ -847,7 +848,7 @@
         if (!state.currentWeek) return;
         
         const revealDate = new Date(state.currentWeek.revealAt);
-        const now = getCurrentBudapestTime();
+        const now = new Date();
         
         // Deadline is 1 minute before reveal (08:59 AM on Wednesday)
         const deadline = new Date(revealDate.getTime() - 60000);
@@ -1133,7 +1134,7 @@ Instructions:
         const weekData = {
             weekId: document.getElementById('weekId').value,
             season: document.getElementById('season').value,
-            revealAt: `${document.getElementById('revealDate').value}T${document.getElementById('revealTime').value}:00+01:00`,
+            revealAt: `${document.getElementById('revealDate').value}T${document.getElementById('revealTime').value}:00${getLocalOffset()}`,
             timezone: CONFIG.timezone,
             contestantA: document.getElementById('contestantAName').value,
             contestantB: document.getElementById('contestantBName').value,
