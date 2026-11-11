@@ -16,6 +16,12 @@
     ],
     "sourceNote": "",
     "manuallyEntered": true,
-    "comments": []
+    "comments": [
+      {
+        "name": "Canvas",
+        "text": "Our first kiwi, yay!",
+        "createdAt": "2026-11-11T11:18:24.715Z"
+      }
+    ]
   }
 }
