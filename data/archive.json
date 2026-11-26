@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "weekId": "71",
+      "season": "2026",
+      "revealAt": "2026-11-25T12:00:00+02:00",
+      "timezone": "Europe/Budapest",
+      "contestantA": "Eszu",
+      "contestantB": "Canvas",
+      "nomineeA": {
+        "womanName": "Taylor Russel",
+        "shortDescription": "Some say the most gentle celebrity",
+        "longerDescription": "HAPPY WW! This week I am nominating a woman I have discovered previously but never really got the hype till now. Many say she is the brown skinned version of Jenna, maybe thats why I resisted becuase I didn't want to choose between my 2 fav snacks you know? But I do agree with the comparisons and I have seen some videos of her talking about her films and views and she seems to be really nice. She always talks about being gentle to one another and being patient and many say she has a calming aura. Lowkey hasn't seen her in any movie before but I do plan on watching at least one for the plot! Lowkey gives me the vibe of the girl you date young and don't appreciate and will forever yearn for :D  Hype 8/10 ",
+        "imageUrls": [
+          "https://i.imgur.com/yVvgRr0.png",
+          "https://i.imgur.com/zZZwdoB.png",
+          "https://i.imgur.com/wlaxyMf.png"
+        ],
+        "tags": [
+          "brownskin",
+          "gentle",
+          "sweet",
+          "gta6"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true,
+        "comments": [
+          {
+            "name": "Eszu",
+            "text": "to further explain I get the hype now since my Jenna obsession died down a lot since the peak so now I am open to other chicks lol",
+            "createdAt": "2026-11-25T12:55:54.078Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "Bro became a WW freelancer",
+            "createdAt": "2026-11-25T13:11:19.973Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "And yeah the effect is certainly there cause when you're young and stupid you may think that someone like this is \"boring\", and after encountering some true bitches you realize that she was goated all along",
+            "createdAt": "2026-11-25T13:12:55.184Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "I wonder how many hot chicks will make that realization about us soon",
+            "createdAt": "2026-11-25T13:13:17.200Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "(they don't know we exist)",
+            "createdAt": "2026-11-25T13:13:30.064Z"
+          }
+        ]
+      },
+      "nomineeB": {
+        "womanName": "millkberry",
+        "shortDescription": "Award-winning",
+        "longerDescription": "Happy Woman Crush Wednesday! She's a Twitch streamer, but since I don't watch Twitch nowadays I found her through her IG Reels, which are usually tips or fun facts about the games she likes (Stardew Valley, Minecraft, etc.). Her videos are cool but obviously I stayed because I looked at her and went \"zamn, who's this fine shyt 😛\". As I was looking for pictures I noticed one where's she's the spitting image of a younger Vöri (1st pic), the others didn't really got me thinking that. She's \"Award-winning\" because on this year's Streamer Awards she won in the \"Cozy\" category! And I love women with achievements 😛. Also under her post about this year's European TwitchCon, Shubble commented something among the lines of \"it was so fun to spend some time together\", and that was the comment that made me realize that Shubble always comes to the European one as well! Really making me motivated to go to Berlin next year, although if I saw both of them at once I'm not sure if I could keep my consciousness! (You're not interested in coming, right? I'm pretty sure I understood you correctly, just making sure)",
+        "imageUrls": [
+          "https://i.imgur.com/HO7oALk.png",
+          "https://i.imgur.com/BQSu2wa.png",
+          "https://i.imgur.com/EOJDBHc.png"
+        ],
+        "tags": [
+          "streamer",
+          "redhead"
+        ],
+        "sourceNote": "",
+        "manuallyEntered": true,
+        "comments": [
+          {
+            "name": "Eszu",
+            "text": "pretty bad I gotta agree! Honestly idk who goes to TwithCon I would assume only streamers right? I will have to look it up but I might be interested! We could go wifey shopping to Berlin lol",
+            "createdAt": "2026-11-25T12:54:14.256Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "Goated idea 😈",
+            "createdAt": "2026-11-25T13:07:44.161Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "Yeah it's only streamers, but it's always 3 days (Fri-Sun) packed with activities",
+            "createdAt": "2026-11-25T13:08:35.594Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "Meet & greets, stages with stuff like Live Minecraft Championships, and various workshops (San Diego had a Just Dance one, where I assume streamers teach you to dance, which sounds scary, but also a lot of fun)",
+            "createdAt": "2026-11-25T13:09:58.756Z"
+          },
+          {
+            "name": "Eszu",
+            "text": "Okay, I will look into it!",
+            "createdAt": "2026-11-25T13:14:28.798Z"
+          },
+          {
+            "name": "Canvas",
+            "text": "https://www.twitchcon.com/archive/san-diego-2026/schedule/?timeRange=9%2C23\n\nThis was the list of activities this year in San Diego, and as I looked at it I noticed yet another person who I was planning to feature here, I guess she gotta make it next week then",
+            "createdAt": "2026-11-25T13:25:26.464Z"
+          }
+        ]
+      }
+    },
+    {
       "weekId": "70",
       "season": "2026",
       "revealAt": "2026-11-18T12:00:00+02:00",
